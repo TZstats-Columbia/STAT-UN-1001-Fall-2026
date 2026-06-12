@@ -1,6 +1,5 @@
 # STAT UN 1001: Introduction to Statistical Reasoning
-
-Fall 2026 draft syllabus
+Syllabus | Fall 2026
 
 Class meetings: Tuesday and Thursday, 10:10-11:25 a.m.
 
@@ -10,20 +9,20 @@ Term window used for this draft: Tuesday, September 8, 2026 through Thursday, De
 
 This course is a friendly introduction to statistical concepts and reasoning, with emphasis on developing statistical intuition rather than mathematical rigor for its own sake. Topics include design of experiments, descriptive statistics, correlation and regression, probability, chance variability, sampling, chance models, confidence intervals, and tests of significance.
 
-The course is designed for students who want to understand how data-based claims are made, how they can go wrong, and how statistical thinking can help in everyday life, academic work, public reasoning, and an increasingly AI-shaped society. Statistical reasoning is becoming a critical skill for anyone who lives, studies, and works in a world where algorithms and AI systems influence information, decisions, and opportunities.
+The course is designed for students who want to understand how data-based claims are made, how they can go wrong, and how statistical thinking can help in everyday life, academic work, evidence reasoning, and an increasingly AI-shaped society. Statistical reasoning is becoming a critical skill for anyone who lives, studies, and works in a world where (imperfect) data, algorithms, and AI systems influence information, decisions, and opportunities.
 
-## Course Goals
+## Course Learning Goals
 
 By the end of the semester, students should be able to:
 
 - Explain statistical ideas in plain language, using appropriate terminology.
 - Distinguish good evidence from weak, misleading, or overclaimed evidence.
-- Use graphs and numerical summaries to describe data responsibly.
+- Use graphs and numerical summaries to describe data accurately.
 - Reason about study design, sampling, uncertainty, and chance variability.
-- Interpret correlation, regression, confidence intervals, p-values, and statistical significance.
+- Interpret correlation, regression, confidence intervals, p-values, and statistical significance, for problem solving and decision making.
 - Critique data-driven and AI-related claims using statistical reasoning.
 - Carry out a small data project from question formulation through communication.
-- Use AI tools appropriately as assistants while taking responsibility for the final work.
+- Use AI tools appropriately as assistants in statistical reasoning while taking responsibility for the final work.
 
 ## Materials
 
