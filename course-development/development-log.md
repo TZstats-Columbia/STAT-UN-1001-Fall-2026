@@ -47,3 +47,4 @@ This log records major course-design decisions for the workspace.
 - Added instructional-team guidance for facilitating AI-aware activities without drifting away from statistical reasoning.
 - Updated the syllabus to frame statistical reasoning as a critical skill for living, studying, and working in an increasingly AI-shaped society.
 - Added student-facing transparency language about AI as a subject of inquiry and as an operational support tool for course efficiency.
+- Revised the syllabus AI framing from two roles to three aligned roles: AI as a subject of statistical inquiry, AI as a student assistant used responsibly, and AI as transparent instructional operations support.
