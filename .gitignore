@@ -1,0 +1,7 @@
+# Local/system files
+.DS_Store
+*~
+
+# Secrets
+AI-Folder/canvas-token.txt
+
