@@ -40,7 +40,7 @@ Additional materials, datasets, videos, quiz links, and project instructions wil
 
 This course uses a semi-flipped classroom format. Students will do some first-pass learning before class through short readings, videos, guided questions, and low-stakes flipped activities. Class time will focus on questions, discussion, statistical reasoning activities, short demonstrations, group work, and project workshops.
 
-AI will appear in two ways. First, we will study AI-related claims and systems as one important subject of statistical inquiry: What data are used? What errors are possible? What uncertainty is reported or missing? What decisions might follow? Second, the instructional team may use AI tools for operational support, such as drafting examples, organizing feedback, or identifying common themes in student questions. When AI is used in ways that affect student-facing materials or feedback, we will make that use transparent.
+AI will appear in three related ways. First, we will study AI-related claims and systems as one important subject of statistical inquiry: What data are used? What errors are possible? What uncertainty is reported or missing? What decisions might follow? Second, students may use AI tools as assistants for brainstorming, feedback, coding help, revision, and explanation, while remaining responsible for their own reasoning and final work. Third, the instructional team may use AI tools for operational support, such as drafting examples, organizing feedback, or identifying common themes in student questions. When AI is used in ways that affect student-facing materials or feedback, we will make that use transparent.
 
 The normal weekly rhythm is:
 
@@ -49,11 +49,9 @@ The normal weekly rhythm is:
 - Tuesday class: concept discussion, Q&A, worked examples, and clarification.
 - Thursday class: activities, applications, project work, or a short in-class quiz on most quiz weeks.
 
-The first three weeks are an onboarding period. Students who join late will be able to catch up without grade-bearing quizzes or major graded project submissions during this period.
-
 ## Assessment
 
-Tentative grading breakdown:
+Grading breakdown:
 
 - Flipped activities: 10%
 - Six biweekly in-class quizzes, lowest score dropped: 20%
@@ -63,7 +61,7 @@ Tentative grading breakdown:
 
 There is no midterm exam. The biweekly quizzes are short, focused assessments intended to keep learning steady and to make the final less mysterious.
 
-Flipped activities are graded for completion, not correctness. Their main purpose is to help students prepare for class and practice engaging with statistical ideas before discussion.
+Flipped activities are graded for *completion*, not correctness. Their main purpose is to help students prepare for class and practice engaging with statistical ideas before discussion, and to help the instructor decide what to focus class discussions on.
 
 Quizzes and exams may draw from assigned readings, learning materials in flipped activities, class discussion, and project activities.
 
@@ -75,7 +73,7 @@ There will be six 20-minute quizzes, tentatively scheduled for:
 - Quiz 2: Thursday, October 15
 - Quiz 3: Thursday, October 29
 - Quiz 4: Thursday, November 12
-- Quiz 5: Tuesday, November 24
+- Quiz 5: **Tuesday**, November 24
 - Quiz 6: Thursday, December 3
 
 Quizzes will emphasize interpretation, reasoning, and core computations. They will be paper-based and will use question formats similar to the cumulative final exam, so that students get repeated practice with the kinds of reasoning they will need later. Quiz questions will usually be more focused and less variable in difficulty than final exam questions. The lowest quiz score will be dropped.
@@ -101,7 +99,7 @@ The final project is graded using a rubric. Students will have opportunities to 
 
 AI tools may be used in this course for brainstorming, feedback, coding help, revision, and generating alternative explanations. They may not replace the student's own reasoning, interpretation, or responsibility.
 
-The course treats AI neither as magic nor as something to ignore. We will use statistical reasoning to ask what AI-related claims can and cannot show, and we will use AI tools transparently when they help the course run more efficiently.
+The course treats AI neither as magic nor as something to ignore. We will use statistical reasoning to ask what AI-related claims can and cannot show, and we will practice using AI tools transparently and responsibly when they can support learning or help the course run more efficiently.
 
 Students must acknowledge meaningful AI use on project work. A suitable acknowledgment includes:
 
