@@ -28,17 +28,17 @@ Recommended review order:
 
 | Week | Core Objective Cluster | Main Evidence |
 |---:|---|---|
-| 1 | Statistical reasoning, claims, variables, data/AI claims | FA, THU, PROJ |
+| 1 | Statistical reasoning, claims, variables, data-based claims | FA, THU, PROJ |
 | 2 | Study design, sampling, representation, bias, causality | FA, TUE, THU, PROJ |
 | 3 | Variable types, summaries, graphs, distributions | FA, TUE, THU, PROJ |
-| 4 | Comparison, variability, descriptive claims, Quiz 1 | FA, TUE, QUIZ, PROJ |
-| 5 | Probability, conditional probability, risk communication | FA, TUE, THU |
-| 6 | Random variables, simulation, chance models, Quiz 2 | FA, TUE, QUIZ, PROJ |
-| 7 | Normal/binomial models, sampling variability, sample size | FA, TUE, THU |
-| 8 | Confidence intervals, margin of error, Quiz 3 | FA, TUE, QUIZ, PROJ |
-| 9 | Hypothesis testing, p-values, AI/performance claims, conclusions | FA, TUE, THU, FINAL |
+| 4 | Comparison, variability, probability foundations, Quiz 1 | FA, TUE, QUIZ, PROJ |
+| 5 | Conditional probability, risk communication, simulation | FA, TUE, THU, PROJ |
+| 6 | Random variables, sampling distributions, Quiz 2 | FA, TUE, QUIZ, PROJ |
+| 7 | Confidence intervals, sampling variability, uncertainty | FA, TUE, THU, PROJ |
+| 8 | Confidence intervals, hypothesis testing, Quiz 3 | FA, TUE, QUIZ, PROJ |
+| 9 | Hypothesis testing, p-values, AI/performance claims, conclusions | FA, THU, FINAL |
 | 10 | Inference for proportions, categorical comparisons, Quiz 4 | FA, TUE, QUIZ, PROJ |
-| 11 | Inference for numerical data, method choice, project proposals | FA, TUE, THU, PROJ |
+| 11 | Inference for numerical data, regression preview, project proposals | FA, TUE, THU, PROJ |
 | 12 | Regression, prediction error, generalization, Quiz 5 | FA, QUIZ, TUE |
 | 13 | Communication, synthesis, review, Quiz 6 | FA, TUE, QUIZ, PROJ, FINAL |
 
@@ -65,17 +65,17 @@ Objective 2: Identify cases, variables, values, populations, samples, and claims
 Objective 3: Distinguish a data-based claim from evidence needed to support it.
 
 - Flipped: students name what would make a claim more convincing.
-- Tuesday: compare one AI-related claim with one non-AI statistical wonder.
+- Tuesday: compare claims from multiple domains; include at most one AI-related example.
 - Thursday: students decide what evidence each claim would require.
 - Project arc: claim notebook entries become possible mini-project seeds.
 - Evidence: `FA`, `TUE`, `THU`, `PROJ`.
 
 Objective 4: Treat AI outputs and algorithmic claims as examples for statistical inquiry.
 
-- Flipped: students submit a data or AI-related claim they do not fully trust.
-- Tuesday: discuss AI as one source of claims, not as automatic truth and not as the whole course frame.
+- Flipped: students submit a data-based claim they do not fully trust. AI-related claims are allowed but not required.
+- Tuesday: discuss AI as one possible source of claims, not as automatic truth and not as the project frame.
 - Thursday: classify algorithmic claims by evidence type.
-- Project arc: possible final project theme introduced.
+- Project arc: possible project domains introduced.
 - Evidence: `FA`, `TUE`, `PROJ`.
 
 ### Week 2: Study Design
@@ -146,7 +146,7 @@ Objective 4: Explain how summaries can reveal or hide information.
 - Project arc: students note one limitation of a summary.
 - Evidence: `FA`, `THU`, `PROJ`, `FINAL`.
 
-### Week 4: Comparison And Variability
+### Week 4: Comparison, Variability, And Probability Foundations
 
 Objective 1: Compare groups using appropriate summaries and graphs.
 
@@ -180,7 +180,7 @@ Objective 4: Practice final-exam-like question formats.
 - Project arc: feedback from quiz informs later project explanations.
 - Evidence: `FA`, `TUE`, `QUIZ`.
 
-### Week 5: Probability And Risk
+### Week 5: Conditional Probability, Risk, And Simulation
 
 Objective 1: Interpret probability in context.
 
@@ -204,17 +204,17 @@ Objective 3: Recognize base-rate neglect and false-positive/false-negative trade
 - Tuesday: algorithmic accuracy claim discussion.
 - Thursday: "Would you trust this alert?" activity.
 - Project arc: limitations section begins to include error types.
-- Evidence: `FA`, `THU`, `FINAL`.
+- Evidence: `FA`, `TUE`, `THU`, `FINAL`.
 
-Objective 4: Communicate risk without exaggeration.
+Objective 4: Use simulation or repeated trials to connect probability to chance variability.
 
-- Flipped: explain probability result in words.
-- Tuesday: revise misleading risk statements.
-- Thursday: students write a cautious decision memo.
-- Project arc: project claim revision.
+- Flipped: complete a short simulation or repeated-trials prompt.
+- Tuesday: connect probability calculations to simple simulations.
+- Thursday: interpret a simulated distribution of outcomes.
+- Project arc: project claim revision includes uncertainty and possible error types.
 - Evidence: `FA`, `THU`, `PROJ`.
 
-### Week 6: Simulation And Chance Models
+### Week 6: Random Variables And Sampling Distributions
 
 Objective 1: Explain a random variable in context.
 
@@ -229,7 +229,7 @@ Objective 2: Use simulation to model repeated random trials.
 - Flipped: simple simulation using applet, spreadsheet, or guided template.
 - Tuesday: clarify what is repeated in the simulation.
 - Thursday: Quiz 2 includes chance-model reasoning.
-- Project arc: Mini-project 2 due/checkpoint.
+- Project arc: Mini-project 3 launches.
 - Evidence: `FA`, `TUE`, `QUIZ`, `PROJ`.
 
 Objective 3: Compare observed results to a chance model.
@@ -245,44 +245,44 @@ Objective 4: Distinguish a model from reality.
 - Flipped: explanation prompt asks what the simulation leaves out.
 - Tuesday: discuss model assumptions.
 - Thursday: quiz reflection.
-- Project arc: limitation statement in exploratory story.
+- Project arc: limitation statement for Mini-project 3.
 - Evidence: `FA`, `TUE`, `PROJ`, `FINAL`.
 
-### Week 7: Distributions And Sampling Variability
+### Week 7: Confidence Intervals And Sampling Variability
 
-Objective 1: Recognize when normal and binomial models are reasonable approximations.
+Objective 1: Interpret a confidence interval in context.
 
-- Flipped: normal/binomial videos plus classification prompts.
-- Tuesday: visual examples before notation.
-- Thursday: sampling distribution stations.
-- Project arc: students identify possible distributional assumptions.
+- Flipped: interpret 2-3 confidence intervals in context.
+- Tuesday: clarify what a confidence interval says and does not say.
+- Thursday: confidence interval interpretation clinic.
+- Project arc: Mini-project 3 workshop adds uncertainty language.
 - Evidence: `FA`, `TUE`, `THU`, `FINAL`.
 
-Objective 2: Explain sampling variability using repeated samples.
+Objective 2: Explain margin of error and interval width.
 
-- Flipped: sampling applet or guided simulation.
-- Tuesday: population vs sample vs sampling distribution.
-- Thursday: students compare repeated samples.
-- Project arc: identify which project quantities could vary sample to sample.
+- Flipped: compare intervals from different sample sizes or contexts.
+- Tuesday: connect interval width to variability and sample size.
+- Thursday: students compare and revise interval interpretations.
+- Project arc: students explain why uncertainty may be large or small.
 - Evidence: `FA`, `TUE`, `THU`, `QUIZ`.
 
-Objective 3: Describe how sample size affects variability.
+Objective 3: Connect sampling variability to uncertainty in real claims.
 
-- Flipped: "what changes if n increases?" prompt.
-- Tuesday: visual simulation of different sample sizes.
-- Thursday: station activity compares sample sizes.
-- Project arc: sample size becomes a project limitation.
+- Flipped: identify one uncertainty in a claim.
+- Tuesday: link intervals to uncertainty in estimates.
+- Thursday: apply interval reasoning to short data claims.
+- Project arc: uncertainty statement added to Mini-project 3.
 - Evidence: `FA`, `THU`, `FINAL`.
 
-Objective 4: Interpret distribution language in context.
+Objective 4: Avoid common confidence-interval misinterpretations.
 
-- Flipped: written interpretation of a distribution.
-- Tuesday: practice translating notation/graphs into words.
-- Thursday: short written explanations.
-- Project arc: students avoid distribution jargon without context.
+- Flipped: identify one flawed interpretation.
+- Tuesday: rewrite incorrect interpretations.
+- Thursday: students critique interval language in examples.
+- Project arc: project uncertainty language revised.
 - Evidence: `FA`, `THU`, `QUIZ`.
 
-### Week 8: Confidence Intervals
+### Week 8: Confidence Intervals And Hypothesis Testing
 
 Objective 1: Interpret a confidence interval in context.
 
@@ -308,12 +308,12 @@ Objective 3: Avoid common confidence-interval misinterpretations.
 - Project arc: project uncertainty language revised.
 - Evidence: `FA`, `TUE`, `QUIZ`.
 
-Objective 4: Connect interval estimates to real claims.
+Objective 4: Explain hypothesis testing as reasoning against a chance model.
 
-- Flipped: everyday claims with intervals.
-- Tuesday: final-exam-like written interpretations.
+- Flipped: first-pass prompt asks what would be surprising under a chance model.
+- Tuesday: introduce null/alternative hypotheses and p-values.
 - Thursday: Quiz 3.
-- Project arc: students add uncertainty to a project claim.
+- Project arc: students connect surprise under a chance model to Mini-project 3.
 - Evidence: `FA`, `QUIZ`, `PROJ`, `FINAL`.
 
 ### Week 9: Hypothesis Testing
@@ -321,34 +321,34 @@ Objective 4: Connect interval estimates to real claims.
 Objective 1: Explain null and alternative hypotheses in context.
 
 - Flipped: critique significance claims.
-- Tuesday: formulate hypotheses for real examples.
-- Thursday: evidence-under-null activity.
+- Tuesday: no class due to university holiday.
+- Thursday: formulate hypotheses for real examples and complete evidence-under-null activity.
 - Project arc: possible project hypothesis or comparison question, including AI performance claims only when they clarify comparison and evidence.
-- Evidence: `FA`, `TUE`, `THU`, `FINAL`.
+- Evidence: `FA`, `THU`, `FINAL`.
 
 Objective 2: Interpret a p-value as evidence against a chance model.
 
 - Flipped: p-value interpretation prompt, with one optional AI performance claim such as "AI improves learning" or "AI reduces bias."
-- Tuesday: address p-value misconceptions.
-- Thursday: students decide whether evidence is surprising under a null model.
+- Tuesday: no class due to university holiday.
+- Thursday: address p-value misconceptions and decide whether evidence is surprising under a null model.
 - Project arc: students discuss whether formal testing fits their project.
-- Evidence: `FA`, `TUE`, `THU`, `QUIZ`.
+- Evidence: `FA`, `THU`, `QUIZ`.
 
 Objective 3: Distinguish statistical significance from practical importance.
 
 - Flipped: overclaim critique.
-- Tuesday: discuss binary significant/not-significant thinking.
-- Thursday: students write cautious conclusions.
+- Tuesday: no class due to university holiday.
+- Thursday: discuss binary significant/not-significant thinking and write cautious conclusions.
 - Project arc: project limitations include practical importance.
 - Evidence: `FA`, `THU`, `PROJ`, `FINAL`.
 
 Objective 4: State what a test does and does not prove.
 
 - Flipped: "what can/cannot conclude?" prompt.
-- Tuesday: final-exam-like conclusion practice.
-- Thursday: written conclusion in activity.
+- Tuesday: no class due to university holiday.
+- Thursday: final-exam-like conclusion practice and written conclusion in activity.
 - Project arc: students avoid proof language.
-- Evidence: `FA`, `TUE`, `THU`, `FINAL`.
+- Evidence: `FA`, `THU`, `FINAL`.
 
 ### Week 10: Categorical Inference
 
@@ -384,7 +384,7 @@ Objective 4: Give useful peer feedback on a statistical claim.
 - Project arc: peer review graded by rubric.
 - Evidence: `FA`, `THU`, `PROJ`.
 
-### Week 11: Numerical Inference
+### Week 11: Numerical Inference And Regression Preview
 
 Objective 1: Identify one-mean, paired-mean, and two-mean comparison questions.
 
