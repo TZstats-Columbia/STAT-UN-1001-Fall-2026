@@ -7,7 +7,7 @@ This log records major course-design decisions for the workspace.
 - Created initial course-development workspace for STAT UN 1001 Fall 2026.
 - Adopted OpenIntro Statistics as the primary textbook.
 - Adopted selected chapters and ideas from Veridical Data Science, especially the data science life cycle and PCS framework.
-- Framed the course as rigorous, accessible, and centered on statistical intuition, data-based claims, and responsible reasoning in an AI-saturated society.
+- Framed the course as rigorous, accessible, and centered on statistical intuition, data-based claims, and responsible reasoning in an increasingly AI-shaped society.
 - Set the instructional format as a semi-flipped classroom rather than a generic hybrid course.
 - Established weekly student rhythm:
   - Flipped activity posted by Thursday.
@@ -48,3 +48,11 @@ This log records major course-design decisions for the workspace.
 - Updated the syllabus to frame statistical reasoning as a critical skill for living, studying, and working in an increasingly AI-shaped society.
 - Added student-facing transparency language about AI as a subject of inquiry and as an operational support tool for course efficiency.
 - Revised the syllabus AI framing from two roles to three aligned roles: AI as a subject of statistical inquiry, AI as a student assistant used responsibly, and AI as transparent instructional operations support.
+- Revised the project framing to step back from "From AI Scary Stories to Statistical Wonders" as a course-wide project theme.
+- Reframed the project sequence as a broad staged investigation of data-based claims, with AI-related examples used selectively rather than required for all students.
+- Rebalanced the weekly schedule after holiday/no-class flags on November 3 and November 26: moved probability/simulation earlier, started confidence intervals in Week 7, and protected Weeks 9-11 for inference.
+- Updated mini-project timing in both the syllabus project sequence and weekly plan so Mini-projects 2-4 move earlier and support the expanded inference runway.
+- Added student-facing class policies on CourseWorks/email communication, discussion-board norms, student learning responsibilities, and participation expectations.
+- Added a student-facing academic integrity section that incorporates Columbia/Barnard policy links and clarifies that undisclosed meaningful AI use is an academic integrity violation.
+- Audited external links in the syllabus and course design document; all unique URLs returned HTTP 200. Updated redirecting academic-integrity links to their current canonical URLs and clarified the OpenIntro book/PDF access label.
+- Reorganized the student-facing syllabus into the requested sequence: course information, description, learning outcomes, course elements, evaluation, weekly schedule, AI use, AI policy, and other policies.

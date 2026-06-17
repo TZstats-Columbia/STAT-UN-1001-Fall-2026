@@ -133,7 +133,7 @@ Potential developer-supported assets, in priority order:
 - Whether final projects are individual or small-group.
 - Whether peer review is anonymous, named, or mixed.
 - How students will submit AI acknowledgments: checkbox form, short statement, or both.
-- How visible the "AI scary stories to statistical wonders" motif should be in student-facing materials, given that AI should remain a recurring context rather than the course structure.
+- Which one or two AI-related examples should be developed as optional or shared course examples, without making the project sequence AI-centered.
 - Which 2-3 AI-aware activities should be built first, with priority on base rates, representation, and prediction error.
 - How much TA time is reserved for flipped activity analysis versus grading.
 
@@ -183,13 +183,13 @@ Learning objectives:
 Flipped activity:
 
 - No pre-course flipped activity due before the first Tuesday.
-- Launch activity after the first class: course entry survey plus a short "claim autopsy" of a data or AI-related claim.
+- Launch activity after the first class: course entry survey plus a short "claim autopsy" of a data-based claim.
 - Ask students to identify the claim, the implied population, the data needed, what could go wrong, and what would make the claim more convincing.
 
 Tuesday:
 
 - Course orientation and the central question: how do we learn from data without fooling ourselves?
-- Use one AI-related claim and one non-AI statistical wonder as paired examples, so AI is a context rather than the whole frame.
+- Use examples from multiple domains, with at most one AI-related claim, so students see that statistical reasoning travels across contexts.
 - Introduce the semester rhythm, assessment categories, and low-stakes flipped activities.
 
 Thursday:
@@ -207,14 +207,14 @@ Project arc activities:
 Suggested contents:
 
 - [OpenIntro Statistics main page](https://www.openintro.org/book/os/): use directly as the course resource hub; tell students this is where the free PDF, videos, datasets, and other materials live.
-- [OpenIntro Statistics PDF](https://www.openintro.org/book/os/): use directly for textbook access; link via the main page so students can choose screen-reader PDF if needed.
+- [OpenIntro Statistics book and PDF access page](https://www.openintro.org/book/os/): use directly for textbook access; link via the main page so students can choose the standard PDF or screen-reader PDF if needed.
 - [OpenIntro videos about applying statistics](https://www.openintro.org/book/os/): use selectively; choose one short video such as Hans Rosling or NBA analytics as an opening example, not as required viewing for all.
 - [VDS Preface / Chapter 1](https://vdsbook.com/): modify heavily; use only a short excerpt or instructor summary on what makes data science trustworthy.
 - [OpenIntro Statistics GitHub source](https://github.com/OpenIntroStat/openintro-statistics): instructor reference only; useful for source transparency, not student-facing in Week 1.
 
 ### Week 2: Sep 15 and Sep 17
 
-Statistical focus: Study design, sampling, experiments, bias, and confounding.
+Statistical focus: Study design, sampling, experiments, bias, confounding, and measurement.
 
 Learning objectives:
 
@@ -247,6 +247,7 @@ Project arc activities:
 - Mini-project 1 begins: data biography.
 - Identify a possible dataset or claim and ask: Who/what is represented? Who/what is missing? How were data generated?
 - Use training data as an optional example of why representation and measurement matter.
+- Mini-project 0 remains a low-stakes onboarding task; Mini-project 1 launches so students can start the data biography early.
 - VDS connection: problem formulation and data collection.
 
 Suggested contents:
@@ -261,7 +262,7 @@ Suggested contents:
 
 ### Week 3: Sep 22 and Sep 24
 
-Statistical focus: Describing categorical and numerical data.
+Statistical focus: Describing and visualizing categorical and numerical data.
 
 Learning objectives:
 
@@ -292,6 +293,7 @@ Thursday:
 Project arc activities:
 
 - Mini-project 0 workshop: claim autopsy with data summaries.
+- Mini-project 1 workshop: describe where a dataset comes from before making claims from it.
 - Students practice describing a dataset before making a claim.
 - VDS connection: data as an approximation of reality.
 
@@ -306,13 +308,14 @@ Suggested contents:
 
 ### Week 4: Sep 29 and Oct 1
 
-Statistical focus: Visualization, variability, comparison, and Quiz 1.
+Statistical focus: Comparison, variability, probability foundations, and Quiz 1.
 
 Learning objectives:
 
 - Compare groups using appropriate numerical and graphical summaries.
 - Recognize variability within and between groups.
 - Connect descriptive evidence to cautious statistical claims.
+- Explain probability as a way to reason about uncertainty and chance variability.
 - Practice final-exam-like question formats through Quiz 1.
 
 Flipped activity:
@@ -320,11 +323,13 @@ Flipped activity:
 - Due Monday, Sep 28.
 - Compare two visualizations or summaries of the same data.
 - Explain which display better supports a given claim and what limitation remains.
+- Complete a short first-pass probability prompt using everyday uncertainty.
 - Submit one question for Quiz 1 review.
 
 Tuesday:
 
 - Target persistent descriptive-statistics issues.
+- Introduce probability as language for chance variability.
 - Practice short-answer explanations in quiz/final format.
 - Discuss how visualizations can clarify or distort.
 
@@ -336,6 +341,7 @@ Thursday:
 Project arc activities:
 
 - Mini-project 1 due or checkpoint: data biography.
+- Mini-project 2 launches: exploratory story using visual and numerical summaries.
 - Students identify how the dataset was produced and what claims it can/cannot support.
 - VDS connection: data preparation and exploratory data analysis.
 
@@ -348,13 +354,14 @@ Suggested contents:
 
 ### Week 5: Oct 6 and Oct 8
 
-Statistical focus: Probability, conditional probability, and risk.
+Statistical focus: Conditional probability, risk, simulation, and chance models.
 
 Learning objectives:
 
 - Interpret probability as long-run frequency or degree of uncertainty in context.
 - Use tables or trees to reason about conditional probability.
 - Recognize base-rate neglect and false-positive/false-negative tradeoffs.
+- Use simulation or repeated trials to connect probability to chance variability.
 - Communicate risk without exaggeration.
 
 Flipped activity:
@@ -363,21 +370,25 @@ Flipped activity:
 - Read OpenIntro Chapter 3 sections on probability and conditional probability.
 - Watch videos on defining probability and probability trees.
 - Work through an AI detector, medical-screening, fraud-detection, or spam-filter example using a two-way table.
+- Complete a short simulation or repeated-trials prompt.
 
 Tuesday:
 
 - Address conditional probability reversals from flipped responses.
 - Use a natural-frequency table before formulas.
+- Connect probability calculations to simple simulations.
 - Discuss why algorithmic accuracy claims can be misleading without base rates.
 
 Thursday:
 
 - Activity: "Would you trust this alert?"
 - Students compare two systems with different false-positive and false-negative rates.
+- Students interpret a simulated distribution of outcomes.
 - Connect probability to policy, medicine, safety, AI writing detectors, fraud detection, or content moderation.
 
 Project arc activities:
 
+- Mini-project 2 due or checkpoint: exploratory story.
 - Students revise a project claim to include uncertainty and possible error types.
 - Use the reusable AI claim critique template for students who choose an AI-related example.
 - VDS connection: evaluating what result would be useful in the domain context.
@@ -392,26 +403,30 @@ Suggested contents:
 
 ### Week 6: Oct 13 and Oct 15
 
-Statistical focus: Random variables, simulation, chance models, and Quiz 2.
+Statistical focus: Random variables, normal/binomial models, sampling distributions, and Quiz 2.
 
 Learning objectives:
 
 - Explain a random variable in context.
 - Use simulation to model repeated random trials.
 - Compare observed results to what a chance model would produce.
+- Recognize when normal and binomial models are reasonable approximations.
+- Explain sampling variability using repeated samples.
 - Distinguish a model from reality.
 
 Flipped activity:
 
 - Due Monday, Oct 12.
-- Read OpenIntro Chapter 3/4 material on random variables and distributions as appropriate.
+- Read OpenIntro Chapter 3/4 material on random variables, normal/binomial models, and sampling distributions as appropriate.
 - Complete a short simulation using an applet, spreadsheet, or guided template.
+- Predict what changes when sample size increases.
 - Explain what is being repeated and what result would count as surprising.
 
 Tuesday:
 
 - Use flipped responses to clarify simulation logic.
 - Practice translating a real question into a chance model.
+- Use visual simulation to connect repeated samples to sampling distributions.
 - Prepare for Quiz 2 with final-exam-like short-answer practice.
 
 Thursday:
@@ -421,71 +436,77 @@ Thursday:
 
 Project arc activities:
 
-- Mini-project 2 due or checkpoint: exploratory story.
-- Students explain one pattern and one uncertainty/limitation.
+- Mini-project 3 launches: chance and uncertainty.
+- Students explain one observed pattern and one uncertainty/limitation.
 - VDS connection: exploratory analysis as part of a nonlinear data science life cycle.
 
 Suggested contents:
 
 - [OpenIntro slides 3.4: Random variables](https://www.openintro.org/go/?id=slide_stat_random_variables&referrer=/book/os/index.php): modify; slides may be more efficient here than assigning a full reading.
 - [OpenIntro Lab: Probability](https://www.openintro.org/book/statlabs/?statlab=probability): modify; use simulation pieces only.
+- [OpenIntro video 4.1: Normal distribution](https://www.openintro.org/go/?id=video_stat_normal_distribution&referrer=/book/os/index.php): use directly if assigned as short flipped preparation.
+- [OpenIntro video 4.3A: Binomial distribution](https://www.openintro.org/go/?id=video_stat_binomial_distribution&referrer=/book/os/index.php): use directly or make optional depending on pace.
+- [OpenIntro Class Activity: Sampling Distributions](https://www.openintro.org/go/?id=activity_stat_sampling_distributions&referrer=/book/os/index.php): modify; use a shortened version because Quiz 2 also happens this week.
+- [OpenIntro Normal distribution calculator](https://www.openintro.org/go/?id=stat_calc_normal&referrer=/book/os/index.php): use directly as a support tool.
 - [OpenIntro Companion Notebook](https://www.openintro.org/go/?id=os4_companion_notebook&referrer=/book/os/index.php): consider piloting; useful if Posit Cloud is adopted, but needs instructor scaffolding.
 - [VDS Chapter 2: DSLC Stage 2, EDA](https://vdsbook.com/02-dslc): modify; use as a conceptual check that exploration often changes the question.
 
 ### Week 7: Oct 20 and Oct 22
 
-Statistical focus: Normal, binomial, and sampling distributions.
+Statistical focus: Confidence intervals and sampling variability.
 
 Learning objectives:
 
-- Recognize when normal and binomial models are reasonable approximations.
-- Explain sampling variability using repeated samples.
-- Describe how sample size affects variability.
-- Interpret distribution language without losing the real-world context.
+- Interpret a confidence interval in context.
+- Explain margin of error and interval width using variability and sample size.
+- Connect sampling variability to uncertainty in real claims.
+- Avoid common confidence-interval misinterpretations.
 
 Flipped activity:
 
 - Due Monday, Oct 19.
-- Watch OpenIntro videos on normal and binomial distributions.
-- Use a sampling distribution applet or guided simulation.
-- Predict what changes when sample size increases.
+- Read OpenIntro Chapter 5 sections on sampling variability and confidence intervals.
+- Watch videos on variability of sample proportions and confidence intervals.
+- Interpret 2-3 confidence intervals in context.
+- Identify one flawed interpretation.
 
 Tuesday:
 
-- Clarify population distribution vs sample distribution vs sampling distribution.
-- Use visual simulation before formal notation.
-- Connect distributions to quiz/exam reasoning.
+- Clarify what a confidence interval says and does not say.
+- Connect interval width to variability and sample size.
+- Practice confidence-interval interpretations in final-exam-like language.
 
 Thursday:
 
-- Activity: sampling distribution stations.
-- Students compare repeated samples, sample proportions, and sample means.
-- Use short written explanations rather than heavy computation.
+- Activity: confidence interval interpretation clinic.
+- Students compare intervals from different sample sizes or contexts.
+- Students rewrite incorrect confidence-interval interpretations.
 
 Project arc activities:
 
-- Students identify which project quantities could vary from sample to sample.
+- Mini-project 3 workshop: use simulation, sampling logic, or interval reasoning to assess uncertainty.
+- Students add an uncertainty statement to a project claim.
 - VDS connection: stability begins with asking "would this result change under reasonable perturbations?"
 
 Suggested contents:
 
-- [OpenIntro video 4.1: Normal distribution](https://www.openintro.org/go/?id=video_stat_normal_distribution&referrer=/book/os/index.php): use directly.
-- [OpenIntro video 4.3A: Binomial distribution](https://www.openintro.org/go/?id=video_stat_binomial_distribution&referrer=/book/os/index.php): use directly, possibly as optional if time is tight.
-- [OpenIntro video 4.3B: Normal approximation to binomial](https://www.openintro.org/go/?id=video_stat_normal_approx_to_binomial&referrer=/book/os/index.php): modify or make optional; may be too technical for the main course arc.
-- [OpenIntro Class Activity: Sampling Distributions](https://www.openintro.org/go/?id=activity_stat_sampling_distributions&referrer=/book/os/index.php): use directly with light adaptation; strong fit for Thursday.
-- [OpenIntro Normal distribution calculator](https://www.openintro.org/go/?id=stat_calc_normal&referrer=/book/os/index.php): use directly as a support tool.
-- [OpenIntro Lab: Normal distribution](https://www.openintro.org/book/statlabs/?statlab=normal_distribution): modify; select parts that build intuition rather than procedural calculation.
+- [OpenIntro video 5.1: Variability of the sample proportion](https://www.openintro.org/go/?id=video_stat_variability_sample_proportion&referrer=/book/os/index.php): use directly.
+- [OpenIntro video 5.2: Confidence intervals](https://www.openintro.org/go/?id=video_stat_confidence_intervals&referrer=/book/os/index.php): use directly.
+- [OpenIntro Lab: Intro to inference](https://www.openintro.org/book/statlabs/?statlab=intro_to_inference): modify; use only the parts that support interval intuition.
+- [OpenIntro Lab: Confidence levels](https://www.openintro.org/book/statlabs/?statlab=confidence_intervals): modify; good for intuition, but shorten for the flipped workload.
+- [OpenIntro one-page inference guide](https://www.openintro.org/go/?id=inference_guide&referrer=/book/os/index.php): use directly as a reference, not as a primary teaching text.
 
 ### Week 8: Oct 27 and Oct 29
 
-Statistical focus: Confidence intervals, sampling variability, and Quiz 3.
+Statistical focus: Confidence intervals, hypothesis testing, and Quiz 3.
 
 Learning objectives:
 
 - Interpret a confidence interval in context.
 - Explain margin of error and interval width using variability and sample size.
 - Avoid common confidence-interval misinterpretations.
-- Connect interval estimates to uncertainty in real claims.
+- Explain a null hypothesis and alternative hypothesis in context.
+- Interpret a p-value as evidence against a chance model.
 
 Flipped activity:
 
@@ -493,10 +514,12 @@ Flipped activity:
 - Read OpenIntro Chapter 5 sections on sampling variability and confidence intervals.
 - Watch videos on variability of sample proportions and confidence intervals.
 - Interpret 2-3 confidence intervals in context and identify one flawed interpretation.
+- Complete a first-pass hypothesis testing prompt: what would be surprising under a chance model?
 
 Tuesday:
 
 - Address the most common CI interpretation errors.
+- Introduce hypothesis testing as reasoning against a chance model.
 - Practice writing interval interpretations in final-exam-like format.
 - Prepare for Quiz 3.
 
@@ -515,6 +538,7 @@ Suggested contents:
 
 - [OpenIntro video 5.1: Variability of the sample proportion](https://www.openintro.org/go/?id=video_stat_variability_sample_proportion&referrer=/book/os/index.php): use directly.
 - [OpenIntro video 5.2: Confidence intervals](https://www.openintro.org/go/?id=video_stat_confidence_intervals&referrer=/book/os/index.php): use directly.
+- [OpenIntro video 5.3: Hypothesis testing](https://www.openintro.org/go/?id=video_stat_hypothesis_testing&referrer=/book/os/index.php): use directly as first-pass preparation or post-quiz reinforcement.
 - [OpenIntro Lab: Intro to inference](https://www.openintro.org/book/statlabs/?statlab=intro_to_inference): modify; use only the parts that support interval intuition.
 - [OpenIntro Lab: Confidence levels](https://www.openintro.org/book/statlabs/?statlab=confidence_intervals): modify; good for intuition, but shorten for 30-45 minute flipped workload.
 - [OpenIntro one-page inference guide](https://www.openintro.org/go/?id=inference_guide&referrer=/book/os/index.php): use directly as a reference, not as a primary teaching text.
@@ -540,20 +564,22 @@ Flipped activity:
 
 Tuesday:
 
-- Clarify p-value meaning using student misconceptions.
-- Practice "what can we conclude?" and "what can we not conclude?" questions.
-- Discuss why binary significant/not-significant thinking can be harmful.
-- Use an AI performance claim only as an example of evidence, comparison, and practical significance.
+- No class due to university holiday.
 
 Thursday:
 
-- Activity: courtroom or evidence metaphor, but carefully bounded.
+- Clarify p-value meaning using flipped responses and student misconceptions.
+- Practice "what can we conclude?" and "what can we not conclude?" questions.
+- Discuss why binary significant/not-significant thinking can be harmful.
+- Use an AI performance claim only as an example of evidence, comparison, and practical significance.
+- Activity: evidence against a chance model, with careful limits on the metaphor.
 - Students decide whether evidence is surprising under a null model and write cautious conclusions.
 
 Project arc activities:
 
 - Students formulate a possible project hypothesis or comparison question.
 - Students who use AI-related examples must identify the comparison group, outcome, and possible decision context.
+- Mini-project 4 launches: comparison or association claim.
 - VDS connection: inferential analysis as one possible DSLC stage, not the whole project.
 
 Suggested contents:
@@ -608,7 +634,7 @@ Suggested contents:
 
 ### Week 11: Nov 17 and Nov 19
 
-Statistical focus: Inference for numerical data.
+Statistical focus: Inference for numerical data and regression preview.
 
 Learning objectives:
 
@@ -616,6 +642,7 @@ Learning objectives:
 - Interpret uncertainty for numerical outcomes.
 - Discuss outliers, skew, and measurement issues in numerical inference.
 - Connect method choice to the research question.
+- Distinguish association, prediction, and causation in preparation for regression.
 
 Flipped activity:
 
@@ -628,6 +655,7 @@ Tuesday:
 
 - Clarify mean comparisons, paired data, and independent groups.
 - Discuss when a method is technically available but substantively questionable.
+- Preview correlation/regression as the next form of association.
 - Prepare students for Quiz 5 on Tuesday, Nov 24.
 
 Thursday:
@@ -635,6 +663,7 @@ Thursday:
 - Final project proposal clinic.
 - Activity: choose the right numerical comparison for a project-style question.
 - Short quiz-format practice for inference with numerical data.
+- If time permits, introduce slope and residuals informally through a simple scatterplot.
 
 Project arc activities:
 
@@ -769,7 +798,7 @@ Each weekly flipped activity should include:
 
 | Idea | Why It Matters | Possible Form | Status | Next Step |
 |---|---|---|---|---|
-| From AI Scary Stories to Statistical Wonders | Gives the course a contemporary hook while centering statistical thinking | Recurring motif and optional final project theme, not the whole course structure | Promising | Use selectively where it supports core statistics |
+| From data claims to statistical investigations | Gives the project sequence a broad frame that welcomes many domains | Mini-project arc and final project theme | Adopted | Use AI examples only where they support core statistics |
 | AI as claim generator, not truth machine | Prevents the course from sounding like AI evangelism | Class activity comparing AI answers to data/evidence | Promising | Build Week 1 or Week 5 activity |
 | Student chatbot improvement | Lets students critique and improve tools they may use | In-class discussion, feedback form, small extra-credit activity | Promising | List chatbot capabilities and failure modes |
 | Reusable AI claim critique template | Gives students a stable way to critique AI performance claims | Canvas form, project checklist, in-class worksheet | Adopted | Build first version for Weeks 1, 5, 9, and 12 |
@@ -786,26 +815,26 @@ Each weekly flipped activity should include:
 
 ## Possible Mini-Project Sequence
 
-1. Mini-project 0: Claim autopsy
-   - Students examine a data or AI-related claim and identify variables, evidence, uncertainty, and missing context.
+1. Mini-project 0, weeks 2-3: Claim autopsy
+   - Students examine a data-based claim and identify variables, evidence, uncertainty, and missing context. AI-related claims are allowed but not required.
    - Ungraded or completion-only during onboarding.
 
-2. Mini-project 1: Data biography
+2. Mini-project 1, weeks 3-4: Data biography
    - Students describe where a dataset came from, who or what it represents, what is measured, what is excluded, and what claims it can or cannot support.
 
-3. Mini-project 2: Exploratory statistical story
+3. Mini-project 2, weeks 4-5: Exploratory statistical story
    - Students use visualizations and summaries to describe patterns without overclaiming causality.
 
-4. Mini-project 3: How surprising is it?
+4. Mini-project 3, weeks 6-8: How surprising is it?
    - Students use probability, simulation, or a chance model to decide whether an observed result is surprising.
 
-5. Mini-project 4: Comparison, association, or regression claim
+5. Mini-project 4, weeks 9-11: Comparison, association, or regression claim
    - Students make a careful statistical claim and test its fragility under reasonable alternative choices.
 
-6. Final project: Statistical wonder
-   - Students choose a question, analyze data, communicate findings, and include a limitations/AI-use/trustworthiness section.
+6. Final project, due last day of class: Student-owned data investigation
+   - Students choose a question, analyze data, communicate findings, and include a limitations, transparency, and trustworthiness section.
 
-## AI-Aware Activity Seeds
+## Optional AI-Aware Activity Seeds
 
 - A model confidently invents a citation.
 - A hiring or admissions algorithm appears objective but encodes historical bias.
