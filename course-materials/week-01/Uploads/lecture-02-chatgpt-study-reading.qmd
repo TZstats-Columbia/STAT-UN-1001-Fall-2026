@@ -1,0 +1,114 @@
+---
+title: "Can ChatGPT Harm Learning"
+subtitle: "Reading a study statistically"
+author: "STAT UN 1001 · Week 1"
+format:
+  html:
+    toc: false
+    embed-resources: true
+    css: lecture-02-chatgpt-study-reading.css
+    link-external-newwindow: true
+---
+
+In 2025, a research team released a study about people using ChatGPT to write essays. News coverage turned the study into a striking question: **Is ChatGPT bad for your brain?** The study is worth examining, but that headline reaches much farther than the data.
+
+The researchers found differences in brain-signal connectivity and writing behavior among participants assigned to use ChatGPT, a search engine, or no digital tools. Those findings concern a small sample completing a specific writing task. They do not, by themselves, establish brain damage or show how ChatGPT affects learning across courses, students, and ways of using AI.
+
+This reading explains what the researchers did, what they reported, and why the conclusion must match the evidence.
+
+## The study at a glance
+
+| Feature | What the study did |
+|---|---|
+| **Research question** | How does assistance during essay writing relate to neural activity and writing behavior? |
+| **Cases** | 54 participants, ages 18 to 39, recruited from five universities in the Boston area |
+| **Writing conditions** | ChatGPT, web search, or no external tools, with 18 participants initially assigned to each condition |
+| **Repeated task** | Participants completed SAT-style essays in three sessions while remaining in the same condition |
+| **Optional fourth session** | 18 participants returned for a crossover session in which some ChatGPT users wrote without tools and some no-tool users wrote with ChatGPT |
+| **Outcomes** | EEG connectivity, essay features and scores, recall of essay text, and reported ownership of the essay |
+
+The researchers posted the first version as an arXiv preprint in June 2025 and a revised version in December 2025. A preprint allows researchers to share work before journal peer review is complete. It can contain useful evidence, but readers should treat its methods and conclusions as open to further evaluation.
+
+## How the experiment worked
+
+During the first three sessions, each participant stayed in one assigned writing condition. The **ChatGPT group** could use a large language model. The **search group** could use a web search engine. The **brain-only group**, as the paper calls it, wrote without external digital tools.
+
+This assignment is the explanatory variable. The outcomes recorded after or during writing are response variables. Because the study used random assignment, differences among the three groups can support a causal comparison for these participants under these experimental conditions. Random assignment helps make the groups comparable before the treatment begins.
+
+Random assignment does not make the participants representative of all students or all ChatGPT users. The researchers did not select a random sample from a broad population. This distinction matters:
+
+- **Random assignment** strengthens comparisons among conditions inside an experiment.
+- **Random sampling** strengthens generalization from a sample to a population.
+
+The study had the first feature but not the second.
+
+## What the researchers measured
+
+The study did not measure a single outcome called “learning” or “brain health.” It measured several quantities that might relate to those broader ideas.
+
+**EEG connectivity.** Participants wore electroencephalography equipment while writing. EEG records electrical signals at electrodes placed on the scalp. The researchers analyzed statistical connections among signals from different electrodes. These connections can describe patterns of activity during the task, but they are not a direct measure of intelligence, learning, or brain damage.
+
+**Essay features and scores.** The team examined language patterns in the essays and used both human teachers and an AI system in scoring. These measures describe the product participants created during a constrained essay task.
+
+**Recall.** After writing, participants were asked to quote from their own essays. The research team reported that ChatGPT users had more difficulty accurately quoting their work in several sessions. For example, after the first session, 15 of 18 participants in the ChatGPT condition could not provide an accurate quotation, compared with 2 of 18 in each of the other conditions.
+
+**Ownership.** Participants reported how much the essay felt like their own work. The authors found the lowest reported ownership in the ChatGPT group and the highest in the group that wrote without tools.
+
+Each measure captures something different. A participant can produce a polished essay but remember little of its wording. Another participant can show a particular EEG pattern without that pattern telling us whether knowledge will last for weeks or transfer to another task. Choosing a response variable always requires a judgment about whether it represents the concept we care about.
+
+## What the study reported
+
+The authors described the no-tool group as showing the strongest and most distributed EEG connectivity, the search group as intermediate, and the ChatGPT group as showing the weakest connectivity. They also reported group differences in recall, language patterns, and ownership.
+
+These results provide evidence that the assigned writing tool changed aspects of performance and neural activity during this experiment. They also raise useful questions about what happens when a tool performs part of the planning or wording that a writer might otherwise do.
+
+The outcomes do not all have the same meaning. EEG connectivity describes relationships among recorded signals. Recall describes memory for the produced essay. Ownership is a self-report. None of these outcomes directly measures long-term course learning. Moving from the observed outcomes to a claim about education therefore requires additional assumptions.
+
+## From observation to public claim
+
+A data-based claim often grows as it travels:
+
+1. **Observed data:** The groups differed on several EEG and behavioral measurements.
+2. **Study interpretation:** ChatGPT assistance may have reduced engagement during this particular writing task.
+3. **Broad public claim:** ChatGPT is bad for the brain.
+
+The first statement closely describes the data. The second interprets the measurements and should remain cautious. The third changes both the outcome and the population. It replaces specific measurements with “bad for the brain” and implies a conclusion about ChatGPT users generally.
+
+## Reasons for caution
+
+The study opens an important line of inquiry, but several features limit the conclusions.
+
+**A small, nonrandom sample.** Fifty-four people participated in the first three sessions, and only 18 completed the optional fourth session. Participants came from a limited set of universities and do not necessarily represent all students, workers, age groups, or ways of using AI.
+
+**A narrow task.** Participants wrote SAT-style essays under study conditions. Using ChatGPT to generate an essay may differ from asking it for feedback, requesting an explanation, checking code, or using it after developing an independent draft.
+
+**Indirect outcomes.** EEG connectivity, quotation recall, essay features, and ownership may relate to engagement or learning, but none alone measures long-term learning. The study did not demonstrate brain injury.
+
+**A complicated analysis.** EEG research can involve many electrodes, frequency bands, connections, and statistical comparisons. A later methodological comment questioned aspects of the sample size, reproducibility, EEG analysis, reporting, and transparency. The commenters argued that some findings should receive a more conservative interpretation.
+
+**An evolving research record.** The paper remains a preprint, and the authors revised it after the original release. Further review, replication, and studies with other tasks and populations could strengthen, qualify, or challenge its conclusions.
+
+## A conclusion that fits the evidence
+
+A careful summary would say:
+
+> In this sample and constrained essay task, participants assigned to different writing tools showed differences in EEG connectivity and several behavioral measures. The study motivates further research, but it does not establish that ChatGPT damages the brain or harms learning across settings.
+
+This conclusion may sound less dramatic than the headline. It is also more informative. It tells us who was studied, what they did, what changed, and where uncertainty remains.
+
+## Statistical ideas to carry forward
+
+When reading any study in the news, identify the **cases**, the **explanatory variable**, and the **response variables**. Then ask whether the design supports a causal comparison, whether the sample represents the population named in the claim, and whether the measured variables capture the larger concept.
+
+For this study, keep four questions in mind:
+
+1. What exactly did the researchers observe?
+2. Which conclusions does random assignment support?
+3. How far can this sample and task represent other people and settings?
+4. Does the public claim name the same population and outcomes as the study?
+
+## Sources
+
+Kosmyna, N., et al. (2025). [*Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task*](https://arxiv.org/abs/2506.08872), version 2, arXiv:2506.08872.
+
+Stankovic, M., Hirche, E., Kollatzsch, S., and Doetsch, J. N. (2025). [*Comment on: Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Tasks*](https://arxiv.org/abs/2601.00856), arXiv:2601.00856.

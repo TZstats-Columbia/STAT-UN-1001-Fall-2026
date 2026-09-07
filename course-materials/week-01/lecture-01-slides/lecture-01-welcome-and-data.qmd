@@ -119,6 +119,14 @@ Connect the questions to familiar examples such as polls, medical studies, recom
 
 ## My current research
 
+**Research question:** Can we combine climate observations, physical models, and machine learning to improve near-term predictions of extreme rainfall?
+
+**The system:** Earth’s climate and the processes that produce heavy rain.
+
+**The observations:** Weather stations, satellites, and climate-model simulations.
+
+**The decision or impact:** Better estimates could help communities prepare for flooding.
+
 ::: notes
 Keep this brief and concrete. A LEAP example could connect climate processes, observations, machine learning, and decisions. One memorable question is more useful than a list of projects.
 :::

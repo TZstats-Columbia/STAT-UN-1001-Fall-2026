@@ -8,7 +8,9 @@ Current structure:
 - `canvas-sync-state.md`: publication and module-item state recorded during the latest Canvas-to-local synchronization.
 - `week-01/overview.md`: current local copy of the published Canvas Week 01 overview.
 - `week-01/lecture-01-welcome-and-data.qmd`: Markdown source for the first Tuesday lecture slides.
-- `week-01/lecture-01-research-stories.pptx`: focused 14-slide introduction to partition retention, AutoClimDS, and Grade the Grader.
+- `week-01/lecture-01-research-stories.pptx`: focused 15-slide introduction to partition retention, AutoClimDS, and Grade the Grader.
+- `week-01/lecture-02-chatgpt-study.pptx`: Lecture 2 study critique, Chapter 1 concept application, pair discussion, and Ping Pong AI assistant transition.
+- `week-01/lecture-02-chatgpt-study-handout.docx`: one-page pair investigation and demonstration observation handout.
 - `week-01` through `week-13`: weekly folders for flipped activities, class activities, datasets, handouts, quiz prep, and project materials.
 
 The master week-by-week design lives in:
