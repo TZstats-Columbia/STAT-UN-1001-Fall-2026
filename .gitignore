@@ -25,9 +25,15 @@
 
 # Local/system files, even inside public directories
 **/.DS_Store
+**/.Rhistory
 **/*~
 **/__pycache__/
 **/*.log
+
+# Locally rendered Quarto artifacts
+/output/
+/course-materials/**/*.html
+/course-materials/**/*_files/
 
 # Local operational state
 /course-materials/canvas-sync-state.md

@@ -26,9 +26,9 @@ execute:
 
 Show a number with your fingers:
 
-| 1 | 2 | 3 | 4 | 5 |
-|---:|---:|---:|---:|---:|
-| Very easy | Easy | In between | Difficult | Very difficult |
+| Thumbs up | no movement | Thumbs down|
+|---:|---:|---:|
+| Very easy | In between | Very difficult |
 
 ::: notes
 Collect the counts on the board before introducing any statistical terms. Ask students to answer based on their own experience today. This gives every student an immediate role as both a case in the dataset and a participant in the data collection.
@@ -36,13 +36,15 @@ Collect the counts on the board before introducing any statistical terms. Ask st
 
 ## Why collect these data?
 
+::: {.fragment}
 The responses can help me:
 
 - learn whether students had trouble finding this room
 - identify what made the trip difficult
-- decide whether future students need a map, photographs, or clearer directions
+- decide whether future students need clearer directions
 
 What else would I need to know before choosing a solution?
+:::
 
 ::: notes
 Ask students why you might care about the answer before showing the list. Their suggestions should connect the question to a decision. Point out that the usefulness of data depends on why we collected them.
@@ -51,8 +53,6 @@ Ask students why you might care about the answer before showing the list. Their 
 ## Individual values and a summary statistic
 
 **The full dataset** keeps every student’s response:
-
-`[ Record today's ratings here ]`
 
 **A summary statistic** compresses those values into one number. For example:
 
@@ -67,6 +67,7 @@ Use the actual class counts. Introduce “value” as one student’s rating and
 
 ## How far can today’s data travel?
 
+::: {.fragment}
 These responses directly describe the students who answered today.
 
 They may help me plan for another class in this room, but the next situation could differ:
@@ -76,6 +77,7 @@ They may help me plan for another class in this room, but the next situation cou
 - a different room, building, or time of day
 
 What would make future data more informative?
+:::
 
 ::: notes
 Connect today’s respondents to the idea of cases. For planning beyond this class, name the target population explicitly, such as future students trying to find this classroom. Today’s respondents do not form a random sample of every future class. The data can support a modest practical improvement, but not a broad claim about how difficult all classrooms are to find.
@@ -117,16 +119,6 @@ Connect the questions to familiar examples such as polls, medical studies, recom
 
 ## My current research
 
-<!-- TODO: Replace this slide with one concrete current research question. -->
-
-**Research question:** [Add one question from your current research]
-
-**The system:** [What real-world process are you trying to understand?]
-
-**The observations:** [What data can you actually collect?]
-
-**The decision or impact:** [What could we learn or do better?]
-
 ::: notes
 Keep this brief and concrete. A LEAP example could connect climate processes, observations, machine learning, and decisions. One memorable question is more useful than a list of projects.
 :::
@@ -147,8 +139,6 @@ The complete learning outcomes appear in the syllabus. Emphasize statistical int
 :::
 
 ## CourseWorks
-
-<!-- TODO: Add a CourseWorks screenshot or live link. -->
 
 Use CourseWorks to find:
 
@@ -191,12 +181,6 @@ Use the syllabus for the authoritative policy language. Consider showing the Gem
 ## Course entry survey
 
 Please complete the course entry survey.
-
-<!-- TODO: Add the survey link and QR code. -->
-
-**CourseWorks location:** [Add module/item location]
-
-**Due:** [Add due date and time]
 
 The survey helps us understand the experiences and needs in the room.
 
