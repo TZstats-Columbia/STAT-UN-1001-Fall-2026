@@ -1,7 +1,44 @@
-# Local/system files
-.DS_Store
-*~
+# Public repository allowlist
+#
+# Everything at the repository root is private/local unless explicitly
+# included below. Add new public areas deliberately.
+/*
 
-# Secrets
-AI-Folder/canvas-token.txt
+# Repository metadata and public overview
+!/.gitignore
+!/README.md
 
+# Public course content
+!/Assignments/
+!/Assignments/**
+!/course-development/
+!/course-development/**
+!/course-materials/
+!/course-materials/**
+!/teaching-stories/
+!/teaching-stories/**
+
+# Published syllabus PDF (keep the rest of Admin private)
+!/Admin/
+/Admin/*
+!/Admin/syllabus.pdf
+
+# Local/system files, even inside public directories
+**/.DS_Store
+**/*~
+**/__pycache__/
+**/*.log
+
+# Local operational state
+/course-materials/canvas-sync-state.md
+
+# Explicitly document private assistant context
+/AGENTS.md
+/MEMORY.md
+/memory.md
+
+# Secrets and local automation (also covered by the root allowlist)
+/AI-Folder/canvas-token.txt
+/AI-Folder/.venv/
+/AI-Folder/__pycache__/
+/AI-Folder/backups/

@@ -81,7 +81,8 @@ TAs will likely help with:
 - Helping maintain rubrics and grading consistency.
 - Flagging common student misconceptions.
 - Reviewing flipped activity responses for patterns, not detailed grading.
-- Testing course materials, datasets, applets, and chatbot responses.
+- Testing course materials, datasets, applets, retrieval results, and feedback-assistant responses.
+- Supporting in-class use of the anonymous Data Search and Retrieval Assistant and Project Feedback Assistant without collecting student conversation histories.
 - Supporting late-registering students as they catch up.
 
 ## Flipped Activity Analysis
@@ -168,7 +169,7 @@ Final exam grading should use the same calibration process as quiz grading, but 
 
 ## Project and Peer Review Grading
 
-Mini-project tasks are primarily graded for completion, while peer reviews are graded using rubrics. The final project is worth 20% and should be graded using a rubric.
+Mini-project tasks are completed primarily during class and graded for completion, while peer reviews are graded using rubrics. The final project is worth 20% and should be graded using a rubric. Grade only the statistical artifact students intentionally submit; never request or evaluate assistant prompts, screenshots, conversation histories, or frequency of use.
 
 Project rubrics should emphasize:
 
@@ -182,7 +183,7 @@ Project rubrics should emphasize:
 
 Project feedback should be specific enough that students know what to revise. Avoid vague comments like "be clearer" unless paired with a concrete suggestion.
 
-Students may receive AI-supported feedback as well as human feedback. TAs should help students interpret and evaluate feedback rather than treating AI feedback as authoritative.
+Students may receive anonymous formative feedback from the Project Feedback Assistant as well as human feedback. TAs should help students interpret and evaluate feedback rather than treating AI feedback as authoritative. Students submit their revision, not the assistant conversation.
 
 ## Peer Review
 
@@ -199,12 +200,25 @@ TAs should help students learn that peer review is not just proofreading. Good p
 
 Students may use AI tools for brainstorming, coding help, revision, and feedback, but they must own the final work.
 
+The course-provided Data Search and Retrieval Assistant and Project Feedback Assistant are anonymous and approved for mini-project work. The instructional team must not collect, retain, request, or evaluate student interaction histories. Remind students not to enter names, UNI identifiers, private information, or confidential data. Assistant use is not participation evidence and is not graded.
+
+During in-class mini-project work, help students verify:
+
+- Data source and provenance.
+- Variable definitions and units.
+- Geographic and temporal coverage.
+- Missingness and representation.
+- Whether the retrieved data actually answer the statistical question.
+- Whether assistant feedback is statistically sound and appropriate for the course level.
+
+Students may provide anonymous, ungraded feedback on retrieval failures, unclear responses, missing data, and possible improvements. Do not connect this feedback to grades or participation records.
+
 When students ask whether a use is allowed, guide them with these questions:
 
 - Did the AI replace your own reasoning, or support it?
 - Can you explain every claim, calculation, and graph?
 - Did you check factual claims, code, and citations?
-- Did you acknowledge meaningful AI assistance?
+- If you used an AI tool other than the two anonymous course assistants, did you acknowledge meaningful assistance?
 
 TAs should not accuse students casually. If there is a concern about academic integrity, document the evidence and consult the instructor.
 

@@ -1,8 +1,6 @@
 # STAT UN 1001: Introduction to Statistical Reasoning
 Syllabus | Fall 2026
 
-Term window used for this draft: Tuesday, September 8, 2026 through Thursday, December 3, 2026. University calendar details, holidays, and final exam date should be confirmed before publication.
-
 ## Course Information
 
 - Instructor: Tian Zheng
@@ -10,7 +8,7 @@ Term window used for this draft: Tuesday, September 8, 2026 through Thursday, De
 - Meeting time: Tuesday and Thursday, 10:10-11:25 a.m.
 - Location: TBA
 - Course platform: CourseWorks
-- A Gemini Gem for commonly asked questions (non-archival): TBA
+- A [Gemini Gem for commonly asked questions on the syllabus](https://gemini.google.com/gem/1DXpb14YoIiWL-gAVbGIPc8NkeqPovKIO?usp=sharing) (non-archival; your questions are not visible to the instructional team.)
 
 ## Course Description
 
@@ -45,6 +43,13 @@ Project and data-science readings:
 
 Additional materials, datasets, videos, quiz links, and project instructions will be posted on CourseWorks.
 
+Course-provided AI assistants:
+
+- [Data Search and Retrieval Assistant](https://pingpong.hks.harvard.edu/group/735?assistant=3600): helps students search for and retrieve weather variables, environmental sensor data, disaster-response data, and 311 complaint data.
+- [Project Feedback Assistant](https://pingpong.hks.harvard.edu/group/735?assistant=3591): provides formative feedback on students' statistical questions, data descriptions, analyses, visualizations, interpretations, and limitations.
+
+These assistants use research tools developed through [Learning the Earth with Artificial Intelligence and Physics (LEAP)](https://leap.columbia.edu/), an NSF Science and Technology Center. LEAP works to improve near-term climate projections by combining data, machine learning, physical modeling, and climate-science expertise. Professor Tian Zheng is LEAP's Deputy Director, Chief Convergence Officer, and Education Director.
+
 ### Flipped Activities
 
 This course uses a semi-flipped classroom format. Students will do some first-pass learning before class through short readings, videos, guided questions, and low-stakes flipped activities. Flipped activities are graded for completion, not correctness. Their main purpose is to help students prepare for class and practice engaging with statistical ideas before discussion, and to help the instructor decide what to focus class discussions on.
@@ -58,30 +63,32 @@ The normal weekly rhythm is:
 
 ### Lecture, Lab, And Class Activities
 
-Class time will focus on questions, discussion, statistical reasoning activities, short demonstrations, group work, and project workshops. Statistics is learned through practice, discussion, mistakes, and revision; simply reading solutions or watching explanations is not enough.
+Class time will focus on questions, discussion, statistical reasoning activities, short demonstrations, group work, and project workshops. Most mini-project work will be completed during class with instructor and TA support. Statistics is learned through practice, discussion, mistakes, and revision; simply reading solutions or watching explanations is not enough.
 
 Class participation means enhancing the quality of the learning experience for yourself and others. It includes listening carefully, respecting instructors and peers, working collaboratively, engaging with others' ideas and differences, making relevant comments, asking useful questions, and contributing to activities in good faith.
 
 ### Project Sequence
 
-The project sequence is organized around learning how to investigate data-based claims carefully. Students may explore questions of interest to them from any domain, such as health, public policy, science, education, business, sports, culture, and everyday life. AI-related examples will appear in one or two activities because they are useful for thinking about data, uncertainty, prediction, and error, but the project sequence is not an AI project sequence. We will begin with highly structured explorations of data-based claims and gradually move toward more self-directed projects.
+The mini-project sequence is organized around learning how to investigate data carefully with a course-provided AI assistant for data search and retrieval. The assistant gives students access to weather variables, environmental sensor data, disaster-response data, and 311 complaint data. These data provide concrete settings for studying measurement, sampling, variability, uncertainty, comparison, association, prediction, and responsible communication.
+
+Most mini-project tasks will be carried out during class. Students will work through a common statistical investigation process: formulate a question, retrieve relevant data, examine provenance and variable definitions, analyze and visualize the data, evaluate uncertainty, seek formative feedback, revise, and communicate a defensible conclusion. The assistants can help students find data and improve their work, but they do not replace students' statistical reasoning or responsibility for submitted work.
 
 The arc is:
 
-- Mini-project 0 (weeks 2-3): Observing: what makes a data claim convincing?
-- Mini-project 1 (weeks 3-4): Reading and Writing: *Data biography*. Where did the data come from, what is measured, and what is missing?
-- Mini-project 2 (weeks 4-5): Analyzing and Visualizing: *Exploratory story*. Use visual and numerical summaries to tell a careful data story.
-- Mini-project 3 (weeks 6-8): Simulating and Reasoning: *Chance and uncertainty*. Use simulation or sampling logic to assess how surprising a result is.
-- Mini-project 4 (weeks 9-11): Evaluating and Critiquing: *Comparison or association*. Make and critique an inference or regression-based claim.
+- Mini-project 0 (weeks 2-3): *Question and retrieval trial*. Formulate a statistical question, use the data assistant to locate relevant data, and identify the cases, variables, population, and limitations of the proposed investigation.
+- Mini-project 1 (weeks 3-4): *Data biography and retrieval audit*. Document the data source, provenance, variable definitions, units, geographic and temporal coverage, missingness, and what the data can and cannot represent.
+- Mini-project 2 (weeks 4-5): *Exploratory data story*. Use visual and numerical summaries to describe a pattern carefully and distinguish what the data show from what remains uncertain.
+- Mini-project 3 (weeks 6-8): *Chance, variability, and uncertainty*. Use simulation, repeated-sampling logic, or interval reasoning to investigate how results might vary and how surprising an observed pattern is.
+- Mini-project 4 (weeks 9-11): *Comparison or association*. Make and critique an inference- or regression-based claim using a comparison across groups, places, variables, or time.
 - Final project (due the last day of class): Putting it together: A student-chosen *data investigation* that states a question, analyzes relevant data, communicates findings, and discusses limitations.
 
-Mini-project tasks are graded for completion. Peer reviews are graded using rubrics, since giving useful feedback is itself a course skill. Projects may receive both AI-supported feedback and human feedback, but final responsibility for the work remains with the student.
+Mini-project tasks are graded for completion based on the statistical work students intentionally submit. Students are not graded on whether or how often they use either assistant, and they never submit assistant conversation histories. Peer reviews are graded using rubrics, since giving useful feedback is itself a course skill. Projects may receive formative feedback from the Project Feedback Assistant, peers, and the instructional team, but final responsibility for the work remains with the student.
 
 The final project is graded using a rubric. Students will have opportunities to receive feedback before the final submission, including feedback from peers, course instructional team (instructors and TAs), and approved AI-supported tools.
 
 ### Assignments
 
-Assignments include flipped activities, mini-project tasks, peer reviews, project submissions, and quiz/final-exam preparation. Quizzes and exams may draw from assigned readings, learning materials in flipped activities, class discussion, and project activities.
+Assignments include flipped activities, mostly in-class mini-project tasks, peer reviews, project submissions, and quiz/final-exam preparation. Mini-project submissions will usually be short records of work completed in class, such as a research question, data biography, graph, numerical summary, interpretation, uncertainty statement, or revision. Students submit their statistical work, not AI prompts or conversation transcripts. Quizzes and exams may draw from assigned readings, learning materials in flipped activities, class discussion, and project activities.
 
 ### Quizzes
 
@@ -104,7 +111,7 @@ The final exam will be cumulative and scheduled according to the university fina
 
 This course emphasizes statistical intuition. Computation will be used to make ideas visible.
 
-Students will be guided to use accessible tools for data work, such as Tableau, interactive dashboards, Google Sheets, guided Jupyter notebooks/Google Colab, and Posit Cloud. The exact tool stack will be introduced gradually during the activities segment of the lectures. Students will receive instructions, templates, and starter code/notebooks where appropriate.
+Students will be guided to use the course-provided Data Search and Retrieval Assistant together with accessible tools for data work, such as Tableau, interactive dashboards, Google Sheets, guided Jupyter notebooks/Google Colab, and Posit Cloud. The exact tool stack will be introduced gradually during in-class activities. Students will receive instructions, templates, and starter code/notebooks where appropriate.
 
 ## Evaluation
 
@@ -120,35 +127,45 @@ There is no midterm exam. The biweekly quizzes are short, focused assessments in
 
 ## Weekly Schedule
 
-The following weekly plan is tentative as of *June 14th, 2026* and may change as the course develops.
+The following weekly plan is tentative as of *September 1, 2026* and may change as the course develops.
 
 | Week | Dates | Statistical Focus | Project / Application Focus | Main Resources |
 |---|---:|---|---|---|
 | 1 | Sep 8, Sep 10 | What is statistics? Data, variables, cases, claims, and context | Course onboarding; data claims in everyday life | OpenIntro Ch. 1; VDS Ch. 1 |
-| 2 | Sep 15, Sep 17 | Study design, sampling, bias, confounding, and measurement | Mini-project 0; data biography launch | OpenIntro Ch. 1; VDS Ch. 2 |
-| 3 | Sep 22, Sep 24 | Describing and visualizing numerical and categorical data | Mini-project 0 workshop; no major grade-bearing assessment | OpenIntro Ch. 2 |
-| 4 | Sep 29, Oct 1 | Comparison, variability, probability foundations, and Quiz 1 | Mini-project 1 due; Mini-project 2 launch; Quiz 1 on Thursday | OpenIntro Ch. 2-3; selected VDS Ch. 4-5 |
-| 5 | Oct 6, Oct 8 | Conditional probability, risk, simulation, and chance models | Mini-project 2 due; base rates, false positives, and risk claims | OpenIntro Ch. 3 |
-| 6 | Oct 13, Oct 15 | Random variables, normal/binomial models, sampling distributions, and Quiz 2 | Mini-project 3 launch; Quiz 2 on Thursday | OpenIntro Ch. 3-4 |
-| 7 | Oct 20, Oct 22 | Confidence intervals and sampling variability | Mini-project 3 workshop; uncertainty in claims | OpenIntro Ch. 5 |
-| 8 | Oct 27, Oct 29 | Confidence intervals, hypothesis testing, and Quiz 3 | Mini-project 3 due; Quiz 3 on Thursday | OpenIntro Ch. 5 |
-| 9 | Nov 3 (no class), Nov 5 | Hypothesis testing and statistical significance | Mini-project 4 launch; claims about performance, improvement, and evidence | OpenIntro Ch. 5 |
-| 10 | Nov 10, Nov 12 | Inference for proportions and categorical data | Quiz 4 on Thursday; peer review workshop | OpenIntro Ch. 6 |
-| 11 | Nov 17, Nov 19 | Inference for numerical data and regression preview | Mini-project 4 due; final project proposal clinic | OpenIntro Ch. 7-8 |
+| 2 | Sep 15, Sep 17 | Study design, sampling, bias, confounding, and measurement | Introduce the anonymous data assistant; Mini-project 0 question and retrieval trial | OpenIntro Ch. 1; VDS Ch. 2 |
+| 3 | Sep 22, Sep 24 | Describing and visualizing numerical and categorical data | Complete Mini-project 0; begin Mini-project 1 data biography and retrieval audit | OpenIntro Ch. 2 |
+| 4 | Sep 29, Oct 1 | Comparison, variability, probability foundations, and Quiz 1 | Complete Mini-project 1; launch Mini-project 2 exploratory data story; Quiz 1 on Thursday | OpenIntro Ch. 2-3; selected VDS Ch. 4-5 |
+| 5 | Oct 6, Oct 8 | Conditional probability, risk, simulation, and chance models | Complete Mini-project 2; use the feedback assistant to revise claims and limitations | OpenIntro Ch. 3 |
+| 6 | Oct 13, Oct 15 | Random variables, normal/binomial models, sampling distributions, and Quiz 2 | Launch Mini-project 3 with retrieved data; Quiz 2 on Thursday | OpenIntro Ch. 3-4 |
+| 7 | Oct 20, Oct 22 | Confidence intervals and sampling variability | Mini-project 3 in-class uncertainty workshop | OpenIntro Ch. 5 |
+| 8 | Oct 27, Oct 29 | Confidence intervals, hypothesis testing, and Quiz 3 | Complete Mini-project 3; Quiz 3 on Thursday | OpenIntro Ch. 5 |
+| 9 | Nov 3 (no class), Nov 5 | Hypothesis testing and statistical significance | Launch Mini-project 4 comparison or association using retrieved data | OpenIntro Ch. 5 |
+| 10 | Nov 10, Nov 12 | Inference for proportions and categorical data | Mini-project 4 in-class analysis and feedback workshop; Quiz 4 on Thursday | OpenIntro Ch. 6 |
+| 11 | Nov 17, Nov 19 | Inference for numerical data and regression preview | Complete Mini-project 4; final project proposal clinic | OpenIntro Ch. 7-8 |
 | 12 | Nov 24, Nov 26 (no class) | Correlation, regression, and Thanksgiving week | Quiz 5 on Tuesday; prediction, error, and generalization | OpenIntro Ch. 8 |
 | 13 | Dec 1, Dec 3 | Regression, responsible communication, and review | Final project workshop; Quiz 6 | OpenIntro Ch. 8-9; VDS wrap-up |
 
 ## AI Use
 
-AI will appear in three related ways. First, we will study AI-related claims and systems as one important subject of statistical inquiry: What data are used? What errors are possible? What uncertainty is reported or missing? What decisions might follow? Second, students may use AI tools as assistants for brainstorming, feedback, coding help, revision, and explanation, while remaining responsible for their own reasoning and final work. Third, the instructional team may use AI tools for operational support, such as drafting examples, organizing feedback, or identifying common themes in student questions. When AI is used in ways that affect student-facing materials or feedback, we will make that use transparent.
+AI will appear in three related ways. First, students will use the anonymous course-provided Data Search and Retrieval Assistant to locate data for in-class mini-project work and the Project Feedback Assistant to receive formative feedback. Second, we will study AI-related claims and systems as subjects of statistical inquiry: What data are used? What errors are possible? What uncertainty is reported or missing? What decisions might follow? Third, students may use other AI tools for brainstorming, coding help, revision, and explanation when permitted, while remaining responsible for their own reasoning and final work.
 
-The course treats AI neither as magic nor as something to ban or ignore. Statistics is one of the pillars of AI development and also offers important ways to understand and use AI rigorously and responsibly. We will use statistical reasoning to ask what AI-related claims can and cannot show, and we will practice using AI tools transparently and responsibly when they can support learning or help the course run more efficiently.
+Use of the two course-provided assistants is anonymous. The course and instructional team will not collect or retain students' assistant conversations, and assistant interaction histories will not be used for grading, assessment, participation tracking, research, or any other form of evaluation. Students do not submit prompts or conversation transcripts. Students will also be invited to provide anonymous, ungraded feedback about retrieval failures, unclear responses, missing data, variable-definition problems, and other ways the assistants could be improved.
+
+The course treats AI neither as magic nor as something to ban or ignore. Statistics is one of the pillars of AI development and also offers important ways to understand and use AI rigorously and responsibly. We will use statistical reasoning to ask what AI-related claims can and cannot show, and we will practice checking data provenance, definitions, units, coverage, missingness, and substantive plausibility rather than treating an assistant response as authoritative.
 
 ## AI Policy
 
-AI tools may be used in this course for brainstorming, feedback, coding help, revision, and generating alternative explanations. They may not replace the student's own reasoning, interpretation, or responsibility as a learner.
+The course-provided Data Search and Retrieval Assistant and Project Feedback Assistant are approved for mini-project work. Students may also use other AI tools for brainstorming, feedback, coding help, revision, and generating alternative explanations unless an assignment says otherwise. AI tools may not replace the student's own reasoning, interpretation, or responsibility as a learner.
 
-Students must acknowledge meaningful AI use on project work. A suitable acknowledgment includes:
+For the course-provided assistants:
+
+- Use is anonymous and is not evaluated.
+- Do not enter names, UNI identifiers, contact information, private information, or confidential data.
+- Do not submit conversation histories, screenshots, or prompt logs.
+- Check data sources, variable definitions, units, geographic and temporal coverage, missingness, and plausibility before using retrieved data.
+- Treat assistant feedback as a suggestion to evaluate, not as a grade or an authoritative answer.
+
+Students do not need to disclose or document their use of the two course-provided anonymous assistants. Meaningful use of other AI tools on submitted project work must be acknowledged. A suitable acknowledgment includes:
 
 - What tool was used.
 - What it was used for.

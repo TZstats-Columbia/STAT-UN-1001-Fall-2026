@@ -46,37 +46,31 @@ Recommended review order:
 
 ### Week 1: What Is Statistics?
 
-Objective 1: Explain what statistics is and why statistical reasoning matters.
+Objective 1: Explain what statistics is as a discipline, what it is used for, and what statisticians do.
 
-- Flipped: course entry survey asks where students see data-based claims in life, study, or AI.
-- Tuesday: opening discussion frames statistics as learning from data under uncertainty.
-- Thursday: students classify examples as anecdote, data summary, model/prediction, experiment, or causal claim.
-- Project arc: claim notebook begins.
-- Evidence: `FA`, `THU`, `PROJ`.
+- Course entry survey: gathers diagnostic information about students' goals, prior experience, concerns, and future needs; it is not evidence of mastery.
+- Tuesday: course orientation and the opening “Why Statistics?” discussion introduce the discipline and its uses.
+- Evidence: `TUE`.
 
-Objective 2: Identify cases, variables, values, populations, samples, and claims.
+Objective 2: Explain why statistical reasoning matters.
 
-- Flipped: claim autopsy asks for claim, implied population, data needed, and uncertainty.
-- Tuesday: worked example identifies these elements in a familiar claim.
-- Thursday: classification activity repeats the vocabulary across examples.
-- Project arc: Mini-project 0 begins informally.
-- Evidence: `FA`, `THU`.
+- Tuesday: opening examples connect statistical reasoning to learning from data.
+- Thursday: the Claim vs Data activity asks students to distinguish claims from supporting information.
+- Evidence: `TUE`, `THU`.
 
-Objective 3: Distinguish a data-based claim from evidence needed to support it.
+Objective 3: Identify cases, variables, values, populations, samples, and claims.
 
-- Flipped: students name what would make a claim more convincing.
-- Tuesday: compare claims from multiple domains; include at most one AI-related example.
-- Thursday: students decide what evidence each claim would require.
-- Project arc: claim notebook entries become possible mini-project seeds.
-- Evidence: `FA`, `TUE`, `THU`, `PROJ`.
+- Tuesday: course examples introduce and apply the core vocabulary.
+- Thursday: the Claim vs Data activity reinforces the vocabulary in context.
+- Project arc: the concepts prepare students for the semester project sequence.
+- Evidence: `TUE`, `THU`, `PROJ`.
 
-Objective 4: Treat AI outputs and algorithmic claims as examples for statistical inquiry.
+Objective 4: Distinguish a data-based claim from the evidence needed to support it.
 
-- Flipped: students submit a data-based claim they do not fully trust. AI-related claims are allowed but not required.
-- Tuesday: discuss AI as one possible source of claims, not as automatic truth and not as the project frame.
-- Thursday: classify algorithmic claims by evidence type.
-- Project arc: possible project domains introduced.
-- Evidence: `FA`, `TUE`, `PROJ`.
+- Tuesday: students consider how cases, variables, populations, and samples relate to claims.
+- Thursday: the Claim vs Data activity asks what evidence a claim would require.
+- Project arc: introduction to the semester project sequence connects claims to later data investigations.
+- Evidence: `TUE`, `THU`, `PROJ`.
 
 ### Week 2: Study Design
 
@@ -85,7 +79,7 @@ Objective 1: Distinguish observational studies, experiments, surveys, and anecdo
 - Flipped: classify short study scenarios.
 - Tuesday: review scenario patterns and student confusions.
 - Thursday: redesign a weak study.
-- Project arc: Mini-project 1 data biography begins.
+- Project arc: Mini-project 0 begins with an in-class question and retrieval trial; Mini-project 1 data biography begins.
 - Evidence: `FA`, `TUE`, `THU`, `PROJ`.
 
 Objective 2: Explain random sampling and random assignment in plain language.
@@ -93,7 +87,7 @@ Objective 2: Explain random sampling and random assignment in plain language.
 - Flipped: students identify whether sampling or assignment is random in examples.
 - Tuesday: targeted contrast between population representation and causal comparison.
 - Thursday: redesign activity requires choosing sampling and/or assignment strategy.
-- Project arc: data biography asks how observations were obtained; optional training-data example emphasizes representation.
+- Project arc: data biography and retrieval audit asks how observations were obtained and verifies provenance, coverage, units, missingness, and representation.
 - Evidence: `FA`, `TUE`, `THU`, `FINAL`.
 
 Objective 3: Identify bias, confounding, and limits of causal claims.
@@ -127,7 +121,7 @@ Objective 2: Choose appropriate summaries and visualizations.
 - Flipped: students choose summaries for a small dataset.
 - Tuesday: compare mean/median and count/proportion choices.
 - Thursday: students match claims to graphs.
-- Project arc: Mini-project 0 workshop uses summaries before claims.
+- Project arc: Mini-project 0 is completed by identifying the question, retrieved data, cases, variables, population, and limitations.
 - Evidence: `FA`, `THU`, `PROJ`, `FINAL`.
 
 Objective 3: Interpret distributions using center, variability, shape, and unusual observations.
@@ -153,7 +147,7 @@ Objective 1: Compare groups using appropriate summaries and graphs.
 - Flipped: compare two visualizations or summaries of the same data.
 - Tuesday: practice final-exam-like explanations for comparisons.
 - Thursday: Quiz 1.
-- Project arc: Mini-project 1 data biography due/checkpoint.
+- Project arc: Mini-project 1 data biography and retrieval audit due/checkpoint; Mini-project 2 exploratory data story begins.
 - Evidence: `FA`, `TUE`, `QUIZ`, `PROJ`.
 
 Objective 2: Recognize variability within and between groups.
@@ -229,7 +223,7 @@ Objective 2: Use simulation to model repeated random trials.
 - Flipped: simple simulation using applet, spreadsheet, or guided template.
 - Tuesday: clarify what is repeated in the simulation.
 - Thursday: Quiz 2 includes chance-model reasoning.
-- Project arc: Mini-project 3 launches.
+- Project arc: Mini-project 3 launches using retrieved data to study chance, variability, and uncertainty.
 - Evidence: `FA`, `TUE`, `QUIZ`, `PROJ`.
 
 Objective 3: Compare observed results to a chance model.
@@ -255,7 +249,7 @@ Objective 1: Interpret a confidence interval in context.
 - Flipped: interpret 2-3 confidence intervals in context.
 - Tuesday: clarify what a confidence interval says and does not say.
 - Thursday: confidence interval interpretation clinic.
-- Project arc: Mini-project 3 workshop adds uncertainty language.
+- Project arc: Mini-project 3 in-class workshop adds uncertainty language to a result from retrieved data.
 - Evidence: `FA`, `TUE`, `THU`, `FINAL`.
 
 Objective 2: Explain margin of error and interval width.
@@ -323,7 +317,7 @@ Objective 1: Explain null and alternative hypotheses in context.
 - Flipped: critique significance claims.
 - Tuesday: no class due to university holiday.
 - Thursday: formulate hypotheses for real examples and complete evidence-under-null activity.
-- Project arc: possible project hypothesis or comparison question, including AI performance claims only when they clarify comparison and evidence.
+- Project arc: Mini-project 4 launches with a comparison or association question using retrieved weather, sensor, disaster-response, or 311 data.
 - Evidence: `FA`, `THU`, `FINAL`.
 
 Objective 2: Interpret a p-value as evidence against a chance model.
@@ -357,7 +351,7 @@ Objective 1: Identify one-proportion, two-proportion, and categorical-data quest
 - Flipped: classify categorical inference scenarios.
 - Tuesday: clarify comparison language.
 - Thursday: Quiz 4.
-- Project arc: peer review checks variable types and design.
+- Project arc: Mini-project 4 in-class analysis and feedback workshop checks variable types, design, provenance, and limitations.
 - Evidence: `FA`, `TUE`, `QUIZ`, `PROJ`.
 
 Objective 2: Interpret intervals and tests for proportions in context.
@@ -391,7 +385,7 @@ Objective 1: Identify one-mean, paired-mean, and two-mean comparison questions.
 - Flipped: selected OpenIntro Chapter 7 examples.
 - Tuesday: clarify mean comparisons, paired data, and independent groups.
 - Thursday: choose the right numerical comparison for a project-style question.
-- Project arc: Mini-project 4 due/checkpoint.
+- Project arc: Mini-project 4 comparison or association is completed after students evaluate formative feedback and revise their statistical artifact.
 - Evidence: `FA`, `TUE`, `THU`, `PROJ`, `QUIZ`.
 
 Objective 2: Interpret uncertainty for numerical outcomes.
