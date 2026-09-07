@@ -4,9 +4,13 @@ This folder is for Canvas-ready weekly materials once the design moves from plan
 
 Current structure:
 
-- `week-01` through `week-13`: placeholders for weekly flipped activities, class activities, datasets, handouts, quiz prep, and project materials.
+- `start-here.md`: current local copy of the published Canvas Start Here page.
+- `canvas-sync-state.md`: publication and module-item state recorded during the latest Canvas-to-local synchronization.
+- `week-01/overview.md`: current local copy of the published Canvas Week 01 overview.
+- `week-01/lecture-01-welcome-and-data.qmd`: Markdown source for the first Tuesday lecture slides.
+- `week-01` through `week-13`: weekly folders for flipped activities, class activities, datasets, handouts, quiz prep, and project materials.
 
-For now, the master week-by-week design lives in:
+The master week-by-week design lives in:
 
 - `../course-development/course-design-development.md`
 
@@ -17,4 +21,3 @@ Suggested eventual files inside each weekly folder:
 - `thursday-activity.md`
 - `project-arc.md`
 - `materials-and-links.md`
-

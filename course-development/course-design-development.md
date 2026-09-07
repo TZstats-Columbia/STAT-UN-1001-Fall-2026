@@ -8,6 +8,7 @@ This document combines the course design rationale, development plan, and idea p
 - Make statistical reasoning rigorous without making computation the gatekeeper.
 - Treat AI as an object of inquiry and a tool for efficiency, not as a belief system.
 - Use AI contexts only when they help students better understand data, uncertainty, evidence, prediction, error, bias, or decision-making.
+- Use the anonymous course-provided assistants to reduce data-access barriers and support revision while keeping students' statistical reasoning—not tool use—as the object of assessment.
 - Start grade-bearing assessments after Week 3 to accommodate late registration.
 - Use a semi-flipped rhythm: release flipped activities by Thursday, collect by Monday evening, analyze before Tuesday, and use Thursday for activity/project design.
 - Use OpenIntro as the stable statistical backbone and VDS as the project/trustworthiness backbone.
@@ -73,18 +74,34 @@ Potential developer-supported assets, in priority order:
 - Classification threshold simulator.
 - AI claim critique worksheet or Canvas form.
 
+### Course-Provided Anonymous Assistants
+
+- [Data Search and Retrieval Assistant](https://pingpong.hks.harvard.edu/group/735?assistant=3600): supports access to weather variables, environmental sensor data, disaster-response data, and 311 complaint data.
+- [Project Feedback Assistant](https://pingpong.hks.harvard.edu/group/735?assistant=3591): gives formative feedback on project questions, data descriptions, analysis choices, visualizations, interpretations, and limitations.
+
+The assistants use research tools developed through [Learning the Earth with Artificial Intelligence and Physics (LEAP)](https://leap.columbia.edu/), an NSF Science and Technology Center focused on improving near-term climate projections by combining physical modeling and machine learning. Tian Zheng is LEAP's Deputy Director, Chief Convergence Officer, and Education Director.
+
+Operational and privacy rules:
+
+- Use is anonymous and assistant interaction histories are not part of the course record.
+- The instructional team does not collect or retain conversations and does not use them for grading, assessment, participation tracking, research, or any other evaluation.
+- Students submit statistical artifacts, not prompts, screenshots, conversation logs, or frequency-of-use records.
+- Students are instructed not to enter identifying, private, or confidential information.
+- Students verify provenance, definitions, units, geographic and temporal coverage, missingness, and plausibility before analyzing retrieved data.
+- Students may provide anonymous, ungraded feedback on failures, missing data, unclear responses, and desired improvements.
+
 ## Workstreams
 
 | Workstream | Outcome | Status |
 |---|---|---|
 | Syllabus | Student-facing syllabus with weekly plan and assessment scheme | Started |
-| Weekly modules | Canvas-ready modules with readings, videos, flipped activities, activity analytics, and in-class plans | Not started |
+| Weekly modules | Canvas-ready modules with readings, videos, flipped activities, activity analytics, and in-class plans | Unpublished scaffold built; assistant/project revision in progress |
 | Quiz bank | Six 20-minute paper quiz forms aligned with final exam question formats, Gradescope rubrics, practice questions, and scanning workflow | Not started |
-| Project sequence | Mini-project prompts, peer-review forms, final project rubric | Started conceptually |
-| AI policy | Student-facing AI acknowledgment checklist and examples | Started in syllabus |
+| Project sequence | Mini-project prompts, peer-review forms, final project rubric | Redesigned around in-class assistant-supported data investigations |
+| AI policy | Student-facing privacy, verification, and acknowledgment guidance | Revised for anonymous course assistants |
 | Instructional operations | TA guide, weekly rhythm, grading norms, office hour coverage, communication protocols | Started |
-| Canvas build | Modules, flipped activities, assignments, rubrics, groups, gradebook, late-registration catch-up | Not started |
-| Chatbot integration | Decide how the two course chatbots are introduced, tested, and improved | Not started |
+| Canvas build | Modules, flipped activities, assignments, rubrics, groups, gradebook, late-registration catch-up | Unpublished scaffold built; project content being revised |
+| Assistant integration | Introduce, test, and improve the anonymous data and feedback assistants | In progress |
 | Gradescope setup | Quiz and final exam templates, scanning workflow, regrade policy, TA calibration | Not started |
 
 ## Suggested Timeline
@@ -103,7 +120,7 @@ Potential developer-supported assets, in priority order:
 - Draft flipped activities for Weeks 1-6, including analysis prompts for the teaching team.
 - Draft Quiz 1-3 and associated practice questions using final-exam-like formats.
 - Create Mini-projects 0-2, peer-review templates, and grading rubrics.
-- Test the course chatbot(s) with representative student questions.
+- Test the Data Search and Retrieval Assistant and Project Feedback Assistant with representative student questions, retrieval tasks, and failure cases.
 - Create TA calibration materials for grading short answers and projects.
 - Draft the final exam blueprint early because the exam is 40% of the course grade.
 
@@ -122,7 +139,7 @@ Potential developer-supported assets, in priority order:
 
 - Monitor Week 1-3 onboarding carefully.
 - Use flipped activity completion and response patterns to diagnose misconceptions.
-- Collect student questions and refine FAQ/chatbot behavior.
+- Collect anonymous, ungraded assistant feedback and refine retrieval and feedback behavior.
 - Confirm roster, sections, TA office hour coverage, and peer-review groups.
 
 ## Decisions Needed Soon
@@ -132,9 +149,8 @@ Potential developer-supported assets, in priority order:
 - Exact paper-to-Gradescope logistics for quizzes and final exam.
 - Whether final projects are individual or small-group.
 - Whether peer review is anonymous, named, or mixed.
-- How students will submit AI acknowledgments: checkbox form, short statement, or both.
-- Which one or two AI-related examples should be developed as optional or shared course examples, without making the project sequence AI-centered.
-- Which 2-3 AI-aware activities should be built first, with priority on base rates, representation, and prediction error.
+- Which anonymous feedback mechanism students will use to report assistant failures and improvement ideas.
+- Which retrieved datasets are sufficiently stable and documented for each mini-project milestone.
 - How much TA time is reserved for flipped activity analysis versus grading.
 
 ## Flipped Activity Design Strategy
@@ -171,32 +187,35 @@ Timing note:
 
 ### Week 1: Sep 8 and Sep 10
 
-Statistical focus: What is statistics? Data, variables, cases, claims, and context.
+Canvas status: The Week 1 module and overview are published. The current student-facing copy is maintained in `../course-materials/week-01/overview.md`.
+
+Statistical focus: Why statistics? What is statistics? Data, variables, cases, and claims.
 
 Learning objectives:
 
-- Explain what statistics is and why statistical reasoning matters.
+- Explain what statistics is as a discipline, what we use statistics for, and what statisticians do.
+- Explain why statistical reasoning matters.
 - Identify cases, variables, values, populations, samples, and claims.
 - Distinguish a data-based claim from the evidence needed to support it.
-- Begin treating AI outputs and algorithmic claims as objects of statistical inquiry.
 
-Flipped activity:
+Preparation and entry survey:
 
 - No pre-course flipped activity due before the first Tuesday.
-- Launch activity after the first class: course entry survey plus a short "claim autopsy" of a data-based claim.
-- Ask students to identify the claim, the implied population, the data needed, what could go wrong, and what would make the claim more convincing.
+- Review the syllabus.
+- Complete the anonymous Week 1 Course Entry Survey for five completion points.
+- The survey asks about students' motivations, learning goals, prior experience, concerns, educational and professional needs, general curiosity, and perspectives and questions about AI.
 
 Tuesday:
 
-- Course orientation and the central question: how do we learn from data without fooling ourselves?
-- Use examples from multiple domains, with at most one AI-related claim, so students see that statistical reasoning travels across contexts.
-- Introduce the semester rhythm, assessment categories, and low-stakes flipped activities.
+- Why Statistics?
+- Course orientation.
+- Course entry survey.
+- Concepts: cases, variables, populations, samples, and how we learn from data.
 
 Thursday:
 
-- Activity: classify examples as anecdote, data summary, model/prediction, experiment, or causal claim.
-- Introduce the project arc: from claim autopsy to final data investigation.
-- Begin Mini-project 0 informally: what makes a data claim convincing?
+- Claim vs Data activity.
+- Introduction to the semester project sequence.
 
 Project arc activities:
 
@@ -206,10 +225,9 @@ Project arc activities:
 
 Suggested contents:
 
-- [OpenIntro Statistics main page](https://www.openintro.org/book/os/): use directly as the course resource hub; tell students this is where the free PDF, videos, datasets, and other materials live.
-- [OpenIntro Statistics book and PDF access page](https://www.openintro.org/book/os/): use directly for textbook access; link via the main page so students can choose the standard PDF or screen-reader PDF if needed.
+- [OpenIntro Statistics main page](https://www.openintro.org/book/os/): Chapter 1, sections 1.1-1.3.
 - [OpenIntro videos about applying statistics](https://www.openintro.org/book/os/): use selectively; choose one short video such as Hans Rosling or NBA analytics as an opening example, not as required viewing for all.
-- [VDS Preface / Chapter 1](https://vdsbook.com/): modify heavily; use only a short excerpt or instructor summary on what makes data science trustworthy.
+- [VDS Chapter 1](https://vdsbook.com/): sections 1.1-1.2.
 - [OpenIntro Statistics GitHub source](https://github.com/OpenIntroStat/openintro-statistics): instructor reference only; useful for source transparency, not student-facing in Week 1.
 
 ### Week 2: Sep 15 and Sep 17
@@ -244,10 +262,10 @@ Thursday:
 
 Project arc activities:
 
-- Mini-project 1 begins: data biography.
-- Identify a possible dataset or claim and ask: Who/what is represented? Who/what is missing? How were data generated?
-- Use training data as an optional example of why representation and measurement matter.
-- Mini-project 0 remains a low-stakes onboarding task; Mini-project 1 launches so students can start the data biography early.
+- Introduce the anonymous Data Search and Retrieval Assistant.
+- Mini-project 0 begins with a question and retrieval trial using weather, sensor, disaster-response, or 311 data.
+- Ask: Who or what is represented? Who or what is missing? How were the data generated?
+- Begin Mini-project 1 so students can document provenance, definitions, units, coverage, and missingness.
 - VDS connection: problem formulation and data collection.
 
 Suggested contents:
@@ -292,9 +310,9 @@ Thursday:
 
 Project arc activities:
 
-- Mini-project 0 workshop: claim autopsy with data summaries.
-- Mini-project 1 workshop: describe where a dataset comes from before making claims from it.
-- Students practice describing a dataset before making a claim.
+- Complete Mini-project 0 by refining a statistical question and identifying cases, variables, population, and limitations.
+- Continue Mini-project 1 as a data biography and retrieval audit.
+- Students verify the retrieved data before making a claim and do not submit assistant conversations.
 - VDS connection: data as an approximation of reality.
 
 Suggested contents:
@@ -340,9 +358,9 @@ Thursday:
 
 Project arc activities:
 
-- Mini-project 1 due or checkpoint: data biography.
-- Mini-project 2 launches: exploratory story using visual and numerical summaries.
-- Students identify how the dataset was produced and what claims it can/cannot support.
+- Complete Mini-project 1 data biography and retrieval audit.
+- Launch Mini-project 2: an exploratory data story using visual and numerical summaries of retrieved data.
+- Students identify how the data were produced and what claims they can and cannot support.
 - VDS connection: data preparation and exploratory data analysis.
 
 Suggested contents:
@@ -388,8 +406,9 @@ Thursday:
 
 Project arc activities:
 
-- Mini-project 2 due or checkpoint: exploratory story.
-- Students revise a project claim to include uncertainty and possible error types.
+- Complete Mini-project 2 exploratory data story.
+- Use the Project Feedback Assistant formatively, then revise the submitted claim, graph, and limitation using students' own judgment.
+- Students submit the revised statistical artifact, not the feedback conversation.
 - Use the reusable AI claim critique template for students who choose an AI-related example.
 - VDS connection: evaluating what result would be useful in the domain context.
 
@@ -436,8 +455,8 @@ Thursday:
 
 Project arc activities:
 
-- Mini-project 3 launches: chance and uncertainty.
-- Students explain one observed pattern and one uncertainty/limitation.
+- Launch Mini-project 3 using retrieved data to study chance, variability, and uncertainty.
+- Students explain one observed pattern, what process could create variability, and one important limitation.
 - VDS connection: exploratory analysis as part of a nonlinear data science life cycle.
 
 Suggested contents:
@@ -484,7 +503,7 @@ Thursday:
 
 Project arc activities:
 
-- Mini-project 3 workshop: use simulation, sampling logic, or interval reasoning to assess uncertainty.
+- Mini-project 3 in-class workshop: use simulation, repeated-sampling logic, or interval reasoning with retrieved data.
 - Students add an uncertainty statement to a project claim.
 - VDS connection: stability begins with asking "would this result change under reasonable perturbations?"
 
@@ -794,13 +813,96 @@ Each weekly flipped activity should include:
 7. Teaching-team analysis notes
    - What patterns should the instructor/TAs look for?
 
+## News Story To Course Material Pipeline
+
+Idea to revisit: build a reusable mechanism for turning curated news stories into course materials. This should become more than an example bank; it should function like a modern, extensible problem/activity/exam bank organized around real data claims in the world.
+
+Core vision:
+
+- Curate news stories, public reports, datasets, visualizations, AI claims, and everyday data claims.
+- Tag each story by statistical concept, week, data type, claim type, difficulty, computational burden, and assessment use.
+- Use stable templates to transform one story into multiple course artifacts: flipped activity, in-class activity, quiz item, exam item, project prompt, discussion prompt, or extension activity.
+- Keep a record of source links, date accessed, data availability, ethical considerations, and what needs updating before reuse.
+- Eventually share the template system and selected public-facing examples on GitHub.
+
+Possible templates to build:
+
+- Story intake card: source, claim, context, variables, population, data source, uncertainty, possible bias/confounding, and why it matters.
+- Flipped activity template: short reading/viewing task, comprehension checks, interpretation prompt, confusion prompt, and Tuesday teaching hook.
+- In-class activity template: learning objective, group task, instructor setup, discussion prompts, expected misconceptions, and debrief.
+- Quiz item template: stem, data display, targeted concept, correct answer, common wrong answers, rubric, and final-exam alignment.
+- Exam item template: multi-part reasoning arc, difficulty levels, synthesis target, grading rubric, and allowed formula/reference needs.
+- Project prompt template: claim/question, possible data sources, student choice points, required limitations, and AI-use acknowledgment prompt.
+
+Design principles:
+
+- One story should be reusable at several depths: quick discussion, structured activity, short quiz item, or richer project seed.
+- Templates should separate source facts from teaching choices so stories can be updated without rewriting the whole activity.
+- Materials should distinguish what is public/shareable from what should remain private for assessment security.
+- The system should support variation, not automatic question generation without review.
+
+## GitHub Publication Plan
+
+Goal: eventually share the course design and reusable teaching framework on GitHub while keeping assessment-sensitive, operational, and private materials protected.
+
+Recommended model:
+
+- Keep a private working repository for the full course development workspace.
+- Create a separate public repository for sanitized, shareable course-design materials.
+- Use branches inside the private repository for work streams, but do not rely on branches for access control because GitHub visibility is repository-level, not branch-level.
+
+Suggested private repository branches:
+
+- `main`: full private working course design.
+- `syllabus-and-design`: student-facing syllabus, course-design documents, learning-objective maps.
+- `week-builds`: Canvas/CourseWorks-ready weekly module development.
+- `story-bank`: curated teaching stories and story-to-material templates.
+- `assessment-bank`: quizzes, exams, answer keys, secure rubrics, and grading notes.
+- `public-export`: sanitized version prepared for the public repository.
+
+Suggested public repository contents:
+
+- Course design overview and public README.
+- Syllabus or syllabus template.
+- Learning objective map.
+- Course rhythm and semi-flipped design notes.
+- Story intake card and material transformation templates.
+- Selected public teaching stories and non-secure sample activities.
+- AI-use philosophy and public-facing AI policy.
+- Contribution guide and license.
+
+Keep out of the public repository:
+
+- Development notes, private planning notes, and workspace history, including `course-development/development-log.md`, unless a separate public-facing version is deliberately written.
+- Quiz and exam questions intended for future use.
+- Answer keys and secure grading rubrics.
+- Student data, student work, roster information, and private communications.
+- TA notes that mention students or internal grading decisions.
+- CourseWorks/Canvas tokens, scripts with credentials, API keys, and local automation secrets.
+- Third-party copyrighted materials copied into the repo when linking is more appropriate.
+
+Later setup checklist:
+
+1. Audit the current local repository for secrets, private notes, development logs, copyrighted files, and assessment-sensitive materials.
+2. Decide repository names, for example `stat1001-course-private` and `stat1001-course-design-public`.
+3. Update `.gitignore` for private assessment folders, tokens, local exports, generated PDFs, and OS/system files.
+4. Add a `PUBLICATION.md` or `docs/publication-workflow.md` explaining what can be exported.
+5. Create the public repository with a clean README and license.
+6. Build an export folder or branch that contains only public-safe files and excludes private development notes by default.
+7. Push the sanitized export to the public repository.
+8. Periodically re-run the public-safety audit before each public update.
+
+Open decision:
+
+- Choose a license. Likely candidates are Creative Commons licenses for course materials, such as CC BY-NC 4.0 or CC BY-NC-SA 4.0, and possibly MIT for any reusable code/scripts.
+
 ## Active Course Ideas
 
 | Idea | Why It Matters | Possible Form | Status | Next Step |
 |---|---|---|---|---|
 | From data claims to statistical investigations | Gives the project sequence a broad frame that welcomes many domains | Mini-project arc and final project theme | Adopted | Use AI examples only where they support core statistics |
 | AI as claim generator, not truth machine | Prevents the course from sounding like AI evangelism | Class activity comparing AI answers to data/evidence | Promising | Build Week 1 or Week 5 activity |
-| Student chatbot improvement | Lets students critique and improve tools they may use | In-class discussion, feedback form, small extra-credit activity | Promising | List chatbot capabilities and failure modes |
+| Anonymous student assistant improvement | Lets students identify retrieval and feedback failures without linking interactions to identity or grades | Anonymous, ungraded in-class feedback | Adopted | Establish a feedback mechanism separate from course submissions |
 | Reusable AI claim critique template | Gives students a stable way to critique AI performance claims | Canvas form, project checklist, in-class worksheet | Adopted | Build first version for Weeks 1, 5, 9, and 12 |
 | Base-rate and false-positive simulator | Makes conditional probability concrete and socially relevant | Week 5 flipped or Thursday activity | High priority | Build or adapt low-maintenance version |
 | Representation/training-data activity | Connects sampling bias to modern AI systems | Week 2 study design activity | High priority | Draft hypothetical dataset comparison |
@@ -811,25 +913,34 @@ Each weekly flipped activity should include:
 | Project ladder | Moves from structured exploration to student-owned final project | Mini-projects 0-4 plus final | Adopted | Draft prompt sequence |
 | AI acknowledgment checklist | Teaches responsible use without banning useful tools | Required project checkbox and statement | Adopted | Draft Canvas submission form |
 | Statistical thinking in everyday life | Makes concepts useful beyond statistics class | Examples from health, media, policy, sports, education, algorithms | Core principle | Build example bank |
+| News story to course material pipeline | Turns curated real-world stories into reusable flipped activities, class activities, quiz/exam items, and project prompts | Template system plus tagged story bank; eventual GitHub-shareable version | Promising | Draft story intake card and artifact templates |
+| Public/private GitHub course design workflow | Enables sharing the course design while protecting assessments, student data, and operational materials | Private working repo plus sanitized public repo/export branch | Promising | Audit current files and draft publication workflow |
 | Computation without intimidation | Helps students see mechanisms without making R the main obstacle | Guided templates, applets, low-code options | Needs decision | Choose tool stack |
 
-## Possible Mini-Project Sequence
+## Mini-Project Sequence
 
-1. Mini-project 0, weeks 2-3: Claim autopsy
-   - Students examine a data-based claim and identify variables, evidence, uncertainty, and missing context. AI-related claims are allowed but not required.
-   - Ungraded or completion-only during onboarding.
+1. Mini-project 0, weeks 2-3: Question and retrieval trial
+   - Students formulate a statistical question, use the Data Search and Retrieval Assistant to locate relevant data, and identify cases, variables, population, and limitations.
+   - Work is completed primarily in class and graded for completion.
 
-2. Mini-project 1, weeks 3-4: Data biography
-   - Students describe where a dataset came from, who or what it represents, what is measured, what is excluded, and what claims it can or cannot support.
+2. Mini-project 1, weeks 3-4: Data biography and retrieval audit
+   - Students verify provenance, variable definitions, units, geographic and temporal coverage, missingness, representation, and the claims the data can or cannot support.
 
-3. Mini-project 2, weeks 4-5: Exploratory statistical story
-   - Students use visualizations and summaries to describe patterns without overclaiming causality.
+3. Mini-project 2, weeks 4-5: Exploratory data story
+   - Students use visualizations and numerical summaries to describe patterns without overclaiming causality, then evaluate formative feedback from the Project Feedback Assistant.
 
-4. Mini-project 3, weeks 6-8: How surprising is it?
-   - Students use probability, simulation, or a chance model to decide whether an observed result is surprising.
+4. Mini-project 3, weeks 6-8: Chance, variability, and uncertainty
+   - Students use simulation, repeated-sampling logic, or interval reasoning to investigate how results might vary and whether an observed result is surprising.
 
 5. Mini-project 4, weeks 9-11: Comparison, association, or regression claim
-   - Students make a careful statistical claim and test its fragility under reasonable alternative choices.
+   - Students compare groups, places, variables, or time periods using retrieved data; make a careful statistical claim; and test its fragility under reasonable alternative choices.
+
+Across all five tasks:
+
+- The Data Search and Retrieval Assistant supports data access; the Project Feedback Assistant supports revision.
+- Assistant use is anonymous and ungraded, and conversation histories are never submitted.
+- Students may send anonymous, ungraded improvement feedback about the assistants.
+- Grading concerns the statistical artifact the student intentionally submits.
 
 6. Final project, due last day of class: Student-owned data investigation
    - Students choose a question, analyze data, communicate findings, and include a limitations, transparency, and trustworthiness section.
@@ -842,7 +953,7 @@ Each weekly flipped activity should include:
 - A social media metric changes behavior once people optimize for it.
 - A predictive model works in one setting but fails when deployed elsewhere.
 - An AI summary of a survey misses who was not sampled.
-- A chatbot gives a numerical answer without uncertainty.
+- An assistant gives a numerical answer without uncertainty or verifiable provenance.
 
 For each AI-aware activity, ask:
 
@@ -858,6 +969,8 @@ For each AI-aware activity, ask:
 ## Additional Assets to Build
 
 - A one-page "How this course works" visual for students.
+- News-story intake card and transformation templates for flipped activities, in-class activities, quiz/exam items, and project prompts.
+- GitHub publication workflow document and public-safety checklist.
 - A late-registration catch-up checklist.
 - A project gallery template for final presentations.
 - A statistical vocabulary list with plain-language definitions.

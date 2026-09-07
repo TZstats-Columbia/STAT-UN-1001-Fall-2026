@@ -1,0 +1,334 @@
+---
+title: "Welcome to Statistical Reasoning"
+subtitle: "STAT UN 1001 · Lecture 1"
+author: "Tian Zheng"
+date: "September 8, 2026"
+format:
+  revealjs:
+    theme: simple
+    slide-number: c/t
+    progress: true
+    center: false
+    transition: fade
+    incremental: false
+    width: 1600
+    height: 900
+    margin: 0.08
+    chalkboard: true
+    preview-links: auto
+execute:
+  echo: false
+---
+
+## Our first data collection
+
+**How easy or difficult was this classroom to find?**
+
+Show a number with your fingers:
+
+| 1 | 2 | 3 | 4 | 5 |
+|---:|---:|---:|---:|---:|
+| Very easy | Easy | In between | Difficult | Very difficult |
+
+::: notes
+Collect the counts on the board before introducing any statistical terms. Ask students to answer based on their own experience today. This gives every student an immediate role as both a case in the dataset and a participant in the data collection.
+:::
+
+## Why collect these data?
+
+The responses can help me:
+
+- learn whether students had trouble finding this room
+- identify what made the trip difficult
+- decide whether future students need a map, photographs, or clearer directions
+
+What else would I need to know before choosing a solution?
+
+::: notes
+Ask students why you might care about the answer before showing the list. Their suggestions should connect the question to a decision. Point out that the usefulness of data depends on why we collected them.
+:::
+
+## Individual values and a summary statistic
+
+**The full dataset** keeps every student’s response:
+
+`[ Record today's ratings here ]`
+
+**A summary statistic** compresses those values into one number. For example:
+
+- the median difficulty rating
+- the proportion of students who answered 4 or 5
+
+What does each summary preserve, and what does it hide?
+
+::: notes
+Use the actual class counts. Introduce “value” as one student’s rating and “summary statistic” as a number calculated from the collected values. The median suits an ordered rating scale. The proportion answering 4 or 5 directly describes how common substantial difficulty was. Emphasize that a summary helps us see the overall result but does not preserve every individual experience.
+:::
+
+## How far can today’s data travel?
+
+These responses directly describe the students who answered today.
+
+They may help me plan for another class in this room, but the next situation could differ:
+
+- different students or prior familiarity with the building
+- different directions, entrances, or construction
+- a different room, building, or time of day
+
+What would make future data more informative?
+
+::: notes
+Connect today’s respondents to the idea of cases. For planning beyond this class, name the target population explicitly, such as future students trying to find this classroom. Today’s respondents do not form a random sample of every future class. The data can support a modest practical improvement, but not a broad claim about how difficult all classrooms are to find.
+:::
+
+## Today
+
+1. What statisticians do
+2. How this course works
+3. A study about ChatGPT and the brain
+4. The basic language of data
+
+::: notes
+Use the agenda to reveal where the opening activity was heading. The class has already collected data, considered a decision, summarized individual values, and questioned how far the result might generalize.
+:::
+
+## Statistics: understanding systems from data
+
+![](Codex%20Image%20Aug%2030,%202026,%2001_51_39%20PM.png){fig-alt="A diagram showing real-world systems generating limited observations that statisticians use to build knowledge, solutions, and decisions." width="100%"}
+
+::: notes
+Invite students to name one system they would like to understand. Emphasize that data are limited traces of a larger, more complicated process.
+:::
+
+## What does a statistician do?
+
+Statisticians learn about a larger system from limited observations.
+
+They ask:
+
+- What exactly do the data represent?
+- How were the observations produced?
+- What patterns could arise by chance?
+- Which conclusions does the evidence support?
+
+::: notes
+Connect the questions to familiar examples such as polls, medical studies, recommendation systems, weather forecasts, and AI evaluations.
+:::
+
+## My current research
+
+<!-- TODO: Replace this slide with one concrete current research question. -->
+
+**Research question:** [Add one question from your current research]
+
+**The system:** [What real-world process are you trying to understand?]
+
+**The observations:** [What data can you actually collect?]
+
+**The decision or impact:** [What could we learn or do better?]
+
+::: notes
+Keep this brief and concrete. A LEAP example could connect climate processes, observations, machine learning, and decisions. One memorable question is more useful than a list of projects.
+:::
+
+## This course in one sentence
+
+We will learn how to make careful claims from imperfect data.
+
+By the end of the semester, you should be able to:
+
+- describe what data show
+- recognize weak or overclaimed evidence
+- reason about variability, uncertainty, and chance
+- carry out and communicate a small data investigation
+
+::: notes
+The complete learning outcomes appear in the syllabus. Emphasize statistical intuition, plain-language reasoning, and responsibility for conclusions.
+:::
+
+## CourseWorks
+
+<!-- TODO: Add a CourseWorks screenshot or live link. -->
+
+Use CourseWorks to find:
+
+- the weekly module and preparation
+- slides, activities, and datasets
+- assignment instructions and due dates
+- announcements and course updates
+
+**For this week:** open the Week 01 module.
+
+::: notes
+Give a short live tour. Show students where to begin each week and how to recognize required work. Avoid walking through every menu item.
+:::
+
+## The weekly rhythm
+
+| Before class | Tuesday | Thursday |
+|---|---|---|
+| Short preparation, usually due Monday evening | Concepts, questions, and worked examples | Activities, applications, project work, or a quiz |
+
+Flipped activities receive completion credit. Most mini-project work happens in class.
+
+::: notes
+Clarify that no pre-course flipped activity was due for Week 1. Students should review the syllabus.
+:::
+
+## A few syllabus essentials
+
+- Read announcements and check the weekly CourseWorks module.
+- Quizzes and the final exam are paper based.
+- You may use approved AI tools as assistants, but you remain responsible for your reasoning and final work.
+- Never enter private or confidential information into an AI tool.
+
+**Questions about the syllabus?**
+
+::: notes
+Use the syllabus for the authoritative policy language. Consider showing the Gemini Gem for commonly asked syllabus questions, while noting that it is non-archival.
+:::
+
+## Course entry survey
+
+Please complete the course entry survey.
+
+<!-- TODO: Add the survey link and QR code. -->
+
+**CourseWorks location:** [Add module/item location]
+
+**Due:** [Add due date and time]
+
+The survey helps us understand the experiences and needs in the room.
+
+::: notes
+Pause long enough for students to locate the survey. State whether they should complete it now or after class and whether it is anonymous.
+:::
+
+## A striking claim about ChatGPT
+
+> Does using ChatGPT to write an essay harm your brain?
+
+Before reading further:
+
+1. What would “harm” have to mean?
+2. What evidence would convince you?
+
+::: notes
+Ask students to discuss with a neighbor for two minutes. Collect a few possible meanings of harm and a few possible outcomes to measure.
+:::
+
+## What the study compared
+
+The study placed participants in one of three essay-writing conditions:
+
+- ChatGPT
+- search engine
+- no digital tools
+
+Researchers measured EEG connectivity, features of the essays, recall, and participants’ reported sense of ownership.
+
+::: notes
+Source: [Kosmyna et al., “Your Brain on ChatGPT,” arXiv preprint](https://arxiv.org/abs/2506.08872). The study was posted June 10, 2025. Introduce the design without evaluating it yet.
+:::
+
+## Cases, variables, and values
+
+| Term | Meaning | In this study |
+|---|---|---|
+| **Case** | One entity described by the data | One participant |
+| **Variable** | A characteristic recorded for each case | Writing condition, EEG measure, recall score |
+| **Value** | A variable’s result for one case | “ChatGPT condition” or a particular score |
+
+::: notes
+Ask students to give another possible variable. Distinguish the variable name from one observed value.
+:::
+
+## Explanatory and response variables
+
+**Explanatory variable**
+
+Writing condition: ChatGPT, search engine, or no digital tools
+
+**Response variables**
+
+Outcomes that might change across conditions, such as EEG connectivity, recall, and essay features
+
+**Question:** Which response best represents learning?
+
+::: notes
+Use student answers to introduce measurement validity. A measurable response is not automatically a good measure of the concept we care about.
+:::
+
+## Sample and population
+
+**Sample:** the participants who took part in this study
+
+**Population:** the broader group we hope to understand
+
+The sample included 54 participants and one kind of task: essay writing.
+
+**How broadly should we generalize?**
+
+::: notes
+Ask students to propose possible target populations. Discuss how the answer changes if the claim concerns college students, all students, all adults, or every kind of AI-supported work. Source: [TIME overview of the study](https://time.com/7298299/chatgpt-bad-for-brain-study/).
+:::
+
+## From data to a claim
+
+1. Start with a question about a population or process.
+2. Observe a sample and define the variables.
+3. Look for patterns while accounting for variability and study design.
+4. State a conclusion that matches the evidence.
+
+Statistics helps us judge the distance between step 2 and step 4.
+
+::: notes
+Emphasize that the observations never speak for themselves. Definitions, measurement, design, and context connect data to a conclusion.
+:::
+
+## Headline versus evidence
+
+The evidence came from:
+
+- a small sample
+- a narrow writing task
+- several direct and indirect outcomes
+- a preprint that had not yet completed peer review
+
+Rewrite the headline so that it says only what this study directly supports.
+
+::: notes
+Give pairs or small groups three minutes. Ask two groups to share their revised claim. Later commentary raised concerns about study design and interpretation: [arXiv comment](https://arxiv.org/abs/2601.00856).
+:::
+
+## Our first statistical habit
+
+When you encounter a data-based claim, ask:
+
+**Who or what are the cases?**
+
+**Which variables were measured, and how?**
+
+**What population does the sample represent?**
+
+**Does the claim match the evidence?**
+
+::: notes
+These questions will recur throughout the semester. Invite students to photograph this slide if appropriate.
+:::
+
+## Before Thursday
+
+Bring your laptop to class.
+
+We will experiment with AI together and practice checking what it gives us.
+
+Also:
+
+- complete the course entry survey
+- review the syllabus
+- check the Week 01 CourseWorks module
+
+::: notes
+End with questions and confirm the exact preparation required for Thursday.
+:::
