@@ -29,6 +29,7 @@ No pre-course flipped activity is due. Review the syllabus.
 
 **Thursday:**
 
-- Claim vs Data activity;
-- Introduction to the semester project sequence.
-
+- Analyze the public claims and study design in the ChatGPT brain study.
+- Apply cases, variables, samples, populations, random assignment, and random sampling.
+- Use the VDS three-realms framework to audit the study's trustworthiness.
+- Introduce the Ping Pong AI assistants through a live laptop demonstration.
