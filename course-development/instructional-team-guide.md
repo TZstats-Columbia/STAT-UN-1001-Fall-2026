@@ -167,6 +167,20 @@ Final exam grading should use the same calibration process as quiz grading, but 
 - Watch for conceptual consistency across related parts.
 - Use regrade request procedures consistently.
 
+## Missed Quiz or Exam Procedure
+
+When illness or a personal emergency prevents a student from taking a scheduled quiz or exam:
+
+- Direct the student to contact the instructor privately as soon as reasonably possible and follow any applicable school or university absence procedures.
+- Do not ask the student to disclose private medical details in class, on the discussion board, or to teaching assistants who do not need the information.
+- The instructor will arrange a rescheduled assessment using different but comparable questions when appropriate.
+- A student taking a rescheduled quiz or exam must also complete a brief oral examination session with the instructor or the PhD teaching assistant. Other teaching assistants should not conduct this session unless the instructor changes the policy explicitly.
+- The oral session may ask the student to explain reasoning from the rescheduled assessment and respond to related conceptual questions. This is meant as part of the assessment process for the rescheduled assessment.
+- Schedule both the rescheduled assessment and oral session within one week of the original assessment whenever possible.
+- If that one-week window is not possible because of illness, an ongoing emergency, or another serious circumstance, refer the student promptly to the instructor. The instructor may approve an alternative accommodation, such as shifting the assessment's weight to appropriate future assessments, when feasible and consistent with course, school, and university policies.
+- Honor approved disability accommodations and applicable school or university emergency procedures in both the written and oral portions.
+- Record the rescheduled assessment and oral-session completion consistently in the course's private grading records.
+
 ## Project and Peer Review Grading
 
 Mini-project tasks are completed primarily during class and graded for completion, while peer reviews are graded using rubrics. The final project is worth 20% and should be graded using a rubric. Grade only the statistical artifact students intentionally submit; never request or evaluate assistant prompts, screenshots, conversation histories, or frequency of use.

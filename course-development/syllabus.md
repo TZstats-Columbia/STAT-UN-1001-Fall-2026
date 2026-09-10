@@ -107,6 +107,14 @@ Quizzes will emphasize interpretation, reasoning, and core computations. They wi
 
 The final exam will be cumulative and scheduled according to the university final exam schedule. It will emphasize statistical reasoning, interpretation, and the ability to connect concepts across the semester. The final exam will be paper-based and similar in format to the quizzes, but with more variability in difficulty, including some questions that require synthesis across topics.
 
+### Missed Quizzes or Exams
+
+If illness or a personal emergency prevents a student from taking a quiz or exam at the scheduled time, the assessment can be rescheduled. The student should contact the instructor privately as soon as reasonably possible, preferably before the assessment when circumstances permit, and follow any applicable school or university absence procedures. Students do not need to disclose private medical details in a public forum.
+
+A student who completes a rescheduled quiz or exam must also participate in a brief oral examination session with the instructor or the PhD teaching assistant. During this session, the student may be asked to explain reasoning from the rescheduled assessment and respond to related conceptual questions. The oral session is part of the rescheduled assessment process, not a penalty. The rescheduled assessment may use different but comparable questions.
+
+The rescheduled assessment and oral session should ordinarily be completed within one week of the originally scheduled quiz or exam. If illness, an ongoing emergency, or another serious circumstance makes this impossible, the student should discuss the situation with the instructor as soon as reasonably possible. The instructor may approve another accommodation, such as shifting the assessment's weight to appropriate future assessments, when feasible and consistent with applicable course, school, and university policies. Approved disability accommodations and applicable school or university emergency procedures will be honored.
+
 ### Computation
 
 This course emphasizes statistical intuition. Computation will be used to make ideas visible.
