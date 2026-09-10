@@ -18,10 +18,8 @@
 !/teaching-stories/
 !/teaching-stories/**
 
-# Published syllabus PDF (keep the rest of Admin private)
-!/Admin/
-/Admin/*
-!/Admin/syllabus.pdf
+# Administrative files stay local and must not be published
+/Admin/
 
 # Local/system files, even inside public directories
 **/.DS_Store
