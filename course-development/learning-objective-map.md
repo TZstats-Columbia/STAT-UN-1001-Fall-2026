@@ -76,7 +76,7 @@ Objective 4: Distinguish a data-based claim from the evidence needed to support 
 
 Objective 1: Distinguish observational studies, experiments, surveys, and anecdotes.
 
-- Flipped: classify short study scenarios.
+- Flipped: OpenIntro-based questions and the urban-rat study ask students to distinguish observational studies from experiments.
 - Tuesday: review scenario patterns and student confusions.
 - Thursday: redesign a weak study.
 - Project arc: Mini-project 0 begins with an in-class question and retrieval trial; Mini-project 1 data biography begins.
@@ -84,7 +84,7 @@ Objective 1: Distinguish observational studies, experiments, surveys, and anecdo
 
 Objective 2: Explain random sampling and random assignment in plain language.
 
-- Flipped: students identify whether sampling or assignment is random in examples.
+- Flipped: the family-size and urban-rat questions diagnose sampling and generalization; the vitamin-C and chia-seed questions diagnose treatment assignment and experimental design.
 - Tuesday: targeted contrast between population representation and causal comparison.
 - Thursday: redesign activity requires choosing sampling and/or assignment strategy.
 - Project arc: data biography and retrieval audit asks how observations were obtained and verifies provenance, coverage, units, missingness, and representation.
@@ -92,7 +92,7 @@ Objective 2: Explain random sampling and random assignment in plain language.
 
 Objective 3: Identify bias, confounding, and limits of causal claims.
 
-- Flipped: students flag what could go wrong in study scenarios.
+- Flipped: students identify size-biased household sampling, reporting-system bias in rat complaints, and limits on generalization from volunteers or nonrandom city samples.
 - Tuesday: algorithmic or AI claim used to surface confounding and measurement limits.
 - Thursday: students explain what improved design still cannot prove.
 - Project arc: data biography includes missingness and representation.
@@ -100,7 +100,7 @@ Objective 3: Identify bias, confounding, and limits of causal claims.
 
 Objective 4: Connect study design to credibility of claims.
 
-- Flipped: students state what can and cannot be concluded.
+- Flipped: immediate answer feedback connects design features to association, causality, and generalizability; the anonymous check-in identifies concepts needing class review.
 - Tuesday: discussion links design choices to strength of evidence.
 - Thursday: redesign activity ends with a revised claim.
 - Project arc: students decide what claims their chosen dataset can support.
@@ -110,7 +110,7 @@ Objective 4: Connect study design to credibility of claims.
 
 Objective 1: Classify variables as categorical or numerical.
 
-- Flipped: guided dataset exploration asks students to label variables.
+- Flipped: Chapter 2 practice uses numerical distributions, binary indicators, and two-way categorical tables; automatic feedback reinforces the role of variable type in choosing a summary.
 - Tuesday: address variable-type confusions.
 - Thursday: graph-choice activity requires matching variable type to display.
 - Project arc: students label variables in a candidate dataset.
@@ -118,7 +118,7 @@ Objective 1: Classify variables as categorical or numerical.
 
 Objective 2: Choose appropriate summaries and visualizations.
 
-- Flipped: students choose summaries for a small dataset.
+- Flipped: students construct binned counts and a contingency table, match histograms to box plots, interpret three bar-plot forms modeled on Figure 2.23, and explain when proportions are more informative than counts.
 - Tuesday: compare mean/median and count/proportion choices.
 - Thursday: students match claims to graphs.
 - Project arc: Mini-project 0 is completed by identifying the question, retrieved data, cases, variables, population, and limitations.
@@ -126,7 +126,7 @@ Objective 2: Choose appropriate summaries and visualizations.
 
 Objective 3: Interpret distributions using center, variability, shape, and unusual observations.
 
-- Flipped: interpret one graph in context.
+- Flipped: students compute a mean, median, and quartiles; interpret modes and skew; compare mean/SD and median/IQR; and compare two nongendered transit-route distributions using center and spread.
 - Tuesday: worked examples focus on center and variability.
 - Thursday: students identify overstatements from graphs.
 - Project arc: descriptive language becomes part of exploratory story.
@@ -134,7 +134,7 @@ Objective 3: Interpret distributions using center, variability, shape, and unusu
 
 Objective 4: Explain how summaries can reveal or hide information.
 
-- Flipped: students compare two possible summaries.
+- Flipped: students identify curvature hidden by a straight-line description, explain what a log scale reveals, distinguish row from column proportions, compare alternative summaries, and report which categorical display is easiest or hardest to interpret.
 - Tuesday: discuss how the same data can support multiple stories.
 - Thursday: graph choice and claim discipline activity.
 - Project arc: students note one limitation of a summary.
@@ -433,7 +433,7 @@ Objective 2: Distinguish association, prediction, and causation.
 Objective 3: Recognize outliers, leverage, and extrapolation risks.
 
 - Flipped: selected regression visual prompt.
-- Tuesday: not a main in-class focus unless time remains after Quiz 5.
+- Tuesday: brief in-class introduction before Quiz 5, which occurs during the final 20 minutes.
 - Thursday: no class.
 - Project arc: students flag possible regression limitations.
 - Evidence: `FA`, `FINAL`.

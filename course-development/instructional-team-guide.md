@@ -82,7 +82,7 @@ TAs will likely help with:
 - Flagging common student misconceptions.
 - Reviewing flipped activity responses for patterns, not detailed grading.
 - Testing course materials, datasets, applets, retrieval results, and feedback-assistant responses.
-- Supporting in-class use of the anonymous Data Search and Retrieval Assistant and Project Feedback Assistant without collecting student conversation histories.
+- Supporting in-class use of the Data Search and Retrieval Assistant and Project Feedback Assistant, including their signed-in and public access options, without collecting student conversation histories through course assignments.
 - Supporting late-registering students as they catch up.
 
 ## Flipped Activity Analysis
@@ -106,10 +106,10 @@ On most quiz weeks, Thursday may be used for the 20-minute quiz plus a shorter a
 
 Suggested quiz-day flow:
 
-- First 10 minutes: settle, distribute quiz, clarify logistics only.
-- Next 20 minutes: quiz.
-- Next 10 minutes: collect and organize papers for scanning.
-- Remaining time: brief application, project work, or reflection question.
+- First portion of class: lecture, application, project work, review, or reflection.
+- Before the final 20 minutes: pause the class activity, distribute the quiz, and clarify logistics only.
+- Final 20 minutes: quiz.
+- At the end of class: collect and organize papers for scanning.
 
 After class:
 
@@ -197,7 +197,7 @@ Project rubrics should emphasize:
 
 Project feedback should be specific enough that students know what to revise. Avoid vague comments like "be clearer" unless paired with a concrete suggestion.
 
-Students may receive anonymous formative feedback from the Project Feedback Assistant as well as human feedback. TAs should help students interpret and evaluate feedback rather than treating AI feedback as authoritative. Students submit their revision, not the assistant conversation.
+Students may receive confidential signed-in or anonymous public-link formative feedback from the Project Feedback Assistant, as well as human feedback. TAs should help students interpret and evaluate feedback rather than treating AI feedback as authoritative. Students submit their revision, not the assistant conversation.
 
 ## Peer Review
 
@@ -214,7 +214,7 @@ TAs should help students learn that peer review is not just proofreading. Good p
 
 Students may use AI tools for brainstorming, coding help, revision, and feedback, but they must own the final work.
 
-The course-provided Data Search and Retrieval Assistant and Project Feedback Assistant are anonymous and approved for mini-project work. The instructional team must not collect, retain, request, or evaluate student interaction histories. Remind students not to enter names, UNI identifiers, private information, or confidential data. Assistant use is not participation evidence and is not graded.
+The course-provided Data Search and Retrieval Assistant and Project Feedback Assistant are approved for mini-project work. Students may sign in with their provided PingPong accounts; this use is not anonymous but remains confidential and saves progress. They may instead use the public links without signing in; this is anonymous, but progress may be lost. The instructional team must not request, collect through assignments, or evaluate student interaction histories. Remind students not to enter unnecessary identifying information, private information, or confidential data. Assistant use is not participation evidence and is not graded.
 
 During in-class mini-project work, help students verify:
 
@@ -232,7 +232,7 @@ When students ask whether a use is allowed, guide them with these questions:
 - Did the AI replace your own reasoning, or support it?
 - Can you explain every claim, calculation, and graph?
 - Did you check factual claims, code, and citations?
-- If you used an AI tool other than the two anonymous course assistants, did you acknowledge meaningful assistance?
+- If you used an AI tool other than the two course-provided assistants, did you acknowledge meaningful assistance?
 
 TAs should not accuse students casually. If there is a concern about academic integrity, document the evidence and consult the instructor.
 

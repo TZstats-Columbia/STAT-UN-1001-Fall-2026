@@ -11,6 +11,11 @@ Current structure:
 - `week-01/lecture-01-research-stories.pptx`: focused 15-slide introduction to partition retention, AutoClimDS, and Grade the Grader.
 - `week-01/lecture-02-chatgpt-study.pptx`: Lecture 2 study critique, Chapter 1 concept application, pair discussion, and Ping Pong AI assistant transition.
 - `week-01/lecture-02-chatgpt-study-handout.docx`: one-page pair investigation and demonstration observation handout.
+- `week-02/flipped-activity.md`: student-facing worksheet, reading, self-assessment, and preparation check-in plan.
+- `week-02/chapter-01-practice-quiz.md`: nine-question autograded quiz specification, answer key, feedback, story description, and attribution.
+- `week-03/flipped-activity.md`: Chapter 2 reading workflow and anonymous preparation check-in specification.
+- `week-03/chapter-02-practice-quiz.md`: 20-question autograded practice-quiz map, answer key, plot inventory, and attribution.
+- `week-03/assets/`: nine original, accessible statistical plots used in the practice quiz.
 - `week-01` through `week-13`: weekly folders for flipped activities, class activities, datasets, handouts, quiz prep, and project materials.
 
 The master week-by-week design lives in:

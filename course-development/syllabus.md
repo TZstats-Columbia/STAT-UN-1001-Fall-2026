@@ -101,6 +101,8 @@ There will be six 20-minute quizzes, tentatively scheduled for:
 - Quiz 5: **Tuesday**, November 24
 - Quiz 6: Thursday, December 3
 
+**On quiz days, the lecture or class activity will come first. The quiz will be administered during the final 20 minutes of the class meeting.**
+
 Quizzes will emphasize interpretation, reasoning, and core computations. They will be paper-based and will use question formats similar to the cumulative final exam, so that students get repeated practice with the kinds of reasoning they will need later. Quiz questions will usually be more focused and less variable in difficulty than final exam questions. The lowest quiz score will be dropped.
 
 ### Final Exam
@@ -140,24 +142,24 @@ The following weekly plan is tentative as of *September 1, 2026* and may change 
 | Week | Dates | Statistical Focus | Project / Application Focus | Main Resources |
 |---|---:|---|---|---|
 | 1 | Sep 8, Sep 10 | What is statistics? Data, variables, cases, claims, and context | Course onboarding; data claims in everyday life | OpenIntro Ch. 1; VDS Ch. 1 |
-| 2 | Sep 15, Sep 17 | Study design, sampling, bias, confounding, and measurement | Introduce the anonymous data assistant; Mini-project 0 question and retrieval trial | OpenIntro Ch. 1; VDS Ch. 2 |
+| 2 | Sep 15, Sep 17 | Study design, sampling, bias, confounding, and measurement | Introduce the data assistant and its signed-in and public access options; Mini-project 0 question and retrieval trial | OpenIntro Ch. 1; VDS Ch. 2 |
 | 3 | Sep 22, Sep 24 | Describing and visualizing numerical and categorical data | Complete Mini-project 0; begin Mini-project 1 data biography and retrieval audit | OpenIntro Ch. 2 |
-| 4 | Sep 29, Oct 1 | Comparison, variability, probability foundations, and Quiz 1 | Complete Mini-project 1; launch Mini-project 2 exploratory data story; Quiz 1 on Thursday | OpenIntro Ch. 2-3; selected VDS Ch. 4-5 |
+| 4 | Sep 29, Oct 1 | Comparison, variability, probability foundations, and Quiz 1 | Complete Mini-project 1; launch Mini-project 2 exploratory data story; Quiz 1 at the end of Thursday's class | OpenIntro Ch. 2-3; selected VDS Ch. 4-5 |
 | 5 | Oct 6, Oct 8 | Conditional probability, risk, simulation, and chance models | Complete Mini-project 2; use the feedback assistant to revise claims and limitations | OpenIntro Ch. 3 |
-| 6 | Oct 13, Oct 15 | Random variables, normal/binomial models, sampling distributions, and Quiz 2 | Launch Mini-project 3 with retrieved data; Quiz 2 on Thursday | OpenIntro Ch. 3-4 |
+| 6 | Oct 13, Oct 15 | Random variables, normal/binomial models, sampling distributions, and Quiz 2 | Launch Mini-project 3 with retrieved data; Quiz 2 at the end of Thursday's class | OpenIntro Ch. 3-4 |
 | 7 | Oct 20, Oct 22 | Confidence intervals and sampling variability | Mini-project 3 in-class uncertainty workshop | OpenIntro Ch. 5 |
-| 8 | Oct 27, Oct 29 | Confidence intervals, hypothesis testing, and Quiz 3 | Complete Mini-project 3; Quiz 3 on Thursday | OpenIntro Ch. 5 |
+| 8 | Oct 27, Oct 29 | Confidence intervals, hypothesis testing, and Quiz 3 | Complete Mini-project 3; Quiz 3 at the end of Thursday's class | OpenIntro Ch. 5 |
 | 9 | Nov 3 (no class), Nov 5 | Hypothesis testing and statistical significance | Launch Mini-project 4 comparison or association using retrieved data | OpenIntro Ch. 5 |
-| 10 | Nov 10, Nov 12 | Inference for proportions and categorical data | Mini-project 4 in-class analysis and feedback workshop; Quiz 4 on Thursday | OpenIntro Ch. 6 |
+| 10 | Nov 10, Nov 12 | Inference for proportions and categorical data | Mini-project 4 in-class analysis and feedback workshop; Quiz 4 at the end of Thursday's class | OpenIntro Ch. 6 |
 | 11 | Nov 17, Nov 19 | Inference for numerical data and regression preview | Complete Mini-project 4; final project proposal clinic | OpenIntro Ch. 7-8 |
-| 12 | Nov 24, Nov 26 (no class) | Correlation, regression, and Thanksgiving week | Quiz 5 on Tuesday; prediction, error, and generalization | OpenIntro Ch. 8 |
-| 13 | Dec 1, Dec 3 | Regression, responsible communication, and review | Final project workshop; Quiz 6 | OpenIntro Ch. 8-9; VDS wrap-up |
+| 12 | Nov 24, Nov 26 (no class) | Correlation, regression, and Thanksgiving week | Prediction, error, and generalization; Quiz 5 at the end of Tuesday's class | OpenIntro Ch. 8 |
+| 13 | Dec 1, Dec 3 | Regression, responsible communication, and review | Final project workshop; Quiz 6 at the end of Thursday's class | OpenIntro Ch. 8-9; VDS wrap-up |
 
 ## AI Use
 
-AI will appear in three related ways. First, students will use the anonymous course-provided Data Search and Retrieval Assistant to locate data for in-class mini-project work and the Project Feedback Assistant to receive formative feedback. Second, we will study AI-related claims and systems as subjects of statistical inquiry: What data are used? What errors are possible? What uncertainty is reported or missing? What decisions might follow? Third, students may use other AI tools for brainstorming, coding help, revision, and explanation when permitted, while remaining responsible for their own reasoning and final work.
+AI will appear in three related ways. First, students will use the course-provided Data Search and Retrieval Assistant to locate data for in-class mini-project work and the Project Feedback Assistant to receive formative feedback. Second, we will study AI-related claims and systems as subjects of statistical inquiry: What data are used? What errors are possible? What uncertainty is reported or missing? What decisions might follow? Third, students may use other AI tools for brainstorming, coding help, revision, and explanation when permitted, while remaining responsible for their own reasoning and final work.
 
-Use of the two course-provided assistants is anonymous. The course and instructional team will not collect or retain students' assistant conversations, and assistant interaction histories will not be used for grading, assessment, participation tracking, research, or any other form of evaluation. Students do not submit prompts or conversation transcripts. Students will also be invited to provide anonymous, ungraded feedback about retrieval failures, unclear responses, missing data, variable-definition problems, and other ways the assistants could be improved.
+Students may sign in with their provided PingPong accounts or use the public links without signing in. Signed-in use is not anonymous but remains confidential and allows conversations and progress to be saved. Public-link use requires no account and is anonymous, but progress may not be saved. Assistant conversations are not part of the course record, and interaction histories will not be used for grading, assessment, participation tracking, research, or any other course evaluation. Students do not submit prompts or conversation transcripts. Students will also be invited to provide anonymous, ungraded feedback about retrieval failures, unclear responses, missing data, variable-definition problems, and other ways the assistants could be improved.
 
 The course treats AI neither as magic nor as something to ban or ignore. Statistics is one of the pillars of AI development and also offers important ways to understand and use AI rigorously and responsibly. We will use statistical reasoning to ask what AI-related claims can and cannot show, and we will practice checking data provenance, definitions, units, coverage, missingness, and substantive plausibility rather than treating an assistant response as authoritative.
 
@@ -167,13 +169,14 @@ The course-provided Data Search and Retrieval Assistant and Project Feedback Ass
 
 For the course-provided assistants:
 
-- Use is anonymous and is not evaluated.
-- Do not enter names, UNI identifiers, contact information, private information, or confidential data.
+- Choose either signed-in access, which is confidential and saves progress, or public-link access, which is anonymous but may not save progress.
+- Assistant use is not evaluated.
+- Do not enter unnecessary identifying information, private information, or confidential data.
 - Do not submit conversation histories, screenshots, or prompt logs.
 - Check data sources, variable definitions, units, geographic and temporal coverage, missingness, and plausibility before using retrieved data.
 - Treat assistant feedback as a suggestion to evaluate, not as a grade or an authoritative answer.
 
-Students do not need to disclose or document their use of the two course-provided anonymous assistants. Meaningful use of other AI tools on submitted project work must be acknowledged. A suitable acknowledgment includes:
+Students do not need to disclose or document their use of the two course-provided assistants. Meaningful use of other AI tools on submitted project work must be acknowledged. A suitable acknowledgment includes:
 
 - What tool was used.
 - What it was used for.

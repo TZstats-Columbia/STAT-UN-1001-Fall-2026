@@ -20,8 +20,7 @@ This course is a friendly introduction to statistical concepts and reasoning. We
 
 - [OpenIntro Statistics](https://www.openintro.org/book/os/) (free textbook and resources)
 - [Veridical Data Science](https://vdsbook.com/) (selected readings and ideas)
-- [Data Search and Retrieval Assistant](https://pingpong.hks.harvard.edu/group/735?assistant=3600) (anonymous, ungraded use) — **WAIT for invitation to join after first class.**
-- [Project Feedback Assistant](https://pingpong.hks.harvard.edu/group/735?assistant=3591) (anonymous formative feedback) — **WAIT for invitation to join after first class.**
+- [Data Search and Retrieval Assistant](https://pingpong.hks.harvard.edu/group/735?assistant=3600) (ungraded; account or public-link access) — **WAIT for the in-class introduction.**
+- [Project Feedback Assistant](https://pingpong.hks.harvard.edu/group/735?assistant=3591) (ungraded formative feedback; account or public-link access) — **WAIT for the in-class introduction.**
 
-**Assistant privacy:** the instructional team will not collect or retain assistant conversations or use interaction histories for grading, assessment, participation tracking, research, or evaluation. Never enter identifying, private, or confidential information.
-
+**Assistant access and privacy:** signing in with your provided PingPong account saves progress but is not anonymous; account-linked use remains confidential. The public links require no login and provide anonymous access, but progress may not be saved. Assistant histories are not part of the course record and are not used for grading, assessment, participation tracking, research, or evaluation. Never enter unnecessary identifying, private, or confidential information.

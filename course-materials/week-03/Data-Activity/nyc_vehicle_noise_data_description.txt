@@ -1,0 +1,53 @@
+NYC Vehicle-Noise Complaints: Data Description
+
+QUESTION
+The original question was about ambulance noise in New York City. Because the NYC 311 data used here does not identify ambulance sirens specifically, the dataset was narrowed to general vehicle-noise complaints.
+
+PREDICTION BEFORE LOOKING AT THE DATA
+The prediction was that vehicle-noise complaints would be more common at night, based on personal experience.
+
+SOURCE
+New York City 311 Service Requests, NYC Open Data.
+Dataset ID: erm2-nwe9
+Complaint category: Noise - Vehicle
+
+DATE RANGE
+April 1, 2026 through August 31, 2026.
+
+WHAT ONE ROW REPRESENTS
+One row represents one calendar date. The file contains daily counts of qualifying NYC 311 vehicle-noise complaints during the defined nighttime and daytime periods.
+
+TIME DEFINITIONS
+Night: 10:00 PM through 5:59 AM (8 hours).
+Day: 6:00 AM through 9:59 PM (16 hours).
+
+COLUMNS
+date
+The calendar date, formatted YYYY-MM-DD.
+
+night_complaints
+The number of Noise - Vehicle 311 complaints assigned to that calendar date whose creation time falls between 10:00 PM and 5:59 AM.
+
+day_complaints
+The number of Noise - Vehicle 311 complaints assigned to that calendar date whose creation time falls between 6:00 AM and 9:59 PM.
+
+night_complaints_per_hour
+The nighttime complaint count divided by 8, because the nighttime window contains 8 hours.
+
+day_complaints_per_hour
+The daytime complaint count divided by 16, because the daytime window contains 16 hours.
+
+WHY HOURLY RATES ARE INCLUDED
+The daytime period is twice as long as the nighttime period. Comparing raw counts alone would therefore compare unequal amounts of time. The per-hour columns adjust the daily counts for the lengths of the two time windows.
+
+HOW THESE DATA CAME TO EXIST
+A person first had to experience or notice vehicle noise and choose to contact NYC 311. The service request was then recorded and categorized as Noise - Vehicle, with a creation date and time. The daily dataset was made by counting qualifying records according to their creation time.
+
+IMPORTANT LIMITATIONS
+These data measure 311 complaints about vehicle noise, not every vehicle-noise event in New York City. A noise event that generated no 311 complaint does not appear. The category is general vehicle noise and does not specifically identify ambulances. Differences in people's willingness or ability to contact 311 can also affect which events become records.
+
+There is also a calendar-date detail in the nighttime definition: complaints from 12:00 AM through 5:59 AM and complaints from 10:00 PM through 11:59 PM are assigned according to their ordinary calendar date. The file does not combine 11:00 PM on one date with 2:00 AM on the following date into a single continuous 'night.'
+
+FILE SHAPE
+152 daily rows.
+5 columns: date, night_complaints, day_complaints, night_complaints_per_hour, day_complaints_per_hour.

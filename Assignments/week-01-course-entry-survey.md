@@ -59,7 +59,7 @@ This short survey will help the instructional team understand what brings you to
 1. Canvas can record who completed an anonymous graded survey while separating identities from the written answers. The student-facing language should therefore distinguish **anonymous answers** from the non-anonymous completion record used to award credit.
 2. Classic Quizzes does not reliably enforce a minimum word count for essay responses. The 20-word requirement should appear in the instructions and every question, but compliance cannot be checked student-by-student without weakening anonymity.
 3. Download responses from the survey's **Quiz Statistics** area using the **Student Analysis** CSV. Remove or avoid any identifying metadata before analysis, if Canvas includes it in the export.
-4. Each other flipped activity is currently worth 1 point. The published 5-point survey therefore counts five times as much as one flipped activity within the 10% Flipped Activities category. Review this relative weighting before final grades are calculated.
+4. The Week 1 survey is worth 5 points, while regular weekly flipped activities are planned at 10 points. Review the relative weighting within the 10% Flipped Activities category before final grades are calculated.
 
 ### Completion grading
 

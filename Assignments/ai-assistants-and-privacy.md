@@ -7,14 +7,17 @@ STAT UN1001 provides two assistants for mini-project work:
 
 The assistants use research tools developed through [Learning the Earth with Artificial Intelligence and Physics (LEAP)](https://leap.columbia.edu/), an NSF Science and Technology Center. LEAP works to improve near-term climate projections by combining data, machine learning, physical modeling, and climate-science expertise. Professor Tian Zheng is LEAP's Deputy Director, Chief Convergence Officer, and Education Director.
 
-## Privacy and Evaluation
+## Access, Privacy, and Evaluation
 
-Your use of these assistants is anonymous.
+You may use either access option:
 
-- The course and instructional team will not collect or retain your assistant conversations.
+- **Sign in with your provided PingPong account:** your use is not anonymous, but it remains confidential. Signing in allows PingPong to save your conversations and progress so that you can return to them later.
+- **Use the public links without signing in:** no account is required and your use is anonymous, but your conversation or progress may not be saved. Copy or download anything you need before leaving the session.
+
+- Assistant conversations are not part of the course record and will not be requested or collected through CourseWorks assignments.
 - Assistant interaction histories will not be used for grades, assessment, participation tracking, research, or any other evaluation.
 - Do not submit prompts, screenshots, conversation transcripts, or records of how often you used an assistant.
-- Do not enter your name, UNI, email address, contact information, private information, or confidential data.
+- Do not enter unnecessary identifying information, private information, or confidential data in either access mode.
 - Your grade is based only on the statistical work you intentionally submit.
 
 You do not need to acknowledge or document use of these two course-provided assistants. Meaningful use of other AI tools must follow the course AI policy.

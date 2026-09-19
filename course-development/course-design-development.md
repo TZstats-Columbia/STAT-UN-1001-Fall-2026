@@ -8,7 +8,7 @@ This document combines the course design rationale, development plan, and idea p
 - Make statistical reasoning rigorous without making computation the gatekeeper.
 - Treat AI as an object of inquiry and a tool for efficiency, not as a belief system.
 - Use AI contexts only when they help students better understand data, uncertainty, evidence, prediction, error, bias, or decision-making.
-- Use the anonymous course-provided assistants to reduce data-access barriers and support revision while keeping students' statistical reasoning—not tool use—as the object of assessment.
+- Use the course-provided assistants through confidential signed-in or anonymous public-link access to reduce data-access barriers and support revision while keeping students' statistical reasoning—not tool use—as the object of assessment.
 - Start grade-bearing assessments after Week 3 to accommodate late registration.
 - Use a semi-flipped rhythm: release flipped activities by Thursday, collect by Monday evening, analyze before Tuesday, and use Thursday for activity/project design.
 - Use OpenIntro as the stable statistical backbone and VDS as the project/trustworthiness backbone.
@@ -74,7 +74,7 @@ Potential developer-supported assets, in priority order:
 - Classification threshold simulator.
 - AI claim critique worksheet or Canvas form.
 
-### Course-Provided Anonymous Assistants
+### Course-Provided Assistants
 
 - [Data Search and Retrieval Assistant](https://pingpong.hks.harvard.edu/group/735?assistant=3600): supports access to weather variables, environmental sensor data, disaster-response data, and 311 complaint data.
 - [Project Feedback Assistant](https://pingpong.hks.harvard.edu/group/735?assistant=3591): gives formative feedback on project questions, data descriptions, analysis choices, visualizations, interpretations, and limitations.
@@ -83,10 +83,11 @@ The assistants use research tools developed through [Learning the Earth with Art
 
 Operational and privacy rules:
 
-- Use is anonymous and assistant interaction histories are not part of the course record.
-- The instructional team does not collect or retain conversations and does not use them for grading, assessment, participation tracking, research, or any other evaluation.
+- Students may sign in with their provided PingPong accounts. Signed-in use is not anonymous but remains confidential and saves conversations and progress.
+- Students may instead use the public links without signing in. Public-link use is anonymous, but conversations or progress may not be saved.
+- Assistant interaction histories are not part of the course record. The instructional team does not request or collect them through course assignments and does not use them for grading, assessment, participation tracking, research, or any other course evaluation.
 - Students submit statistical artifacts, not prompts, screenshots, conversation logs, or frequency-of-use records.
-- Students are instructed not to enter identifying, private, or confidential information.
+- Students are instructed not to enter unnecessary identifying, private, or confidential information.
 - Students verify provenance, definitions, units, geographic and temporal coverage, missingness, and plausibility before analyzing retrieved data.
 - Students may provide anonymous, ungraded feedback on failures, missing data, unclear responses, and desired improvements.
 
@@ -98,10 +99,10 @@ Operational and privacy rules:
 | Weekly modules | Canvas-ready modules with readings, videos, flipped activities, activity analytics, and in-class plans | Unpublished scaffold built; assistant/project revision in progress |
 | Quiz bank | Six 20-minute paper quiz forms aligned with final exam question formats, Gradescope rubrics, practice questions, and scanning workflow | Not started |
 | Project sequence | Mini-project prompts, peer-review forms, final project rubric | Redesigned around in-class assistant-supported data investigations |
-| AI policy | Student-facing privacy, verification, and acknowledgment guidance | Revised for anonymous course assistants |
+| AI policy | Student-facing privacy, access, verification, and acknowledgment guidance | Revised for signed-in and public-link access |
 | Instructional operations | TA guide, weekly rhythm, grading norms, office hour coverage, communication protocols | Started |
 | Canvas build | Modules, flipped activities, assignments, rubrics, groups, gradebook, late-registration catch-up | Unpublished scaffold built; project content being revised |
-| Assistant integration | Introduce, test, and improve the anonymous data and feedback assistants | In progress |
+| Assistant integration | Introduce, test, and improve the data and feedback assistants across both access modes | In progress |
 | Gradescope setup | Quiz and final exam templates, scanning workflow, regrade policy, TA calibration | Not started |
 
 ## Suggested Timeline
@@ -243,14 +244,17 @@ Learning objectives:
 
 Flipped activity:
 
-- Due Monday, Sep 14.
-- Read OpenIntro Chapter 1 sections on data basics, data collection, sampling, and experiments.
-- Watch selected videos on data basics, data collection, sampling, and experiments.
-- Classify short scenarios by study type and identify what can and cannot be concluded.
+- Due Tuesday, Sep 15 at 5:00 a.m. EDT in Canvas.
+- Complete the ChatGPT on Your Brain worksheet before checking its summary, then use the summary to self-grade.
+- Read all sections of OpenIntro Statistics Chapter 1.
+- Complete a zero-point, nine-question practice quiz with immediate correctness and explanatory feedback. Wrong answers do not reduce the course grade.
+- Complete a 10-point anonymous preparation check-in after the practice quiz. It records worksheet, reading, and quiz completion; rates confidence across six major concept groups; and collects optional questions for class.
+- The practice quiz adapts OpenIntro exercises 1.6, 1.17, 1.26, 1.30, and 1.37 and adds four questions about study design, cases and variables, sampling/generalization, and proxy-measurement bias using the urban-rat complaint story.
+- Canvas requires the practice quiz to be submitted before the completion check-in. Both components are downloadable for aggregate analysis. The local student-facing specifications and answer key are in `../course-materials/week-02/`.
 
 Tuesday:
 
-- Use flipped responses to target random sampling vs random assignment.
+- Use the preparation ratings, student questions, and item-level quiz results to target random sampling vs random assignment and other common confusions.
 - Work through a causal claim involving an algorithm or AI system, emphasizing study design rather than technical AI details.
 - Discuss how good design can make simple statistics powerful.
 
@@ -262,7 +266,7 @@ Thursday:
 
 Project arc activities:
 
-- Introduce the anonymous Data Search and Retrieval Assistant.
+- Introduce the Data Search and Retrieval Assistant and explain confidential signed-in versus anonymous public-link access.
 - Mini-project 0 begins with a question and retrieval trial using weather, sensor, disaster-response, or 311 data.
 - Ask: Who or what is represented? Who or what is missing? How were the data generated?
 - Begin Mini-project 1 so students can document provenance, definitions, units, coverage, and missingness.
@@ -292,14 +296,16 @@ Learning objectives:
 Flipped activity:
 
 - Due Monday, Sep 21.
-- Read OpenIntro Chapter 2 sections on numerical and categorical data.
-- Watch selected videos on examining numerical data and considering categorical data.
-- Complete a guided exploration of a small dataset: identify variable types, choose summaries, and interpret one graph.
+- Read all sections of OpenIntro Chapter 2 with the practice quiz open alongside the book.
+- Complete a 0-point, 20-question autograded learning quiz with original accessible plots and immediate explanatory feedback. Questions revisit Figure 2.2, Figure 2.5, Figure 2.23, Guided Practice 2.23, and ideas from Exercises 2.2, 2.8, 2.9, 2.10, 2.12, 2.20, 2.22, 2.26, and 2.31.
+- Practice mean notation and computation; 0/1 variables as counts and proportions; binned counts; median, quartiles, mode, skew, and histogram/box-plot matching; contingency tables and conditional proportions; and comparison of distributions.
+- Submit an anonymous 10-point completion check-in about mean-equation anxiety, conceptual barriers, whether a five-number example helped, variance/standard-deviation questions, and which Figure 2.23-style display is easiest to understand.
+- Exercise 2.20 is introduced as a difficult good-attempt item and reserved for fuller in-class discussion.
 
 Tuesday:
 
 - Discuss common graph-reading and variable-type confusions.
-- Use student responses to compare mean vs median and proportion vs count.
+- Use anonymous preparation responses to compare mean vs median and proportion vs count, unpack the mean equation, and prioritize students' questions about variance and standard deviation.
 - Introduce why the same data can support multiple stories.
 
 Thursday:
@@ -353,8 +359,8 @@ Tuesday:
 
 Thursday:
 
-- Quiz 1.
-- Short debrief or reflection if time remains.
+- Launch Mini-project 2 and complete a short review or reflection.
+- Quiz 1 during the final 20 minutes of class.
 
 Project arc activities:
 
@@ -450,8 +456,9 @@ Tuesday:
 
 Thursday:
 
-- Quiz 2.
 - Short reflection: what made a probability question difficult?
+- Launch Mini-project 3 and complete related class work.
+- Quiz 2 during the final 20 minutes of class.
 
 Project arc activities:
 
@@ -544,8 +551,9 @@ Tuesday:
 
 Thursday:
 
-- Quiz 3.
-- Optional debrief: "What does an interval add beyond a point estimate?"
+- Discuss: "What does an interval add beyond a point estimate?"
+- Complete the Mini-project 3 submission or checkpoint.
+- Quiz 3 during the final 20 minutes of class.
 
 Project arc activities:
 
@@ -634,8 +642,8 @@ Tuesday:
 
 Thursday:
 
-- Quiz 4.
-- If time permits, short peer-review setup for project claims.
+- Peer-review setup and workshop for project claims.
+- Quiz 4 during the final 20 minutes of class.
 
 Project arc activities:
 
@@ -719,8 +727,8 @@ Flipped activity:
 
 Tuesday:
 
-- Quiz 5.
-- If time remains, brief introduction to slope interpretation and association vs causation.
+- Brief introduction to slope interpretation and association versus causation.
+- Quiz 5 during the final 20 minutes of class.
 
 Thursday:
 
@@ -768,8 +776,8 @@ Tuesday:
 
 Thursday:
 
-- Quiz 6.
-- Short wrap-up: data-based claims, statistical reasoning, and trustworthy conclusions.
+- Course wrap-up: data-based claims, statistical reasoning, and trustworthy conclusions.
+- Quiz 6 during the final 20 minutes of class.
 
 Project arc activities:
 
@@ -938,7 +946,7 @@ Open decision:
 Across all five tasks:
 
 - The Data Search and Retrieval Assistant supports data access; the Project Feedback Assistant supports revision.
-- Assistant use is anonymous and ungraded, and conversation histories are never submitted.
+- Assistant use is ungraded. Signed-in use is confidential and saves progress; public-link use is anonymous but may lose progress. Conversation histories are never submitted.
 - Students may send anonymous, ungraded improvement feedback about the assistants.
 - Grading concerns the statistical artifact the student intentionally submits.
 
