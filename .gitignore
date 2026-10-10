@@ -35,6 +35,8 @@
 
 # Local operational state
 /course-materials/canvas-sync-state.md
+/course-development/development-log.md
+/course-development/sources/
 
 # Explicitly document private assistant context
 /AGENTS.md
