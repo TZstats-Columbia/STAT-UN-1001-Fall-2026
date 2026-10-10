@@ -16,7 +16,14 @@ Current structure:
 - `week-03/flipped-activity.md`: Chapter 2 reading workflow and anonymous preparation check-in specification.
 - `week-03/chapter-02-practice-quiz.md`: 20-question autograded practice-quiz map, answer key, plot inventory, and attribution.
 - `week-03/assets/`: nine original, accessible statistical plots used in the practice quiz.
-- `week-01` through `week-13`: weekly folders for flipped activities, class activities, datasets, handouts, quiz prep, and project materials.
+- `week-03/lecture-05-week-03-describing-data.pptx`: 30-slide Tuesday lecture deck in the Week 02 visual style, using the Week 03 practice-quiz questions and plots for discussion, worked answers, and synthesis.
+- `week-03/tuesday-plan.md`: preparation-data-informed plan that consolidates all Chapter 2 concepts in Tuesday's 75-minute meeting.
+- `week-03/thursday-activity.md`: project-centered discussion, work, consultation, and peer-critique plan with no new Chapter 2 lecture content.
+- `week-04/overview.md`: local summary of the Week 04 Canvas overview after the categorical-data and probability-preview update.
+- `week-04/flipped-activity.md`: student-facing workflow for categorical tables, OpenIntro Chapter 3.1-3.2 probability preview, and anonymous preparation check-in.
+- `week-04/chapter-02-03-practice-quiz.md`: 18-question autograded practice-quiz map covering one-way tables, two-way tables, Venn diagrams, probability rules, complements, and independence.
+- `week-04/assets/phone-computer-venn.png`: original accessible Venn diagram used in the Week 04 practice quiz.
+- `week-01` through `week-14`: weekly folders for flipped activities, class activities, datasets, handouts, quiz prep, and project materials.
 
 The master week-by-week design lives in:
 

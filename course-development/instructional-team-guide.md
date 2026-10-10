@@ -102,13 +102,13 @@ Useful output for the instructor is a short weekly note, not a long report. A go
 
 ## Quiz Week Flow
 
-On most quiz weeks, Thursday may be used for the 20-minute quiz plus a shorter activity or debrief. Quiz 5 is the Thanksgiving-week exception and is scheduled for Tuesday, November 24.
+On most quiz weeks, Thursday may be used for the 15-minute quiz plus a shorter activity or debrief. Quiz 5 is the Thanksgiving-week exception and is scheduled for Tuesday, November 24.
 
 Suggested quiz-day flow:
 
 - First portion of class: lecture, application, project work, review, or reflection.
-- Before the final 20 minutes: pause the class activity, distribute the quiz, and clarify logistics only.
-- Final 20 minutes: quiz.
+- Before the final 15 minutes: pause the class activity, distribute the quiz, and clarify logistics only.
+- Final 15 minutes: quiz.
 - At the end of class: collect and organize papers for scanning.
 
 After class:
@@ -138,7 +138,7 @@ Do not reward unsupported certainty, even when the computation is correct.
 
 ## Quiz Grading
 
-Quizzes are 20-minute paper assessments worth 20% of the course grade, with the lowest quiz score dropped. They use question formats similar to the cumulative final exam, but quiz questions should be more focused and less variable in difficulty. They will be scanned and graded in Gradescope by TAs.
+Quizzes are 15-minute paper assessments worth 20% of the course grade, with the lowest quiz score dropped. They use question formats similar to the cumulative final exam, but quiz questions should be more focused and less variable in difficulty. They will be scanned and graded in Gradescope by TAs.
 
 Before grading:
 

@@ -97,7 +97,7 @@ Operational and privacy rules:
 |---|---|---|
 | Syllabus | Student-facing syllabus with weekly plan and assessment scheme | Started |
 | Weekly modules | Canvas-ready modules with readings, videos, flipped activities, activity analytics, and in-class plans | Unpublished scaffold built; assistant/project revision in progress |
-| Quiz bank | Six 20-minute paper quiz forms aligned with final exam question formats, Gradescope rubrics, practice questions, and scanning workflow | Not started |
+| Quiz bank | Six 15-minute paper quiz forms aligned with final exam question formats, Gradescope rubrics, practice questions, and scanning workflow | Not started |
 | Project sequence | Mini-project prompts, peer-review forms, final project rubric | Redesigned around in-class assistant-supported data investigations |
 | AI policy | Student-facing privacy, access, verification, and acknowledgment guidance | Revised for signed-in and public-link access |
 | Instructional operations | TA guide, weekly rhythm, grading norms, office hour coverage, communication protocols | Started |
@@ -184,7 +184,7 @@ Timing note:
 
 - Week 1 has no pre-course Monday flipped deadline.
 - Beginning Week 2, each flipped activity is posted by the previous Thursday and due Monday evening before Tuesday class.
-- Suggested week folders have been created in `course-materials/week-01` through `course-materials/week-13` for later Canvas-ready materials.
+- Suggested week folders have been created in `course-materials/week-01` through `course-materials/week-14` for later Canvas-ready materials.
 
 ### Week 1: Sep 8 and Sep 10
 
@@ -304,15 +304,14 @@ Flipped activity:
 
 Tuesday:
 
-- Discuss common graph-reading and variable-type confusions.
-- Use anonymous preparation responses to compare mean vs median and proportion vs count, unpack the mean equation, and prioritize students' questions about variance and standard deviation.
-- Introduce why the same data can support multiple stories.
+- Consolidate all Chapter 2 concepts so Thursday can be reserved for project discussion and work.
+- Use the flipped results to prioritize binned counts and boundary values; quartiles/IQR and box plots; mean notation and 0/1 indicators; variance and standard deviation; and contingency tables with row and column conditional proportions.
+- Rapidly retrieve stronger concepts: association and nonlinearity, direct mean calculation, modes, skew, histogram/box-plot matching, log transformations, and full distribution comparisons.
 
 Thursday:
 
-- Activity: graph choice and claim discipline.
-- Students match claims to graphs and identify overstatements.
-- No major grade-bearing assessment; continue onboarding.
+- Use the full meeting for Mini-project 0 discussion, Mini-project 1 data-biography development, retrieval troubleshooting, instructor/TA consultations, peer critique, and revision.
+- Introduce no new Chapter 2 content; apply Chapter 2 language only when it helps students clarify variables, data structure, visual choices, or limitations.
 
 Project arc activities:
 
@@ -332,7 +331,7 @@ Suggested contents:
 
 ### Week 4: Sep 29 and Oct 1
 
-Statistical focus: Comparison, variability, probability foundations, and Quiz 1.
+Statistical focus: Comparison, variability, probability foundations, conditional probability, and Quiz 1.
 
 Learning objectives:
 
@@ -340,6 +339,7 @@ Learning objectives:
 - Recognize variability within and between groups.
 - Connect descriptive evidence to cautious statistical claims.
 - Explain probability as a way to reason about uncertainty and chance variability.
+- Use probability rules, complements, and probability trees to reason about conditional probability.
 - Practice final-exam-like question formats through Quiz 1.
 
 Flipped activity:
@@ -347,25 +347,24 @@ Flipped activity:
 - Due Monday, Sep 28.
 - Compare two visualizations or summaries of the same data.
 - Explain which display better supports a given claim and what limitation remains.
-- Complete a short first-pass probability prompt using everyday uncertainty.
+- Complete a short first-pass probability prompt using everyday uncertainty, probability rules, complements, and probability trees.
 - Submit one question for Quiz 1 review.
 
 Tuesday:
 
 - Target persistent descriptive-statistics issues.
-- Introduce probability as language for chance variability.
+- Introduce probability as language for chance variability, including complements and conditional probability trees.
 - Practice short-answer explanations in quiz/final format.
 - Discuss how visualizations can clarify or distort.
 
 Thursday:
 
-- Launch Mini-project 2 and complete a short review or reflection.
-- Quiz 1 during the final 20 minutes of class.
+- Complete Mini-project 1 and complete a short review or reflection.
+- Quiz 1 during the final 15 minutes of class.
 
 Project arc activities:
 
 - Complete Mini-project 1 data biography and retrieval audit.
-- Launch Mini-project 2: an exploratory data story using visual and numerical summaries of retrieved data.
 - Students identify how the data were produced and what claims they can and cannot support.
 - VDS connection: data preparation and exploratory data analysis.
 
@@ -373,105 +372,110 @@ Suggested contents:
 
 - [OpenIntro Chapter 2 slides](https://www.openintro.org/go/?id=slide_stat_latex_summarizing_data&referrer=/book/os/index.php): modify; use selected comparison visuals and avoid turning Tuesday into a slide lecture.
 - [OpenIntro video 2.3: Case study](https://www.openintro.org/go/?id=video_stat_gender_discrimination&referrer=/book/os/index.php): modify; use as optional enrichment or a bridge to inference, since the course has not formally reached inference yet.
+- [OpenIntro video 3.1: Defining probability](https://www.openintro.org/go/?id=video_stat_defining_probability&referrer=/book/os/index.php): use directly for first-pass probability foundations.
+- [OpenIntro video 3.2: Probability trees](https://www.openintro.org/go/?id=video_stat_probability_trees&referrer=/book/os/index.php): use directly for conditional probability, ideally with a short tree/table prompt.
 - [VDS Chapter 5: Exploratory Data Analysis](https://vdsbook.com/05-data_viz): modify; use selected framing on EDA as learning about data, not just making attractive plots.
 - [OpenIntro Data Sets](https://www.openintro.org/data/): use directly; choose a dataset with both categorical and numerical variables for group comparison.
 
 ### Week 5: Oct 6 and Oct 8
 
-Statistical focus: Conditional probability, risk, simulation, and chance models.
+Statistical focus: Probability word problems, sampling from small populations, random variables, and continuous distributions.
 
 Learning objectives:
 
-- Interpret probability as long-run frequency or degree of uncertainty in context.
-- Use tables or trees to reason about conditional probability.
-- Recognize base-rate neglect and false-positive/false-negative tradeoffs.
-- Use simulation or repeated trials to connect probability to chance variability.
-- Communicate risk without exaggeration.
+- Distinguish joint, marginal, and conditional probability in a table or word problem.
+- Explain sampling from a small population as a chance process.
+- Explain the difference between sampling with replacement and sampling without replacement.
+- Explain a random variable in context.
+- Use expected value and variability to summarize a random variable conceptually.
+- Interpret continuous distributions and areas under curves at an introductory level.
 
 Flipped activity:
 
 - Due Monday, Oct 5.
-- Read OpenIntro Chapter 3 sections on probability and conditional probability.
-- Watch videos on defining probability and probability trees.
-- Work through an AI detector, medical-screening, fraud-detection, or spam-filter example using a two-way table.
-- Complete a short simulation or repeated-trials prompt.
+- Read OpenIntro Chapter 3.2-3.5, with Section 3.5 treated as conceptual reading.
+- Complete a practice quiz built around OpenIntro Exercise 3.15, Guided Practice 3.52, Exercise 3.24, and an Example 3.56-style random-variable problem.
+- Practice identifying chance process, sample space, event of interest, probability sentence, and rule.
+- Answer concept questions on replacement, population size, random variables, expected value, variance intuition, and continuous distributions.
 
 Tuesday:
 
-- Address conditional probability reversals from flipped responses.
-- Use a natural-frequency table before formulas.
-- Connect probability calculations to simple simulations.
-- Discuss why algorithmic accuracy claims can be misleading without base rates.
+- Begin with a no-slides Google Sheets demonstration of simple summaries and tables.
+- Address confusion about denominators in joint, marginal, and conditional probabilities.
+- Work through probability word problems using chance process, sample space, event of interest, probability sentence, and rule choice.
+- Use probability trees to organize conditional probabilities and extend to more than two events.
 
 Thursday:
 
-- Activity: "Would you trust this alert?"
-- Students compare two systems with different false-positive and false-negative rates.
-- Students interpret a simulated distribution of outcomes.
-- Connect probability to policy, medicine, safety, AI writing detectors, fraud detection, or content moderation.
+- Transition from probability models to random variables and distributions.
+- Students inspect repeated draws from a small population.
+- Students define a random variable and summarize its distribution.
+- Students interpret expected value and variance conceptually.
+- Students interpret a continuous-distribution picture using area/probability language.
 
 Project arc activities:
 
-- Complete Mini-project 2 exploratory data story.
-- Use the Project Feedback Assistant formatively, then revise the submitted claim, graph, and limitation using students' own judgment.
-- Students submit the revised statistical artifact, not the feedback conversation.
-- Use the reusable AI claim critique template for students who choose an AI-related example.
+- Probability practice and Mini-project 1 wrap-up only; no new project is due this week.
+- Use probability language to distinguish observed patterns from quantities that could vary under repeated sampling or a chance process.
 - VDS connection: evaluating what result would be useful in the domain context.
 
 Suggested contents:
 
-- [OpenIntro video 3.1: Defining probability](https://www.openintro.org/go/?id=video_stat_defining_probability&referrer=/book/os/index.php): use directly.
-- [OpenIntro video 3.2: Probability trees](https://www.openintro.org/go/?id=video_stat_probability_trees&referrer=/book/os/index.php): use directly, but pair with a natural-frequency table for accessibility.
-- [OpenIntro video: Would you take this bet?](https://www.openintro.org/go/?id=video_stat_would_you_take_this_bet&referrer=/book/os/index.php): use directly or as optional; good for risk intuition.
-- [OpenIntro Lab: Probability](https://www.openintro.org/book/statlabs/?statlab=probability): modify; use a short guided version with minimal computation.
-- [OpenIntro Chapter 3 slides](https://www.openintro.org/go/?id=slide_stat_latex_probability&referrer=/book/os/index.php): modify; select a few examples for Tuesday/Thursday.
+- [OpenIntro slides 3.3: Sampling from a small population](https://www.openintro.org/go/?id=slide_stat_gdocs_sampling_from_a_small_population&referrer=/book/os/index.php): modify; use selected examples with simulation or repeated draws.
+- [OpenIntro slides 3.4: Random variables](https://www.openintro.org/go/?id=slide_stat_gdocs_random_variables&referrer=/book/os/index.php): modify; slides may be more efficient here than assigning a full reading.
+- [OpenIntro slides 3.5: Continuous distributions](https://www.openintro.org/go/?id=slide_stat_gdocs_continuous_distributions&referrer=/book/os/index.php): modify; keep conceptual and visual.
+- OpenIntro Exercise 3.15, Guided Practice 3.52, Exercise 3.24, and Example 3.56: use directly or lightly adapt for scaffolded practice with immediate feedback.
+- [OpenIntro Lab: Probability](https://www.openintro.org/book/statlabs/?statlab=probability): modify; use only pieces that support replacement, random variables, and probability intuition.
+- [OpenIntro video: Would you take this bet?](https://www.openintro.org/go/?id=video_stat_would_you_take_this_bet&referrer=/book/os/index.php): optional application only; useful for probability intuition but not the organizing concept for the week.
 
 ### Week 6: Oct 13 and Oct 15
 
-Statistical focus: Random variables, normal/binomial models, sampling distributions, and Quiz 2.
+Statistical focus: Bayes, random variables, normal and binomial models, and Quiz 2.
 
 Learning objectives:
 
-- Explain a random variable in context.
-- Use simulation to model repeated random trials.
-- Compare observed results to what a chance model would produce.
-- Recognize when normal and binomial models are reasonable approximations.
-- Explain sampling variability using repeated samples.
+- Use probability trees to compute marginal probabilities and reversed conditional probabilities.
+- Recognize Bayes' rule as a way to reverse conditional probability.
+- Identify random variables and compute expected value for simple discrete distributions.
+- Apply simple linear-combination rules for the mean and standard deviation of `aX + b`.
+- Interpret normal distributions using center, spread, and area.
+- Recognize binomial settings at an introductory level.
 - Distinguish a model from reality.
 
 Flipped activity:
 
 - Due Monday, Oct 12.
-- Read OpenIntro Chapter 3/4 material on random variables, normal/binomial models, and sampling distributions as appropriate.
-- Complete a short simulation using an applet, spreadsheet, or guided template.
-- Predict what changes when sample size increases.
-- Explain what is being repeated and what result would count as surprising.
+- Review OpenIntro Chapter 3.2 probability trees and conditional probability.
+- Read OpenIntro Chapter 3.4 on random variables, expected value, and linear combinations of random variables.
+- Preview only OpenIntro Chapter 4.1 normal distributions and Chapter 4.3 binomial distributions.
+- Complete a practice quiz on Bayes-style reasoning, random variables, expected value, simple linear combinations, and first-pass normal/binomial concepts.
 
 Tuesday:
 
-- Use flipped responses to clarify simulation logic.
-- Practice translating a real question into a chance model.
-- Use visual simulation to connect repeated samples to sampling distributions.
+- Use flipped responses to clarify probability trees, Bayes-style reasoning, random variables, expected value, and linear combinations.
+- Practice translating `P(B | A)` and `P(A | B)` into words.
+- Use visual tools to preview normal and binomial models without expanding to other named distributions.
 - Prepare for Quiz 2 with final-exam-like short-answer practice.
 
 Thursday:
 
-- Short reflection: what made a probability question difficult?
-- Launch Mini-project 3 and complete related class work.
-- Quiz 2 during the final 20 minutes of class.
+- Short reflection: what made a probability, random-variable, or model question difficult?
+- Launch Mini-project 2 and complete related class work.
+- Quiz 2 during the final 15 minutes of class.
 
 Project arc activities:
 
-- Launch Mini-project 3 using retrieved data to study chance, variability, and uncertainty.
-- Students explain one observed pattern, what process could create variability, and one important limitation.
+- Launch Mini-project 2: an exploratory data story using visual and numerical summaries of retrieved data.
+- Students describe one observed pattern carefully and state one important limitation.
 - VDS connection: exploratory analysis as part of a nonlinear data science life cycle.
 
 Suggested contents:
 
-- [OpenIntro slides 3.4: Random variables](https://www.openintro.org/go/?id=slide_stat_random_variables&referrer=/book/os/index.php): modify; slides may be more efficient here than assigning a full reading.
-- [OpenIntro Lab: Probability](https://www.openintro.org/book/statlabs/?statlab=probability): modify; use simulation pieces only.
+- [OpenIntro Chapter 3.2 probability trees](https://www.openintro.org/book/os/): use for Bayes-style reasoning and reversed conditional probability.
+- [OpenIntro Chapter 3.4 random variables and linear combinations](https://www.openintro.org/book/os/): use directly for random variables, expected value, and simple `aX + b` mean/standard-deviation rules.
 - [OpenIntro video 4.1: Normal distribution](https://www.openintro.org/go/?id=video_stat_normal_distribution&referrer=/book/os/index.php): use directly if assigned as short flipped preparation.
 - [OpenIntro video 4.3A: Binomial distribution](https://www.openintro.org/go/?id=video_stat_binomial_distribution&referrer=/book/os/index.php): use directly or make optional depending on pace.
+- [OpenIntro video 4.3B: Normal approximation to binomial](https://www.openintro.org/go/?id=video_stat_normal_approx_to_binomial&referrer=/book/os/index.php): optional enrichment only unless explicitly taught.
 - [OpenIntro Class Activity: Sampling Distributions](https://www.openintro.org/go/?id=activity_stat_sampling_distributions&referrer=/book/os/index.php): modify; use a shortened version because Quiz 2 also happens this week.
 - [OpenIntro Normal distribution calculator](https://www.openintro.org/go/?id=stat_calc_normal&referrer=/book/os/index.php): use directly as a support tool.
 - [OpenIntro Companion Notebook](https://www.openintro.org/go/?id=os4_companion_notebook&referrer=/book/os/index.php): consider piloting; useful if Posit Cloud is adopted, but needs instructor scaffolding.
@@ -510,8 +514,8 @@ Thursday:
 
 Project arc activities:
 
-- Mini-project 3 in-class workshop: use simulation, repeated-sampling logic, or interval reasoning with retrieved data.
-- Students add an uncertainty statement to a project claim.
+- Complete Mini-project 2 exploratory data story.
+- Students revise a graph, numerical summary, interpretation, and limitation after formative feedback.
 - VDS connection: stability begins with asking "would this result change under reasonable perturbations?"
 
 Suggested contents:
@@ -552,13 +556,13 @@ Tuesday:
 Thursday:
 
 - Discuss: "What does an interval add beyond a point estimate?"
-- Complete the Mini-project 3 submission or checkpoint.
-- Quiz 3 during the final 20 minutes of class.
+- Launch Mini-project 3 and complete a first uncertainty or chance-model checkpoint.
+- Quiz 3 during the final 15 minutes of class.
 
 Project arc activities:
 
-- Mini-project 3 due or checkpoint: chance and uncertainty.
-- Students add an uncertainty statement to a project claim.
+- Launch Mini-project 3: chance, variability, and uncertainty.
+- Students begin adding an uncertainty statement to a project claim.
 - VDS connection: uncertainty from data collection and analysis choices.
 
 Suggested contents:
@@ -606,7 +610,7 @@ Project arc activities:
 
 - Students formulate a possible project hypothesis or comparison question.
 - Students who use AI-related examples must identify the comparison group, outcome, and possible decision context.
-- Mini-project 4 launches: comparison or association claim.
+- Continue Mini-project 3: chance, variability, and uncertainty.
 - VDS connection: inferential analysis as one possible DSLC stage, not the whole project.
 
 Suggested contents:
@@ -642,13 +646,13 @@ Tuesday:
 
 Thursday:
 
-- Peer-review setup and workshop for project claims.
-- Quiz 4 during the final 20 minutes of class.
+- Complete Mini-project 3 and related class work.
+- Quiz 4 during the final 15 minutes of class.
 
 Project arc activities:
 
-- Peer review workshop around comparison claims.
-- Students check whether claims match the variable types and study design.
+- Complete Mini-project 3: uncertainty, chance-model, or interval reasoning.
+- Students check whether claims match the variable types, study design, and uncertainty statement.
 - VDS connection: evaluating whether a result is relevant and stable enough to communicate.
 
 Suggested contents:
@@ -687,15 +691,15 @@ Tuesday:
 
 Thursday:
 
-- Final project proposal clinic.
+- Mini-project 4 planning workshop.
 - Activity: choose the right numerical comparison for a project-style question.
 - Short quiz-format practice for inference with numerical data.
 - If time permits, introduce slope and residuals informally through a simple scatterplot.
 
 Project arc activities:
 
-- Mini-project 4 due or checkpoint: comparison, association, or regression claim.
-- Students identify whether their final project is a comparison, association, prediction, or descriptive project.
+- Mini-project 4 launch/checkpoint: comparison, association, or regression claim.
+- Students identify whether Mini-project 4 is a comparison, association, prediction, or descriptive project.
 - VDS connection: matching analysis to domain question.
 
 Suggested contents:
@@ -728,7 +732,7 @@ Flipped activity:
 Tuesday:
 
 - Brief introduction to slope interpretation and association versus causation.
-- Quiz 5 during the final 20 minutes of class.
+- Quiz 5 during the final 15 minutes of class.
 
 Thursday:
 
@@ -736,8 +740,8 @@ Thursday:
 
 Project arc activities:
 
-- Final project proposal clinic or optional check-in before Thanksgiving.
-- Students decide what their final project claim type is and what evidence would support it.
+- Complete Mini-project 4: comparison, association, or regression claim.
+- Optional final report/reflection planning check-in before Thanksgiving.
 - Use prediction examples to distinguish prediction from explanation and decision-making.
 - VDS connection: prediction/inference as one stage in a larger project.
 
@@ -765,24 +769,24 @@ Flipped activity:
 
 - Due Monday, Nov 30.
 - Complete cumulative review prompts connecting multiple course ideas.
-- Submit two concepts to revisit and one final-project communication concern.
+- Submit two concepts to revisit and one final report/reflection communication concern.
 - Optional: revise an AI-generated statistical explanation or AI-performance claim and identify errors, missing uncertainty, or missing caveats.
 
 Tuesday:
 
 - Cumulative review driven by student-submitted questions.
-- Final project workshop: claims, limitations, and communication.
+- Final report/reflection workshop: claims, limitations, and communication.
 - Discuss responsible use of AI feedback in final revisions and how to evaluate AI-generated statistical language.
 
 Thursday:
 
-- Course wrap-up: data-based claims, statistical reasoning, and trustworthy conclusions.
-- Quiz 6 during the final 20 minutes of class.
+- Final report/reflection submission, course synthesis, and trustworthy conclusions.
+- Quiz 6 during the final 15 minutes of class.
 
 Project arc activities:
 
-- Final project workshop and communication check.
-- Students refine final claims, limitations, AI-use acknowledgment, and project abstract.
+- Final report and reflection due Thursday, Dec 3.
+- Students submit final claims, limitations, AI-use acknowledgment, reflection, and project abstract.
 - VDS connection: communication of results and updating domain knowledge.
 
 Suggested contents:
@@ -792,6 +796,46 @@ Suggested contents:
 - [OpenIntro worked exercise examples playlist](https://www.openintro.org/go/?id=video_stat_worked_exercise_examples&referrer=/book/os/index.php): use directly as optional exam practice.
 - [OpenIntro one-page inference guide](https://www.openintro.org/go/?id=inference_guide&referrer=/book/os/index.php): use directly as a review reference.
 - [VDS Chapter 14: Conclusion](https://vdsbook.com/14-conclusion): modify; use a short closing excerpt or instructor summary about trustworthy data science.
+
+### Week 14: Dec 8 and Dec 10
+
+Statistical focus: Final exam review and cumulative practice.
+
+Learning objectives:
+
+- Integrate design, description, probability, inference, regression, and responsible communication across the course.
+- Practice final-exam-style reasoning with clear setup, interpretation, and limitations.
+- Diagnose which concept or denominator a problem is asking for before calculating.
+- Prepare for cumulative final exam review and practice; the final report/reflection was due Thursday, Dec 3.
+
+Flipped activity:
+
+- Due Monday, Dec 7.
+- Complete a cumulative review self-check and identify two final-exam topics to revisit.
+- Bring one exam-style question to class.
+
+Tuesday:
+
+- Final exam review and practice set 1.
+- Emphasis: study design, sampling, bias, data displays, numerical and categorical summaries, and probability reasoning.
+- Use short problems that require setup and interpretation, not only computation.
+
+Thursday:
+
+- Final exam review and practice set 2.
+- Emphasis: inference logic, confidence intervals, hypothesis tests, regression/prediction, uncertainty, and responsible conclusions.
+- Final exam review and synthesis practice.
+
+Project arc activities:
+
+- Final review week only; no project submission is due this week.
+- Use project examples only as review contexts when helpful.
+
+Suggested contents:
+
+- Cumulative final exam blueprint and sample question formats.
+- Selected OpenIntro review exercises from Chapters 1-8.
+- Student-submitted review questions from the Week 14 flipped activity.
 
 ## Flipped Activity Template
 
@@ -912,11 +956,11 @@ Open decision:
 | AI as claim generator, not truth machine | Prevents the course from sounding like AI evangelism | Class activity comparing AI answers to data/evidence | Promising | Build Week 1 or Week 5 activity |
 | Anonymous student assistant improvement | Lets students identify retrieval and feedback failures without linking interactions to identity or grades | Anonymous, ungraded in-class feedback | Adopted | Establish a feedback mechanism separate from course submissions |
 | Reusable AI claim critique template | Gives students a stable way to critique AI performance claims | Canvas form, project checklist, in-class worksheet | Adopted | Build first version for Weeks 1, 5, 9, and 12 |
-| Base-rate and false-positive simulator | Makes conditional probability concrete and socially relevant | Week 5 flipped or Thursday activity | High priority | Build or adapt low-maintenance version |
+| Base-rate and false-positive simulator | Makes conditional probability concrete and socially relevant | Optional conditional-probability extension or later AI-claim critique activity | Medium priority | Build only if it does not displace the OpenIntro Chapter 3 sequence |
 | Representation/training-data activity | Connects sampling bias to modern AI systems | Week 2 study design activity | High priority | Draft hypothetical dataset comparison |
 | Prediction error playground | Connects regression, residuals, and generalization | Week 12 or Week 13 activity | Medium priority | Keep simple and non-coding if possible |
 | Late registration buffer | Makes course humane and operationally realistic | No major grade-bearing assessments before Week 4 | Adopted | Build catch-up Canvas module |
-| Biweekly 20-minute quizzes | Gives rigorous assessment without a high-stakes midterm | Six quizzes, usually Thursday except Thanksgiving week | Adopted | Draft quiz blueprint |
+| Biweekly 15-minute quizzes | Gives rigorous assessment without a high-stakes midterm | Six quizzes, usually Thursday except Thanksgiving week | Adopted | Draft quiz blueprint |
 | Completion-based flipped activities | Supports semi-flipped format and accountability | Canvas activities graded for completion and analyzed for patterns | Adopted | Draft activity templates |
 | Project ladder | Moves from structured exploration to student-owned final project | Mini-projects 0-4 plus final | Adopted | Draft prompt sequence |
 | AI acknowledgment checklist | Teaches responsible use without banning useful tools | Required project checkbox and statement | Adopted | Draft Canvas submission form |
@@ -934,13 +978,13 @@ Open decision:
 2. Mini-project 1, weeks 3-4: Data biography and retrieval audit
    - Students verify provenance, variable definitions, units, geographic and temporal coverage, missingness, representation, and the claims the data can or cannot support.
 
-3. Mini-project 2, weeks 4-5: Exploratory data story
+3. Mini-project 2, weeks 6-7: Exploratory data story
    - Students use visualizations and numerical summaries to describe patterns without overclaiming causality, then evaluate formative feedback from the Project Feedback Assistant.
 
-4. Mini-project 3, weeks 6-8: Chance, variability, and uncertainty
+4. Mini-project 3, weeks 8-10: Chance, variability, and uncertainty
    - Students use simulation, repeated-sampling logic, or interval reasoning to investigate how results might vary and whether an observed result is surprising.
 
-5. Mini-project 4, weeks 9-11: Comparison, association, or regression claim
+5. Mini-project 4, weeks 11-12: Comparison, association, or regression claim
    - Students compare groups, places, variables, or time periods using retrieved data; make a careful statistical claim; and test its fragility under reasonable alternative choices.
 
 Across all five tasks:
@@ -950,7 +994,7 @@ Across all five tasks:
 - Students may send anonymous, ungraded improvement feedback about the assistants.
 - Grading concerns the statistical artifact the student intentionally submits.
 
-6. Final project, due last day of class: Student-owned data investigation
+6. Final report and reflection, due Thursday, Dec 3: Student-owned data investigation
    - Students choose a question, analyze data, communicate findings, and include a limitations, transparency, and trustworthiness section.
 
 ## Optional AI-Aware Activity Seeds

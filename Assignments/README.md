@@ -8,5 +8,6 @@ Student-facing mini-project materials:
 - [Mini-project 2: Exploratory Data Story](mini-project-2-exploratory-story.md)
 - [Mini-project 3: Chance, Variability, and Uncertainty](mini-project-3-uncertainty.md)
 - [Mini-project 4: Comparison or Association](mini-project-4-comparison-association.md)
+- [Final Project: Report and Reflection](final-project-report-and-reflection.md)
 
-The five mini-projects form a staged statistical investigation. Most work is completed during class. Students submit only the statistical artifact named in each prompt; assistant use and conversation histories are not evaluated.
+The five mini-projects and final report/reflection form a staged statistical investigation. Most mini-project work is completed during class. Students submit only the statistical artifact named in each prompt; assistant use and conversation histories are not evaluated.
