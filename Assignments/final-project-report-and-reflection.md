@@ -6,7 +6,7 @@ Put the course project sequence together in a short data investigation. Your fin
 
 ## Timeline
 
-The final report and reflection are due Thursday, December 3. The final week of class is reserved for final exam review and cumulative practice.
+The final report and reflection are due **Monday, December 14 at 11:59 p.m.** The final week of class is reserved for final exam review, cumulative practice, and final-project completion.
 
 ## Submit
 

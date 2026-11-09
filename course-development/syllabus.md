@@ -1,7 +1,7 @@
 # STAT UN 1001: Introduction to Statistical Reasoning
 Syllabus | Fall 2026
 
-Last updated: October 8, 2026
+Last updated: November 5, 2026
 
 ## Course Information
 
@@ -79,10 +79,9 @@ The arc is:
 
 - Mini-project 0 (weeks 2-3): *Question and retrieval trial*. Formulate a statistical question, use the data assistant to locate relevant data, and identify the cases, variables, population, and limitations of the proposed investigation.
 - Mini-project 1 (weeks 3-4): *Data biography and retrieval audit*. Document the data source, provenance, variable definitions, units, geographic and temporal coverage, missingness, and what the data can and cannot represent.
-- Mini-project 2 (weeks 6-7): *Exploratory data story*. Use visual and numerical summaries to describe a pattern carefully and distinguish what the data show from what remains uncertain.
-- Mini-project 3 (weeks 8-10): *Chance, variability, and uncertainty*. Use simulation, repeated-sampling logic, or interval reasoning to investigate how results might vary and how surprising an observed pattern is.
-- Mini-project 4 (weeks 11-12): *Comparison or association*. Make and critique an inference- or regression-based claim using a comparison across groups, places, variables, or time.
-- Final report and reflection (due Thursday, December 3): Putting it together: A student-chosen *data investigation* that states a question, analyzes relevant data, communicates findings, reflects on the investigation process, and discusses limitations.
+- Mini-project 2 (weeks 6-8, due Thursday, October 29): *Exploratory data story*. Use visual and numerical summaries to describe a pattern carefully and distinguish what the data show from what remains uncertain.
+- Mini-project 3 (workshop November 17 and 19, due Tuesday, November 24): *Drawing inference from retrieved data*. Use a course-scope confidence interval, comparison, or sampling-variability argument to make and critique an inferential claim. This merges the former Mini-projects 3 and 4.
+- Final report and reflection (due Monday, December 14 at 11:59 p.m.): Putting it together: A student-chosen *data investigation* that states a question, analyzes relevant data, communicates findings, reflects on the investigation process, and discusses limitations.
 
 Mini-project tasks are graded for completion based on the statistical work students intentionally submit. Students are not graded on whether or how often they use either assistant, and they never submit assistant conversation histories. Peer reviews are graded using rubrics, since giving useful feedback is itself a course skill. Projects may receive formative feedback from the Project Feedback Assistant, peers, and the instructional team, but final responsibility for the work remains with the student.
 
@@ -101,7 +100,7 @@ There will be six 15-minute quizzes, tentatively scheduled for:
 - Quiz 3: Thursday, October 29
 - Quiz 4: Thursday, November 12
 - Quiz 5: **Tuesday**, November 24
-- Quiz 6: Thursday, December 3
+- Quiz 6: Thursday, December 10
 
 **On quiz days, the lecture or class activity will come first. The quiz will be administered during the final 15 minutes of the class meeting.**
 
@@ -139,7 +138,7 @@ There is no midterm exam. The biweekly quizzes are short, focused assessments in
 
 ## Weekly Schedule
 
-The following weekly plan is tentative as of *October 8, 2026* and may change as the course develops.
+The following weekly plan is tentative as of *October 22, 2026* and may change as the course develops.
 
 | Week | Dates | Statistical Focus | Project / Application Focus | Main Resources |
 |---|---:|---|---|---|
@@ -148,15 +147,15 @@ The following weekly plan is tentative as of *October 8, 2026* and may change as
 | 3 | Sep 22, Sep 24 | Describing and visualizing numerical and categorical data | Complete Mini-project 0; begin Mini-project 1 data biography and retrieval audit | OpenIntro Ch. 2 |
 | 4 | Sep 29, Oct 1 | Comparison, variability, probability foundations, conditional probability, and Quiz 1 | Complete Mini-project 1; Quiz 1 at the end of Thursday's class | OpenIntro Ch. 2 and Ch. 3.1-3.2; selected VDS Ch. 4-5 |
 | 5 | Oct 6, Oct 8 | Probability word problems, sampling from small populations, random variables, and continuous distributions | Probability practice and Mini-project 1 wrap-up only; no new project due | OpenIntro Ch. 3.2-3.5 |
-| 6 | Oct 13, Oct 15 | Bayes, random variables, normal and binomial models, and Quiz 2 | Launch Mini-project 2 exploratory data story; Quiz 2 at the end of Thursday's class | OpenIntro Ch. 3.2, Ch. 3.4, and selected Ch. 4.1 and 4.3 |
-| 7 | Oct 20, Oct 22 | Confidence intervals and sampling variability | Complete Mini-project 2 and revise claims, graphs, and limitations | OpenIntro Ch. 5 |
-| 8 | Oct 27, Oct 29 | Confidence intervals, hypothesis testing, and Quiz 3 | Launch Mini-project 3; Quiz 3 at the end of Thursday's class | OpenIntro Ch. 5 |
-| 9 | Nov 3 (no class), Nov 5 | Hypothesis testing and statistical significance | Continue Mini-project 3 using uncertainty or chance-model reasoning | OpenIntro Ch. 5 |
-| 10 | Nov 10, Nov 12 | Inference for proportions and categorical data | Complete Mini-project 3; Quiz 4 at the end of Thursday's class | OpenIntro Ch. 6 |
-| 11 | Nov 17, Nov 19 | Inference for numerical data and regression preview | Launch Mini-project 4 comparison or association | OpenIntro Ch. 7-8 |
-| 12 | Nov 24, Nov 26 (no class) | Correlation, regression, and Thanksgiving week | Complete Mini-project 4; Quiz 5 at the end of Tuesday's class | OpenIntro Ch. 8 |
-| 13 | Dec 1, Dec 3 | Regression, responsible communication, and review | Final report and reflection due Thursday, Dec 3; Quiz 6 at the end of Thursday's class | OpenIntro Ch. 8-9; VDS wrap-up |
-| 14 | Dec 8, Dec 10 | Final exam review and cumulative practice | Final-exam-style practice and synthesis across course concepts | Cumulative review |
+| 6 | Oct 13, Oct 15 | Bayes, random variables, normal and binomial distribution models, and Quiz 2 | Launch Mini-project 2 exploratory data story; Quiz 2 at the end of Thursday's class | OpenIntro Ch. 3.2, Ch. 3.4-3.5, and selected Ch. 4.1 and 4.3 |
+| 7 | Oct 20, Oct 22 | Distribution-model review; foundations of inference (Ch. 5.1) | Complete Mini-project 2; Thursday Gemini Notebook workshop for source checks, exploratory graphs, and careful claims | OpenIntro Ch. 4.1, 4.3, and 5.1 |
+| 8 | Oct 27, Oct 29 | Confidence intervals, hypothesis testing, and Quiz 3 | Complete Mini-project 2; due Thursday, Oct 29; Quiz 3 at the end of Thursday's class | OpenIntro Ch. 5 |
+| 9 | Nov 3 (no class), Nov 5 | Hypothesis testing, decision errors, and statistical significance | Continue Chapter 5 practice; no project submission | OpenIntro Ch. 5 |
+| 10 | Nov 10, Nov 12 | Inference for proportions and categorical data | Prepare for the merged Mini-project 3; Quiz 4 at the end of Thursday's class | OpenIntro Ch. 6 |
+| 11 | Nov 17, Nov 19 | One-sample inference for a population mean and project workshop | Practice confidence intervals and hypothesis tests for a numerical outcome; apply a course-scope method to Mini-project 3 | OpenIntro Ch. 7.1; Ch. 5 review |
+| 12 | Nov 24, Nov 26 (no class) | Quiz 5 review, regression preview, and Thanksgiving week | Revise and submit merged Mini-project 3 by Tuesday, Nov 24; Quiz 5 at the end of Tuesday's class | OpenIntro Ch. 7.1 review; Ch. 8 preview |
+| 13 | Dec 1, Dec 3 | Regression, responsible communication, and review | Final report/reflection workshop; continue revising for the Monday, Dec 14 deadline | OpenIntro Ch. 8-9; VDS wrap-up |
+| 14 | Dec 8, Dec 10 | Final exam review, cumulative practice, and Quiz 6 | Final-exam-style practice; Quiz 6 during the final 15 minutes of Thursday's class; final report/reflection due Monday, Dec 14 | Cumulative review |
 
 ## AI Use
 

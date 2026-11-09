@@ -3,7 +3,7 @@
 ## Original Source Links
 
 - AP News: [How many Americans can afford high-quality healthcare? A new poll finds the number has fallen](https://apnews.com/article/healthcare-insurance-health-care-costs-poll-aca-7be286003eb3c0f4fdab515eb9de47ef), June 18, 2026.
-- Gallup / West Health: [U.S. Adults' Ability to Afford Healthcare at a Five-Year Low](https://news.gallup.com/poll/710942/adults-ability-afford-healthcare-five-year-low.aspx), June 18, 2026.
+- Gallup / West Health: [U.S. Adults' Ability to Afford Healthcare at a Five-Year Low](https://news.gallup.com/poll/710942/adults-ability-afford-healthcare-five-year-low.aspx), June 17, 2026.
 
 ## Accessible Student Source
 
@@ -11,11 +11,11 @@ Use the AP News article. It is readable, concrete, and gives students clear perc
 
 ## Student-Facing Paragraph
 
-A new national poll says fewer than half of U.S. adults could both afford healthcare and get quality care in 2025. The article reports that 49% of adults were classified as "cost secure," down from 61% in 2022, and that affordability was lower for some groups, including younger adults and women. This is a useful statistics story because it turns a broad social concern into measurable variables, raises questions about how a survey defines a category like "cost secure," and shows how subgroup comparisons can be informative without automatically proving causes.
+A new national poll reports that fewer than half of U.S. adults were classified as "Cost Secure" in 2025. In this index, "Cost Secure" means that respondents reported access to quality, affordable care and had recently been able to pay for needed care and medicine. The article reports that 49% of adults were classified as Cost Secure, down from 61% in 2022, and that the percentage was lower for some groups, including younger adults and women. This is a useful statistics story because it turns a broad social concern into measurable variables, raises questions about how a survey defines a category like "Cost Secure," and shows how subgroup comparisons can be informative without automatically proving causes.
 
 ## Synopsis And Course Fit
 
-This story centers on the West Health-Gallup Affordability Index, a nationally representative survey of 5,660 adults conducted from October 27 to December 22, 2025. The survey groups respondents into categories based on whether they can afford needed care and medicine and whether they report access to quality, affordable care. The reporting gives students several accessible statistics entry points: a changing headline percentage over time, differences across age, gender, race/ethnicity, and income, and a stated margin of sampling error.
+This story centers on the West Health-Gallup Affordability Index, a nationally representative survey of 5,660 adults conducted from October 27 to December 22, 2025. The survey groups respondents into categories based on whether they can afford needed care and medicine and whether they report access to quality, affordable care. The reporting gives students several accessible statistics entry points: a changing headline percentage over time, differences across age, gender, race/ethnicity, and income, and a stated margin of sampling error of ±2.1 percentage points for U.S. adults overall. Margins of error for smaller subgroups are generally larger, so subgroup comparisons require additional caution.
 
 The story fits *Introduction to Statistical Reasoning* especially well because it helps students separate operational definitions from everyday language. "Can afford healthcare" sounds simple, but the survey relies on several questions and a constructed index. It also supports discussion of sampling, wording, measurement, subgroup comparison, and the difference between describing disparities and explaining them.
 

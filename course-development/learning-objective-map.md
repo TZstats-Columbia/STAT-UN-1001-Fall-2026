@@ -38,9 +38,10 @@ Recommended review order:
 | 8 | Confidence intervals, hypothesis testing, Quiz 3 | FA, TUE, QUIZ, PROJ |
 | 9 | Hypothesis testing, p-values, AI/performance claims, conclusions | FA, THU, FINAL |
 | 10 | Inference for proportions, categorical comparisons, Quiz 4 | FA, TUE, QUIZ, PROJ |
-| 11 | Inference for numerical data, regression preview, project proposals | FA, TUE, THU, PROJ |
-| 12 | Regression, prediction error, generalization, Quiz 5 | FA, QUIZ, TUE |
-| 13 | Communication, synthesis, review, Quiz 6 | FA, TUE, QUIZ, PROJ, FINAL |
+| 11 | One-sample population-mean inference and project workshop | FA, TUE, THU, PROJ |
+| 12 | Quiz 5 review, regression preview, and Mini-project submission | FA, QUIZ, TUE, PROJ |
+| 13 | Communication, synthesis, review, and final-report workshop | FA, TUE, PROJ, FINAL |
+| 14 | Final review, cumulative practice, and Quiz 6 | FA, TUE, THU, QUIZ, FINAL |
 
 ## Detailed Weekly Map
 
@@ -216,7 +217,7 @@ Objective 4: Compare variability conceptually and interpret continuous distribut
 - Project arc: project claim revision includes what could vary and why.
 - Evidence: `FA`, `THU`, `PROJ`.
 
-### Week 6: Bayes, Random Variables, Normal And Binomial Models
+### Week 6: Bayes, Random Variables, Normal And Binomial Distribution Models
 
 Objective 1: Use probability trees for Bayes-style reasoning.
 
@@ -244,17 +245,19 @@ Objective 3: Apply simple linear-combination rules for mean and standard deviati
 
 Objective 4: Interpret normal distributions using center, spread, and area.
 
-- Flipped: OpenIntro normal-distribution video and selected Chapter 4.1 reading.
-- Tuesday: use visual tools to connect areas and probabilities.
+- Flipped: OpenIntro Chapter 3.5 for probability as area, plus normal-distribution video and selected Chapter 4.1 reading.
+- Tuesday: preview the link between random variables and distribution models if time allows.
+- Thursday: use a histogram with a fitted normal curve to connect model fit, areas and probabilities, right-tail events such as `P(X > a)`, and standardized values.
 - Thursday: Quiz 2.
 - Project arc: Mini-project 2 launches as an exploratory data story.
 - Evidence: `FA`, `TUE`, `QUIZ`.
 
-Objective 5: Recognize binomial settings.
+Objective 5: Recognize and use binomial settings briefly.
 
 - Flipped: preview OpenIntro Chapter 4.3 and identify fixed trials, yes/no outcomes, constant success probability, and independence.
-- Tuesday: match simple real questions to binomial or not-binomial setups.
-- Thursday: Quiz 2 includes distribution-model reasoning.
+- Tuesday: preview binomial settings only if time allows.
+- Thursday: identify what the binomial model is for, compute one exact probability `P(X = c)` in a small example, and interpret the binomial mean and standard deviation.
+- Thursday: Quiz 2 remains focused on Chapter 3 probability reasoning.
 - Project arc: students identify a clear pattern, graph, numerical summary, and limitation.
 - Evidence: `FA`, `TUE`, `QUIZ`, `PROJ`.
 
@@ -274,48 +277,43 @@ Objective 4: Distinguish a model from reality.
 - Project arc: limitation statement for Mini-project 2.
 - Evidence: `FA`, `TUE`, `PROJ`, `FINAL`.
 
-### Week 7: Confidence Intervals And Sampling Variability
+### Week 7: Distribution-Model Review And Foundations Of Inference
 
-Objective 1: Interpret a confidence interval in context.
+Objective 1: Set up and interpret normal and binomial model questions.
 
-- Flipped: interpret 2-3 confidence intervals in context.
-- Tuesday: clarify what a confidence interval says and does not say.
-- Thursday: confidence interval interpretation clinic.
-- Project arc: Mini-project 2 is completed with revised graph, summary, interpretation, and limitation.
-- Evidence: `FA`, `TUE`, `THU`, `FINAL`.
+- Flipped: complete guided setups for Exercises 4.24, 4.40, and 4.44.
+- Tuesday: work one normal-model and one binomial-model example, emphasizing event language and model conditions.
+- Evidence: `FA`, `TUE`, `QUIZ`.
 
-Objective 2: Explain margin of error and interval width.
+Objective 2: Distinguish a parameter, statistic, and point estimate.
 
-- Flipped: compare intervals from different sample sizes or contexts.
-- Tuesday: connect interval width to variability and sample size.
-- Thursday: students compare and revise interval interpretations.
-- Project arc: students explain why uncertainty may be large or small.
-- Evidence: `FA`, `TUE`, `THU`, `QUIZ`.
+- Flipped: read Section 5.1 and complete Exercises 5.1 and 5.3.
+- Tuesday: label the population, parameter, sample, statistic, and point estimate in the chip-quality example.
+- Project arc: students name the target population and estimand for Mini-project 2.
+- Evidence: `FA`, `TUE`, `PROJ`.
 
-Objective 3: Connect sampling variability to uncertainty in real claims.
+Objective 3: Explain sampling variability, standard error, sample-size effects, and bias.
 
-- Flipped: identify one uncertainty in a claim.
-- Tuesday: link intervals to uncertainty in estimates.
-- Thursday: apply interval reasoning to short data claims.
-- Project arc: Mini-project 2 limitation statement revised.
-- Evidence: `FA`, `THU`, `FINAL`.
+- Flipped: answer concept checks contrasting precision and bias and predicting how standard error changes with sample size.
+- Tuesday: use repeated-sample reasoning and the quality-control context to connect a point estimate to uncertainty.
+- Project arc: students identify a limitation that could affect representation or measurement, not only random variability.
+- Evidence: `FA`, `TUE`, `PROJ`, `FINAL`.
 
-Objective 4: Avoid common confidence-interval misinterpretations.
+Objective 4: Use an AI notebook as a source-checking and drafting aid while retaining statistical responsibility.
 
-- Flipped: identify one flawed interpretation.
-- Tuesday: rewrite incorrect interpretations.
-- Thursday: students critique interval language in examples.
-- Project arc: project uncertainty language revised.
-- Evidence: `FA`, `THU`, `QUIZ`.
+- Flipped: prepare a project question, source citation, data dictionary, and limitation for the workshop.
+- Thursday: use Gemini Notebook to organize source notes and compare graph options; verify each suggestion against the data and documentation.
+- Project arc: submit the statistical artifact, not prompts or conversation histories.
+- Evidence: `THU`, `PROJ`, `FINAL`.
 
 ### Week 8: Confidence Intervals And Hypothesis Testing
 
 Objective 1: Interpret a confidence interval in context.
 
-- Flipped: interpret 2-3 confidence intervals.
+- Flipped: name the sample-proportion model, read Figure 5.6, and interpret Example 5.8.
 - Tuesday: address common CI interpretation errors.
 - Thursday: Quiz 3.
-- Project arc: Mini-project 3 launches with an uncertainty or chance-model question.
+- Project arc: Mini-project 2 is completed; no new project launches this week.
 - Evidence: `FA`, `TUE`, `QUIZ`, `PROJ`.
 
 Objective 2: Explain margin of error and interval width.
@@ -328,7 +326,7 @@ Objective 2: Explain margin of error and interval width.
 
 Objective 3: Avoid common confidence-interval misinterpretations.
 
-- Flipped: identify one flawed interpretation.
+- Flipped: identify flawed interpretations and explain the repeated-sampling meaning of 95% confidence.
 - Tuesday: rewrite incorrect interpretations.
 - Thursday: Quiz 3.
 - Project arc: project uncertainty language revised.
@@ -339,8 +337,14 @@ Objective 4: Explain hypothesis testing as reasoning against a chance model.
 - Flipped: first-pass prompt asks what would be surprising under a chance model.
 - Tuesday: introduce null/alternative hypotheses and p-values.
 - Thursday: Quiz 3.
-- Project arc: students connect surprise under a chance model to Mini-project 3.
+- Project arc: students connect surprise under a chance model to the upcoming merged inference project.
 - Evidence: `FA`, `QUIZ`, `PROJ`, `FINAL`.
+
+Objective 5: Recognize Type I and Type II decision errors.
+
+- Flipped: use Guided Practice 5.17's courtroom analogy to identify each error and explain why “fail to reject” is not “prove innocent.”
+- Tuesday/Thursday: connect false alarms and missed signals to everyday decisions; formal p-value practice continues in Week 09.
+- Evidence: `FA`, `TUE`, `FINAL`.
 
 ### Week 9: Hypothesis Testing
 
@@ -349,7 +353,7 @@ Objective 1: Explain null and alternative hypotheses in context.
 - Flipped: critique significance claims.
 - Tuesday: no class due to university holiday.
 - Thursday: formulate hypotheses for real examples and complete evidence-under-null activity.
-- Project arc: Mini-project 3 continues with chance, variability, or uncertainty reasoning.
+- Project arc: students continue Chapter 5 practice and prepare an inferential question; no project submission is due.
 - Evidence: `FA`, `THU`, `FINAL`.
 
 Objective 2: Interpret a p-value as evidence against a chance model.
@@ -357,7 +361,7 @@ Objective 2: Interpret a p-value as evidence against a chance model.
 - Flipped: p-value interpretation prompt, with one optional AI performance claim such as "AI improves learning" or "AI reduces bias."
 - Tuesday: no class due to university holiday.
 - Thursday: address p-value misconceptions and decide whether evidence is surprising under a null model.
-- Project arc: students discuss whether formal testing fits Mini-project 3 or a later final report.
+- Project arc: students identify a course-scope inferential question for the merged Mini-project 3.
 - Evidence: `FA`, `THU`, `QUIZ`.
 
 Objective 3: Distinguish statistical significance from practical importance.
@@ -365,7 +369,7 @@ Objective 3: Distinguish statistical significance from practical importance.
 - Flipped: overclaim critique.
 - Tuesday: no class due to university holiday.
 - Thursday: discuss binary significant/not-significant thinking and write cautious conclusions.
-- Project arc: Mini-project 3 limitations include practical importance when relevant.
+- Project arc: the merged Mini-project 3 will require practical importance and limitation statements when relevant.
 - Evidence: `FA`, `THU`, `PROJ`, `FINAL`.
 
 Objective 4: State what a test does and does not prove.
@@ -383,7 +387,7 @@ Objective 1: Identify one-proportion, two-proportion, and categorical-data quest
 - Flipped: classify categorical inference scenarios.
 - Tuesday: clarify comparison language.
 - Thursday: Quiz 4.
-- Project arc: Mini-project 3 is completed after checking uncertainty language, variable types, design, provenance, and limitations.
+- Project arc: students prepare the question, source, design, and uncertainty language for the merged Mini-project 3 workshop.
 - Evidence: `FA`, `TUE`, `QUIZ`, `PROJ`.
 
 Objective 2: Interpret intervals and tests for proportions in context.
@@ -391,7 +395,7 @@ Objective 2: Interpret intervals and tests for proportions in context.
 - Flipped: interpret a difference in proportions.
 - Tuesday: short-answer practice.
 - Thursday: Quiz 4.
-- Project arc: Mini-project 3 claims revised.
+- Project arc: students revise the inferential claim they will carry into the merged Mini-project 3 workshop.
 - Evidence: `FA`, `TUE`, `QUIZ`.
 
 Objective 3: Evaluate whether a comparison claim is supported by data.
@@ -399,7 +403,7 @@ Objective 3: Evaluate whether a comparison claim is supported by data.
 - Flipped: written interpretation plus limitation.
 - Tuesday: discuss "higher than," "different from," and "associated with."
 - Thursday: Quiz 4.
-- Project arc: Mini-project 3 completion and feedback.
+- Project arc: students give feedback that will be used in the merged Mini-project 3 workshop.
 - Evidence: `FA`, `QUIZ`, `PROJ`, `FINAL`.
 
 Objective 4: Give useful peer feedback on a statistical claim.
@@ -407,75 +411,75 @@ Objective 4: Give useful peer feedback on a statistical claim.
 - Flipped: draft one peer-review comment.
 - Tuesday: identify useful vs vague feedback.
 - Thursday: peer-review setup if time remains.
-- Project arc: Mini-project 3 feedback and revision.
+- Project arc: feedback and revision feed into the merged Mini-project 3 workshop.
 - Evidence: `FA`, `THU`, `PROJ`.
 
-### Week 11: Numerical Inference And Regression Preview
+### Week 11: One-Sample Population-Mean Inference And Project Workshop
 
-Objective 1: Identify one-mean, paired-mean, and two-mean comparison questions.
+Objective 1: Distinguish a population mean from a population proportion and match the question to the appropriate one-sample method.
 
-- Flipped: selected OpenIntro Chapter 7 examples.
-- Tuesday: clarify mean comparisons, paired data, and independent groups.
-- Thursday: choose the right numerical comparison for a project-style question.
-- Project arc: Mini-project 4 launches with a comparison or association question using retrieved data.
+- Flipped: read the selected Chapter 7.1 material; identify whether a project question concerns a mean or a proportion.
+- Tuesday: connect a numerical outcome, `mu`, `x-bar`, estimated standard error, and the `t` distribution.
+- Thursday: choose between the course's one-mean and one-proportion methods for a project-style question.
+- Project arc: the merged Mini-project 3 launches with a course-scope inference question using retrieved data.
 - Evidence: `FA`, `TUE`, `THU`, `PROJ`, `QUIZ`.
 
-Objective 2: Interpret uncertainty for numerical outcomes.
+Objective 2: Build and interpret a confidence interval or hypothesis test for one population mean.
 
-- Flipped: interpret a numerical-data comparison.
-- Tuesday: discuss inference for numerical outcomes.
-- Thursday: quiz-format practice for numerical inference.
-- Project arc: students decide whether Mini-project 4 is a comparison, association, prediction, or descriptive project.
+- Flipped: name the parameter and predict what additional information is needed to reason about a sample mean.
+- Tuesday: build and interpret a confidence interval for a population mean; discuss conditions and design limits.
+- Thursday: use the one-sample test workflow, including a p-value and cautious conclusion, then show substitutions, units, rounding, and context.
+- Project arc: students decide whether the merged Mini-project 3 question calls for the one-mean or one-proportion method covered in the course.
 - Evidence: `FA`, `THU`, `QUIZ`, `FINAL`.
 
-Objective 3: Discuss outliers, skew, and measurement issues.
+Objective 3: Discuss data quality, assumptions, and limitations.
 
-- Flipped: name one limitation of a numerical comparison.
-- Tuesday: discuss when a method is available but questionable.
-- Thursday: project-style method choice activity.
-- Project arc: Mini-project 4 proposal and method-choice clinic.
+- Flipped: name one distributional or design limitation that could change an inferential claim.
+- Tuesday: discuss independence, outliers, skew, sample size, and the distinction between precision and bias.
+- Thursday: peer-review method choice, calculation transparency, and limitations.
+- Project arc: merged Mini-project 3 method-choice clinic and Gemini Notebook raw-ingredients check.
 - Evidence: `FA`, `TUE`, `THU`, `PROJ`.
 
-Objective 4: Connect method choice to research question.
+Objective 4: Use AI-supplied raw ingredients without outsourcing statistical reasoning.
 
-- Flipped: students identify what comparison is being made.
-- Tuesday: match method to question.
-- Thursday: Mini-project 4 planning workshop.
-- Project arc: students classify Mini-project 4 as descriptive, comparison, association, or prediction.
+- Flipped: students identify what population and parameter are being studied.
+- Tuesday: verify source notes, definitions, coverage, and candidate summaries.
+- Thursday: merged Mini-project 3 planning workshop and constructive peer feedback.
+- Project arc: students classify the merged Mini-project 3 as descriptive background plus a course-scope inferential claim.
 - Evidence: `FA`, `THU`, `PROJ`, `FINAL`.
 
-### Week 12: Regression And Thanksgiving Week
+### Week 12: Quiz 5 Review, Regression Preview, And Thanksgiving Week
 
-Objective 1: Interpret correlation, slope, fitted values, and residuals.
+Objective 1: Consolidate one-sample population-mean inference before Quiz 5.
 
-- Flipped: interpret slope, direction, strength, and one limitation.
-- Tuesday: Quiz 5; brief regression introduction if time remains.
+- Flipped: review one-sample mean confidence intervals, tests, method choice, and limitations.
+- Tuesday: resolve final questions about mean inference; Quiz 5 occurs during the final 15 minutes.
 - Thursday: no class if university holiday.
-- Project arc: Mini-project 4 completion before Thanksgiving.
+- Project arc: merged Mini-project 3 is revised and submitted by Tuesday, November 24.
 - Evidence: `FA`, `QUIZ`, `PROJ`.
 
-Objective 2: Distinguish association, prediction, and causation.
+Objective 2: Distinguish association, prediction, and causation in an introductory regression example.
 
-- Flipped: regression or prediction claim limitation prompt.
-- Tuesday: brief association vs causation and prediction vs explanation discussion if time remains.
+- Flipped: optional preview of one regression or prediction claim.
+- Tuesday: brief association vs causation and prediction vs explanation discussion after the Quiz 5 review.
 - Thursday: no class.
-- Project arc: students decide whether Mini-project 4 is descriptive, comparative, explanatory, predictive, or decision-oriented.
+- Project arc: students decide whether the merged Mini-project 3 claim is descriptive, comparative, explanatory, predictive, or decision-oriented, and state what their method supports.
 - Evidence: `FA`, `QUIZ`, `PROJ`, `FINAL`.
 
-Objective 3: Recognize outliers, leverage, and extrapolation risks.
+Objective 3: Anticipate limits of a regression or prediction claim.
 
-- Flipped: selected regression visual prompt.
-- Tuesday: brief in-class introduction before Quiz 5, which occurs during the final 15 minutes.
+- Flipped: optional selected regression visual prompt.
+- Tuesday: a short bridge to fuller Week 13 regression work before Quiz 5, which occurs during the final 15 minutes.
 - Thursday: no class.
-- Project arc: students flag possible Mini-project 4 regression limitations.
+- Project arc: students flag limitations in the merged Mini-project 3 inference and avoid methods outside course scope.
 - Evidence: `FA`, `FINAL`.
 
-Objective 4: Use regression as a tool for careful claims.
+Objective 4: Connect the project conclusion to the method and limits that support it.
 
-- Flipped: written limitation of a regression or prediction claim.
+- Flipped: written limitation of a mean-based, proportion-based, or prediction claim.
 - Tuesday: short framing if time remains.
 - Thursday: no class.
-- Project arc: Mini-project 4 evidence check.
+- Project arc: merged Mini-project 3 evidence and calculation check.
 - Evidence: `FA`, `PROJ`, `FINAL`.
 
 ### Week 13: Synthesis And Communication
@@ -484,41 +488,41 @@ Objective 1: Communicate statistical findings with uncertainty and limitations.
 
 - Flipped: final report/reflection communication concern.
 - Tuesday: final report/reflection workshop on claims and limitations.
-- Thursday: Quiz 6.
+- Thursday: final report/reflection workshop; Quiz 6 is scheduled for the following Thursday.
 - Project arc: final report/reflection claims, limitations, AI-use acknowledgment, reflection, and abstract.
-- Evidence: `FA`, `TUE`, `QUIZ`, `PROJ`, `FINAL`.
+- Evidence: `FA`, `TUE`, `PROJ`, `FINAL`.
 
 Objective 2: Integrate design, description, probability, inference, and regression.
 
 - Flipped: cumulative review prompts.
 - Tuesday: review driven by student-submitted questions.
-- Thursday: Quiz 6.
+- Thursday: final report/reflection workshop; Quiz 6 is scheduled for the following Thursday.
 - Project arc: students connect their final report/reflection decisions to course concepts.
-- Evidence: `FA`, `TUE`, `QUIZ`, `FINAL`.
+- Evidence: `FA`, `TUE`, `PROJ`, `FINAL`.
 
 Objective 3: Review final-exam-like question formats.
 
 - Flipped: identify two concepts to revisit.
 - Tuesday: targeted final-exam-style practice.
-- Thursday: Quiz 6.
+- Thursday: final report/reflection workshop; Quiz 6 is scheduled for the following Thursday.
 - Project arc: final report/reflection explanations reinforce exam reasoning.
-- Evidence: `FA`, `TUE`, `QUIZ`, `FINAL`.
+- Evidence: `FA`, `TUE`, `PROJ`, `FINAL`.
 
 Objective 4: Explain what makes a data-driven project trustworthy.
 
 - Flipped: optional AI-generated explanation revision.
 - Tuesday: responsible AI feedback and project communication discussion.
-- Thursday: wrap-up on data-based claims, statistical reasoning, and trustworthy conclusions.
+- Thursday: wrap-up on data-based claims, statistical reasoning, and trustworthy conclusions; Quiz 6 is scheduled for Week 14.
 - Project arc: final report/reflection trustworthiness section.
 - Evidence: `FA`, `THU`, `PROJ`, `FINAL`.
 
-### Week 14: Final Review And Practice
+### Week 14: Final Review, Practice, And Quiz 6
 
 Objective 1: Integrate concepts across the course.
 
 - Flipped: cumulative review self-check.
 - Tuesday: final-exam-style practice across design, description, probability, and summaries.
-- Thursday: final-exam-style practice across inference, regression, uncertainty, and communication.
+- Thursday: final-exam-style practice across inference, regression, uncertainty, and communication; Quiz 6 during the final 15 minutes.
 - Project arc: project examples may be used as review contexts when helpful.
 - Evidence: `FA`, `TUE`, `THU`, `PROJ`, `FINAL`.
 

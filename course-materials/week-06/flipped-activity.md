@@ -2,7 +2,7 @@
 
 Due: Monday, Oct 12, 8:00 p.m.
 
-This activity picks up material we did not finish in Week 05 and prepares for Week 06. We will start with probability trees and Bayes-style reasoning, then introduce random variables and expected value, then practice simple linear combinations of a random variable, such as `aX + b`, and how they change the mean and standard deviation. We will also preview the only two named distribution models we will emphasize in this course: the normal distribution and the binomial distribution.
+This activity picks up material we did not finish in Week 05 and prepares for Week 06. We will start with probability trees and Bayes-style reasoning, then introduce random variables and expected value, then practice simple linear combinations of a random variable, such as `aX + b`, and how they change the mean and standard deviation. We will also use probability-as-area from Chapter 3.5 to preview the only two named distribution models we will emphasize in this course: the normal distribution and the binomial distribution.
 
 Quiz 2 still focuses on OpenIntro Chapter 3 and the probability reasoning developed in Lectures 6-9. The normal and binomial questions here are first-pass preparation for Week 06 class discussion, not a signal that you need to master all of Chapter 4 before Quiz 2.
 
@@ -19,6 +19,7 @@ After completing this activity, you should be able to:
 - Compute the mean or expected value of a simple discrete random variable.
 - Apply simple linear-combination rules for the mean and standard deviation of `aX + b`.
 - Recognize the purpose of normal and binomial distributions at an introductory level.
+- Connect a continuous distribution model to event probabilities such as `P(X > a)`.
 
 ## Required Preparation
 
@@ -32,12 +33,13 @@ After completing this activity, you should be able to:
    - If `Y = X + b`, the mean shifts by `b`, but the standard deviation stays the same.
    - If `Y = aX`, the mean is multiplied by `a`, and the standard deviation is multiplied by `|a|`.
    - If `Y = aX + b`, combine both ideas.
-4. Preview OpenIntro Chapter 4.1 and 4.3 only.
+4. Review OpenIntro Statistics Section 3.5 for the idea that probability for a continuous variable is area over an interval.
+5. Preview OpenIntro Chapter 4.1 and 4.3 only.
    - Chapter 4.1: normal distribution.
    - Chapter 4.3: binomial distribution.
    - We will not emphasize geometric, negative binomial, or Poisson distributions in this course.
-5. Complete the Week 06 practice quiz and review the automatic feedback.
-6. Submit the anonymous preparation check-in for completion credit.
+6. Complete the Week 06 practice quiz and review the automatic feedback.
+7. Submit the anonymous preparation check-in for completion credit.
 
 Optional OpenIntro slide/video resources:
 

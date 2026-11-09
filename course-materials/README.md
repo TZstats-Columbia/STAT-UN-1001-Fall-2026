@@ -1,54 +1,28 @@
-# STAT UN 1001 Course Materials
+# STAT UN1001 Course Materials
 
-This folder is for Canvas-ready weekly materials once the design moves from planning to build-out.
+This folder organizes the course by week. Each weekly folder may include an overview, flipped activity, practice quiz and answer explanations, lecture or activity plans, slides, project materials, and assessment guides. Canvas is the source of truth for materials that are currently published to students.
 
-Current structure:
+- [Start Here](start-here.md)
+- [Course design and weekly development plan](../course-development/course-design-development.md)
+- [Working scope notes for Quizzes 4-6](quiz-4-6-scope-draft.md)
 
-- `start-here.md`: current local copy of the published Canvas Start Here page.
-- `canvas-sync-state.md`: publication and module-item state recorded during the latest Canvas-to-local synchronization.
-- `week-01/overview.md`: current local copy of the published Canvas Week 01 overview.
-- `week-01/lecture-01-welcome-and-data.qmd`: Markdown source for the first Tuesday lecture slides.
-- `week-01/lecture-01-research-stories.pptx`: focused 15-slide introduction to partition retention, AutoClimDS, and Grade the Grader.
-- `week-01/lecture-02-chatgpt-study.pptx`: Lecture 2 study critique, Chapter 1 concept application, pair discussion, and Ping Pong AI assistant transition.
-- `week-01/lecture-02-chatgpt-study-handout.docx`: one-page pair investigation and demonstration observation handout.
-- `week-02/flipped-activity.md`: student-facing worksheet, reading, self-assessment, and preparation check-in plan.
-- `week-02/chapter-01-practice-quiz.md`: nine-question autograded quiz specification, answer key, feedback, story description, and attribution.
-- `week-03/flipped-activity.md`: Chapter 2 reading workflow and anonymous preparation check-in specification.
-- `week-03/chapter-02-practice-quiz.md`: 20-question autograded practice-quiz map, answer key, plot inventory, and attribution.
-- `week-03/assets/`: nine original, accessible statistical plots used in the practice quiz.
-- `week-03/lecture-05-week-03-describing-data.pptx`: 30-slide Tuesday lecture deck in the Week 02 visual style, using the Week 03 practice-quiz questions and plots for discussion, worked answers, and synthesis.
-- `week-03/tuesday-plan.md`: preparation-data-informed plan that consolidates all Chapter 2 concepts in Tuesday's 75-minute meeting.
-- `week-03/thursday-activity.md`: project-centered discussion, work, consultation, and peer-critique plan with no new Chapter 2 lecture content.
-- `week-04/overview.md`: local summary of the Week 04 Canvas overview after the categorical-data and probability-preview update.
-- `week-04/flipped-activity.md`: student-facing workflow for categorical tables, OpenIntro Chapter 3.1-3.2 probability preview, and anonymous preparation check-in.
-- `week-04/chapter-02-03-practice-quiz.md`: 18-question autograded practice-quiz map covering one-way tables, two-way tables, Venn diagrams, probability rules, complements, and independence.
-- `week-04/assets/phone-computer-venn.png`: original accessible Venn diagram used in the Week 04 practice quiz.
-- `week-01` through `week-14`: weekly folders for flipped activities, class activities, datasets, handouts, quiz prep, and project materials.
+## Weekly Map
 
-The master week-by-week design lives in:
+| Week | Approximate topic | Materials |
+| --- | --- | --- |
+| [01](week-01/) | Welcome; what statistics is; data-based claims; AI as a subject of inquiry | [Overview](week-01/overview.md), [lecture-slide source](week-01/lecture-01-slides/lecture-01-welcome-and-data.qmd) |
+| [02](week-02/) | Study design, sampling, bias, and data | [Flipped activity](week-02/flipped-activity.md), [practice quiz](week-02/chapter-01-practice-quiz.md), [answer explanations](week-02/practice-quiz-answer-explanations.md) |
+| [03](week-03/) | Describing and visualizing data | [Flipped activity](week-03/flipped-activity.md), [practice quiz](week-03/chapter-02-practice-quiz.md), [answer explanations](week-03/practice-quiz-answer-explanations.md), [Tuesday plan](week-03/tuesday-plan.md), [Thursday activity](week-03/thursday-activity.md) |
+| [04](week-04/) | Categorical comparisons and probability foundations | [Overview](week-04/overview.md), [flipped activity](week-04/flipped-activity.md), [practice quiz](week-04/chapter-02-03-practice-quiz.md), [answer explanations](week-04/practice-quiz-answer-explanations.md) |
+| [05](week-05/) | Conditional probability, sampling, random variables, and continuous distributions | [Overview](week-05/overview.md), [flipped activity](week-05/flipped-activity.md), [practice quiz](week-05/chapter-03-02-05-practice-quiz.md), [answer explanations](week-05/practice-quiz-answer-explanations.md) |
+| [06](week-06/) | Bayes-style reasoning, random variables, and normal/binomial models | [Overview](week-06/overview.md), [flipped activity](week-06/flipped-activity.md), [practice quiz](week-06/chapter-03-04-practice-quiz.md), [answer explanations](week-06/practice-quiz-answer-explanations.md), [Quiz 2 scope guide](week-06/quiz-02-scope-and-review-guide.md) |
+| [07](week-07/) | Distribution-model review and foundations of inference | [Overview](week-07/overview.md), [flipped activity](week-07/flipped-activity.md), [practice quiz](week-07/chapter-04-05-practice-quiz.md), [answer explanations](week-07/practice-quiz-answer-explanations.md), [lecture plan](week-07/lecture-13-plan.md), [project workshop](week-07/thursday-gemini-notebook-workshop.md) |
+| [08](week-08/) | Confidence intervals and hypothesis-testing foundations | [Overview](week-08/overview.md), [flipped activity](week-08/flipped-activity.md), [practice quiz](week-08/chapter-05-practice-quiz.md), [answer explanations](week-08/practice-quiz-answer-explanations.md), [Quiz 3 scope guide](week-08/quiz-03-scope-and-review-guide-lectures-10-13.md) |
+| [09](week-09/) | Hypothesis testing, p-values, significance, and decision errors | [Overview](week-09/overview.md), [flipped activity](week-09/flipped-activity.md), [practice quiz](week-09/chapter-05-practice-quiz.md), [answer explanations](week-09/practice-quiz-answer-explanations.md) |
+| [10](week-10/) | Comparing proportions and chi-square reasoning | [Overview](week-10/overview.md), [flipped activity](week-10/flipped-activity.md), [practice quiz](week-10/chapter-06-practice-quiz.md), [Quiz 4 scope guide](week-10/quiz-04-scope-and-review-guide-lectures-14-17.md) |
+| [11](week-11/) | One-sample inference for a population mean and project workshop | [Overview](week-11/overview.md), [projected Quiz 5 scope guide](week-11/quiz-05-projected-scope-and-review-guide-lectures-17-20.md) |
+| [12](week-12/) | Quiz 5 review, regression preview, and Thanksgiving week | [Overview](week-12/overview.md) |
+| [13](week-13/) | Regression, responsible communication, and course synthesis | [Week folder](week-13/) |
+| [14](week-14/) | Cumulative final-exam review and practice | [Week folder](week-14/) |
 
-- `../course-development/course-design-development.md`
-
-## Render a QMD as slides and a handout
-
-From the repository root, run:
-
-```bash
-course-materials/tools/render-qmd.sh \
-  course-materials/week-01/lecture-01-welcome-and-data.qmd
-```
-
-This creates two local outputs from the same source:
-
-- `output/presentations/lecture-01-welcome-and-data-presentation.html`: RevealJS slides, including speaker notes.
-- `output/pdf/lecture-01-welcome-and-data-handout.pdf`: a printable, letter-size student handout with speaker notes omitted.
-
-Render only one version by adding `presentation` or `handout` after the QMD path. The script uses `quarto` from the shell when available and otherwise uses the copy bundled with RStudio on macOS. The `output/` directory and intermediate Quarto HTML files are ignored by Git.
-
-Suggested eventual files inside each weekly folder:
-
-- `flipped-activity.md`
-- `tuesday-plan.md`
-- `thursday-activity.md`
-- `project-arc.md`
-- `materials-and-links.md`
+Detailed source notes, assessment drafts, and implementation records remain in the relevant weekly folder or the course-development materials.

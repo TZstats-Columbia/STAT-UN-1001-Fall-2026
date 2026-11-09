@@ -20,6 +20,9 @@
 
 # Administrative files stay local and must not be published
 /Admin/
+/AI-Folder/scripts/
+/AI-Folder/.build/
+/AI-Folder/.codex-validation/
 
 # Local/system files, even inside public directories
 **/.DS_Store

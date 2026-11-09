@@ -1,4 +1,4 @@
-# Week 06 Practice Quiz Source: Bayes, Random Variables, And First Distribution Models
+# Week 06 Practice Quiz Source: Bayes, Random Variables, Continuous Distributions, And First Distribution Models
 
 This source is designed for a 0-point Canvas practice quiz with immediate feedback. It prepares students for Week 06 class discussion and for the Chapter 3 ideas in Quiz 2. It is not intended as a high-speed calculation drill.
 
@@ -10,7 +10,7 @@ Recommended Canvas settings:
 - Include the "Just show me the answer" option for multiple-choice questions.
 - Use the anonymous completion check-in in `flipped-activity.md` for the 10 completion points.
 
-Attribution note: Questions are original course adaptations inspired by OpenIntro Statistics, Chapter 3.2 and 3.4, especially probability trees, random variables, expected value, and linear combinations of random variables. The normal and binomial questions preview OpenIntro Chapter 4.1 and 4.3 only.
+Attribution note: Questions are original course adaptations inspired by OpenIntro Statistics, Chapter 3.2, 3.4, and 3.5, especially probability trees, random variables, expected value, linear combinations of random variables, and probability as area. The normal and binomial questions preview OpenIntro Chapter 4.1 and 4.3 only.
 
 ## Question 1: Reading a probability tree
 

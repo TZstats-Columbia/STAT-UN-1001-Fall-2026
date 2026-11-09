@@ -1,32 +1,42 @@
-# Mini-project 3: Chance, Variability, and Uncertainty
+# Mini-project 3: Drawing Inference from Retrieved Data
+
+**Work in class:** Tuesday, November 17 and Thursday, November 19
+
+**Draft peer review:** Thursday, November 19 (in class)
+
+**Final submission:** Tuesday, November 24, 11:59 p.m. (the final project deadline remains in Week 12 so that the last week can be used for review)
+
+**Value:** 10 points
 
 ## Purpose
 
-Investigate how a result could vary across repeated observations or samples and explain what that variability means for a statistical conclusion.
+Use a retrieved dataset to make one carefully scoped inferential claim. You will connect a sample to a population, quantify uncertainty with methods from this course, and explain what the result does and does not support.
 
-## In-Class Work
+This project merges the earlier plans for Mini-projects 3 and 4. The emphasis is drawing inference, not adding a new advanced method.
 
-1. Select a numerical summary, proportion, difference, rate, or other statistic from your retrieved data.
-2. State what process, sample, measurement, location, or time period could vary.
-3. Use a course-approved simulation, repeated-sampling activity, or interval method to examine the statistic's variability.
-4. Compare the observed result with the simulated or expected distribution.
-5. Explain whether the result is ordinary or surprising under the stated chance model.
-6. State the assumptions of the method and one important source of uncertainty the method does not capture.
-7. Use the [Project Feedback Assistant](https://pingpong.hks.harvard.edu/group/735?assistant=3591) formatively if useful, then revise using your own statistical judgment.
+## In-class workflow
+
+1. Start from a data source and question that passed the Mini-project 2 review.
+2. Use Gemini Notebook to retrieve or organize the **raw ingredients**: source documentation, variable definitions, a data extract or table, and any candidate summaries. Check every ingredient against the source and data.
+3. Define the population, sample, parameter, and statistic in your own words.
+4. Choose one inferential question and a method covered in this course. Depending on the question and data, this may be a confidence interval or comparison for a proportion or mean, a sampling-variability argument, or another Chapter 5 method we have explicitly practiced.
+5. Carry out the calculation yourself. Show the formula, substitutions, units, and rounding. Do not submit an opaque AI-generated result as your calculation.
+6. Make a graph or table that helps the reader see the data and result.
+7. Interpret the result in context, including uncertainty and practical meaning. Do not turn an observational association into a causal claim.
+8. State the conditions, possible bias, data-quality concerns, and a limitation that could change the conclusion.
+
+The calculation must stay within the scope of our course. Do not introduce regression, advanced modeling, or software output that we have not covered unless the instructor approves it first.
 
 ## Submit
 
-Submit:
+- A clear question and the population/parameter it targets.
+- Source citation, data definition, and a short description of the sample/design.
+- The Gemini Notebook raw ingredients you used, summarized in your own words; do not submit private conversation histories.
+- One appropriate graph or table.
+- Your own calculation, showing the course formula and steps.
+- An interpretation in context, with a confidence/uncertainty statement where appropriate.
+- Assumptions, possible bias, and at least one limitation.
 
-- Statistical question and statistic studied.
-- Brief description of the chance, simulation, sampling, or interval method.
-- One result or visualization showing variability.
-- Interpretation in context.
-- Assumptions and one uncertainty or limitation not captured by the method.
-- Data-source citation.
+## Grading focus
 
-Do not submit prompts, screenshots, or assistant conversation histories.
-
-## Completion Criteria
-
-Full completion credit requires a coherent link among the question, statistic, variability method, interpretation, and limitation. Assistant use itself is not graded.
+We will look for a defensible question-method match, correct course-scope calculation, accurate interpretation, and honest discussion of uncertainty and limitations. The sophistication of the dataset or AI tool use is not graded. The submitted statistical reasoning is what matters.

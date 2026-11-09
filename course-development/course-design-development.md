@@ -430,7 +430,7 @@ Suggested contents:
 
 ### Week 6: Oct 13 and Oct 15
 
-Statistical focus: Bayes, random variables, normal and binomial models, and Quiz 2.
+Statistical focus: Bayes, random variables, normal and binomial distribution models, and Quiz 2.
 
 Learning objectives:
 
@@ -438,8 +438,8 @@ Learning objectives:
 - Recognize Bayes' rule as a way to reverse conditional probability.
 - Identify random variables and compute expected value for simple discrete distributions.
 - Apply simple linear-combination rules for the mean and standard deviation of `aX + b`.
-- Interpret normal distributions using center, spread, and area.
-- Recognize binomial settings at an introductory level.
+- Interpret normal distributions using center, spread, area, right-tail events such as `P(X > a)`, and standardized values.
+- Recognize binomial settings at an introductory level and compute one exact probability `P(X = c)` for a small example.
 - Distinguish a model from reality.
 
 Flipped activity:
@@ -447,20 +447,21 @@ Flipped activity:
 - Due Monday, Oct 12.
 - Review OpenIntro Chapter 3.2 probability trees and conditional probability.
 - Read OpenIntro Chapter 3.4 on random variables, expected value, and linear combinations of random variables.
-- Preview only OpenIntro Chapter 4.1 normal distributions and Chapter 4.3 binomial distributions.
+- Preview OpenIntro Chapter 3.5 for probability as area, then only Chapter 4.1 normal distributions and Chapter 4.3 binomial distributions.
 - Complete a practice quiz on Bayes-style reasoning, random variables, expected value, simple linear combinations, and first-pass normal/binomial concepts.
 
 Tuesday:
 
 - Use flipped responses to clarify probability trees, Bayes-style reasoning, random variables, expected value, and linear combinations.
 - Practice translating `P(B | A)` and `P(A | B)` into words.
-- Use visual tools to preview normal and binomial models without expanding to other named distributions.
+- Use a histogram with a fitted normal curve to discuss model fit, area-as-probability, and events such as `P(X > a)`.
 - Prepare for Quiz 2 with final-exam-like short-answer practice.
 
 Thursday:
 
-- Short reflection: what made a probability, random-variable, or model question difficult?
-- Launch Mini-project 2 and complete related class work.
+- Distribution-model reasoning: histogram to normal curve, tail probabilities, standardization, and comparing values from distributions with different means and standard deviations.
+- Brief binomial model discussion: what the model is for, how to compute one exact probability `P(X = c)`, and how to interpret binomial mean and standard deviation.
+- Connect distribution models to Mini-project 2 exploratory data stories if time allows.
 - Quiz 2 during the final 15 minutes of class.
 
 Project arc activities:
@@ -473,6 +474,7 @@ Suggested contents:
 
 - [OpenIntro Chapter 3.2 probability trees](https://www.openintro.org/book/os/): use for Bayes-style reasoning and reversed conditional probability.
 - [OpenIntro Chapter 3.4 random variables and linear combinations](https://www.openintro.org/book/os/): use directly for random variables, expected value, and simple `aX + b` mean/standard-deviation rules.
+- [OpenIntro Chapter 3.5 continuous distributions](https://www.openintro.org/book/os/): use for the idea that probability for a continuous variable is area over an interval.
 - [OpenIntro video 4.1: Normal distribution](https://www.openintro.org/go/?id=video_stat_normal_distribution&referrer=/book/os/index.php): use directly if assigned as short flipped preparation.
 - [OpenIntro video 4.3A: Binomial distribution](https://www.openintro.org/go/?id=video_stat_binomial_distribution&referrer=/book/os/index.php): use directly or make optional depending on pace.
 - [OpenIntro video 4.3B: Normal approximation to binomial](https://www.openintro.org/go/?id=video_stat_normal_approx_to_binomial&referrer=/book/os/index.php): optional enrichment only unless explicitly taught.
@@ -483,48 +485,48 @@ Suggested contents:
 
 ### Week 7: Oct 20 and Oct 22
 
-Statistical focus: Confidence intervals and sampling variability.
+Statistical focus: Distribution-model review and foundations of inference.
 
 Learning objectives:
 
-- Interpret a confidence interval in context.
-- Explain margin of error and interval width using variability and sample size.
-- Connect sampling variability to uncertainty in real claims.
-- Avoid common confidence-interval misinterpretations.
+- Set up and interpret one normal-model probability and one binomial-model probability.
+- Identify the four conditions for a binomial model and distinguish counts from ordered sequences.
+- Distinguish a population parameter, sample statistic, and point estimate.
+- Explain sampling variability, standard error, sample-size effects, and the difference between precision and bias.
 
 Flipped activity:
 
 - Due Monday, Oct 19.
-- Read OpenIntro Chapter 5 sections on sampling variability and confidence intervals.
-- Watch videos on variability of sample proportions and confidence intervals.
-- Interpret 2-3 confidence intervals in context.
-- Identify one flawed interpretation.
+- Read OpenIntro Section 5.1, *Point estimates and sampling variability*.
+- Review Sections 4.1 and 4.3 and complete Exercises 4.24, 4.40, and 4.44.
+- Complete Exercises 5.1 and 5.3 to identify parameters, point estimates, and standard error.
+- Complete the Week 07 practice quiz and anonymous preparation check-in.
 
 Tuesday:
 
-- Clarify what a confidence interval says and does not say.
-- Connect interval width to variability and sample size.
-- Practice confidence-interval interpretations in final-exam-like language.
+- Work through Exercise 4.40 as a guided normal-model problem and revisit a binomial event from Exercise 4.24 or the normal-height problem in Exercise 4.44.
+- Transition to Section 5.1: parameter versus statistic, point estimates, sampling variability, standard error, sample size, and bias.
+- Use the chip quality-control context from Exercise 5.3 to connect a sample proportion to a population claim.
 
 Thursday:
 
-- Activity: confidence interval interpretation clinic.
-- Students compare intervals from different sample sizes or contexts.
-- Students rewrite incorrect confidence-interval interpretations.
+- Run a short Gemini Notebook demonstration using approved source notes and a small project-style dataset.
+- Students use Gemini Notebook hands-on for Mini-project 2: clarify the question, inspect source/data definitions, compare graph options, and draft a cautious exploratory story.
+- Students verify all AI-suggested claims, definitions, calculations, and graphs and submit only the statistical artifact—not prompts or conversation histories.
 
 Project arc activities:
 
 - Complete Mini-project 2 exploratory data story.
-- Students revise a graph, numerical summary, interpretation, and limitation after formative feedback.
-- VDS connection: stability begins with asking "would this result change under reasonable perturbations?"
+- Students revise a graph, numerical summary, interpretation, and limitation using source checks and formative feedback.
+- VDS connection: exploratory analysis is iterative; a trustworthy story records what the data show and what remains uncertain.
 
 Suggested contents:
 
-- [OpenIntro video 5.1: Variability of the sample proportion](https://www.openintro.org/go/?id=video_stat_variability_sample_proportion&referrer=/book/os/index.php): use directly.
-- [OpenIntro video 5.2: Confidence intervals](https://www.openintro.org/go/?id=video_stat_confidence_intervals&referrer=/book/os/index.php): use directly.
-- [OpenIntro Lab: Intro to inference](https://www.openintro.org/book/statlabs/?statlab=intro_to_inference): modify; use only the parts that support interval intuition.
-- [OpenIntro Lab: Confidence levels](https://www.openintro.org/book/statlabs/?statlab=confidence_intervals): modify; good for intuition, but shorten for the flipped workload.
-- [OpenIntro one-page inference guide](https://www.openintro.org/go/?id=inference_guide&referrer=/book/os/index.php): use directly as a reference, not as a primary teaching text.
+- [OpenIntro Section 5.1: Point estimates and sampling variability](https://www.openintro.org/book/os/): use directly.
+- [OpenIntro video 4.1: Normal distribution](https://www.openintro.org/go/?id=video_stat_normal_distribution&referrer=/book/os/index.php): use as a short review.
+- [OpenIntro video 4.3A: Binomial distribution](https://www.openintro.org/go/?id=video_stat_binomial_distribution&referrer=/book/os/index.php): use as a short review.
+- [OpenIntro one-page inference guide](https://www.openintro.org/go/?id=inference_guide&referrer=/book/os/index.php): use as a reference, not as a replacement for Section 5.1.
+- [Mini-project 2: Exploratory Data Story](../Assignments/mini-project-2-exploratory-story.md): use for the Thursday workshop.
 
 ### Week 8: Oct 27 and Oct 29
 
@@ -541,28 +543,26 @@ Learning objectives:
 Flipped activity:
 
 - Due Monday, Oct 26.
-- Read OpenIntro Chapter 5 sections on sampling variability and confidence intervals.
-- Watch videos on variability of sample proportions and confidence intervals.
-- Interpret 2-3 confidence intervals in context and identify one flawed interpretation.
-- Complete a first-pass hypothesis testing prompt: what would be surprising under a chance model?
+- Read OpenIntro Sections 5.1 and 5.2, and the opening decision-error discussion in Section 5.3 through Guided Practice 5.17.
+- Name and check the approximate normal model for a sample proportion.
+- Read Figure 5.6, work through Example 5.8 step by step, and complete Guided Practices 5.9, 5.14, and 5.17.
+- Identify Type I and Type II errors using the courtroom analogy; detailed p-value practice continues in Week 09.
 
 Tuesday:
 
-- Address the most common CI interpretation errors.
-- Introduce hypothesis testing as reasoning against a chance model.
-- Practice writing interval interpretations in final-exam-like format.
+- Discuss the key concepts: the sampling distribution of a sample proportion, model conditions, parameter versus statistic, standard error, confidence level, margin of error, Figure 5.6, repeated-sampling interpretation, and precision versus bias/validity.
+- Work through Example 5.8 conceptually and connect confidence intervals to reasoning against a chance model.
 - Prepare for Quiz 3.
 
 Thursday:
 
-- Discuss: "What does an interval add beyond a point estimate?"
-- Launch Mini-project 3 and complete a first uncertainty or chance-model checkpoint.
-- Quiz 3 during the final 15 minutes of class.
+- Use guided and additional practice problems for confidence-interval computation and interpretation, Guided Practices 5.9 and 5.14, the courtroom analogy in Guided Practice 5.17, and Type I/Type II decision errors.
+- Use the class period to finish Mini-project 2 questions and prepare the October 29 submission; there is no new project launch this week.
+- Administer Quiz 3 during the final 15 minutes of class.
 
 Project arc activities:
 
-- Launch Mini-project 3: chance, variability, and uncertainty.
-- Students begin adding an uncertainty statement to a project claim.
+- Mini-project 2 completion: students revise a graph, numerical summary, interpretation, limitation, and source check for the October 29 deadline.
 - VDS connection: uncertainty from data collection and analysis choices.
 
 Suggested contents:
@@ -610,7 +610,7 @@ Project arc activities:
 
 - Students formulate a possible project hypothesis or comparison question.
 - Students who use AI-related examples must identify the comparison group, outcome, and possible decision context.
-- Continue Mini-project 3: chance, variability, and uncertainty.
+- Continue Chapter 5 practice; no project submission is due this week.
 - VDS connection: inferential analysis as one possible DSLC stage, not the whole project.
 
 Suggested contents:
@@ -646,13 +646,12 @@ Tuesday:
 
 Thursday:
 
-- Complete Mini-project 3 and related class work.
+- Prepare the methods and question for the merged Mini-project 3 workshop.
 - Quiz 4 during the final 15 minutes of class.
 
 Project arc activities:
 
-- Complete Mini-project 3: uncertainty, chance-model, or interval reasoning.
-- Students check whether claims match the variable types, study design, and uncertainty statement.
+- Prepare the inferential question, population/parameter, and data/source documentation for the merged Mini-project 3 workshop.
 - VDS connection: evaluating whether a result is relevant and stable enough to communicate.
 
 Suggested contents:
@@ -665,73 +664,67 @@ Suggested contents:
 
 ### Week 11: Nov 17 and Nov 19
 
-Statistical focus: Inference for numerical data and regression preview.
+Statistical focus: One-sample inference for a population mean and merged project work.
 
 Learning objectives:
 
-- Identify one-mean, paired-mean, and two-mean comparison questions.
-- Interpret uncertainty for numerical outcomes.
-- Discuss outliers, skew, and measurement issues in numerical inference.
-- Connect method choice to the research question.
-- Distinguish association, prediction, and causation in preparation for regression.
+- Distinguish a population mean from a population proportion and match the question to the appropriate one-sample method.
+- Build and interpret a confidence interval or hypothesis test for a population mean.
+- Use Gemini Notebook to obtain raw ingredients while checking provenance and definitions.
+- Carry out a transparent course-scope calculation by hand or with transparent course arithmetic.
+- Interpret uncertainty and distinguish association from causation.
 
 Flipped activity:
 
 - Due Monday, Nov 16.
-- Read selected OpenIntro Chapter 7 material on inference for means.
-- Watch selected videos on t-distribution and inference for one or two means.
-- Interpret a numerical-data comparison and name one limitation.
+- Read the assigned OpenIntro Chapter 7.1 material on one-sample inference for a numerical outcome and review the Chapter 5 inference workflow.
+- Identify whether a project outcome is numerical or categorical; bring the Mini-project 2 data/source notes and one possible inferential question.
 
 Tuesday:
 
-- Clarify mean comparisons, paired data, and independent groups.
-- Discuss when a method is technically available but substantively questionable.
-- Preview correlation/regression as the next form of association.
-- Prepare students for Quiz 5 on Tuesday, Nov 24.
+- Introduce the sample mean, estimated standard error, and the `t` distribution as the basis for one-sample mean inference.
+- Build and interpret a confidence interval for a population mean, including conditions and study-design limits.
+- Contrast `mu` and `p` before students select a method for a project question.
 
 Thursday:
 
-- Mini-project 4 planning workshop.
-- Activity: choose the right numerical comparison for a project-style question.
-- Short quiz-format practice for inference with numerical data.
-- If time permits, introduce slope and residuals informally through a simple scatterplot.
+- Practice the reasoning steps of a one-sample mean test and interpret a provided p-value in context.
+- Mini-project 3 (merged) workshop: choose between the course's one-mean and one-proportion methods, then use Gemini Notebook for checked raw ingredients.
+- Students carry out the course-scope calculation, make a supporting graph/table, and draft a cautious interpretation. Peer review focuses on method fit, calculation transparency, uncertainty, and limitations.
 
 Project arc activities:
 
-- Mini-project 4 launch/checkpoint: comparison, association, or regression claim.
-- Students identify whether Mini-project 4 is a comparison, association, prediction, or descriptive project.
+- Mini-project 3 launch/checkpoint: drawing inference from retrieved data.
+- Students identify the population, parameter, sample, statistic, whether the parameter is a mean or a proportion, the course-scope method, and limitations.
 - VDS connection: matching analysis to domain question.
 
 Suggested contents:
 
-- [OpenIntro video 7.1A: t-distribution](https://www.openintro.org/go/?id=video_stat_t_distribution&referrer=/book/os/index.php): use directly but keep expectations conceptual.
-- [OpenIntro video 7.1B: Inference for one mean](https://www.openintro.org/go/?id=video_stat_inference_for_one_mean&referrer=/book/os/index.php): use directly.
-- [OpenIntro video 7.2: Paired data](https://www.openintro.org/go/?id=video_stat_paired_data&referrer=/book/os/index.php): use directly if paired designs are emphasized.
-- [OpenIntro video 7.3: Difference of two means](https://www.openintro.org/go/?id=video_stat_difference_of_two_means&referrer=/book/os/index.php): use directly or optional depending on pace.
-- [OpenIntro Lab: Inference for numerical data](https://www.openintro.org/book/statlabs/?statlab=inf_numerical_data): modify; useful as a source for a guided project-support worksheet.
-- [OpenIntro online app for CLT for means](https://www.openintro.org/go/?id=stat_app_clt_means&referrer=/book/os/index.php): use directly.
+- [OpenIntro Statistics, Chapter 7](https://www.openintro.org/book/os/): use Section 7.1 as the direct reading for one-sample inference for a numerical outcome; omit two-sample and paired procedures.
+- [OpenIntro video 5.2: Confidence intervals](https://www.openintro.org/go/?id=video_stat_confidence_intervals&referrer=/book/os/index.php): modify; revisit the point-estimate, standard-error, and margin-of-error structure, then contrast the one-proportion and one-mean settings.
+- The Week 11 project worksheet: define population, sample, parameter, statistic, conditions, method, calculation, interpretation, and limitation.
+- Gemini Notebook demonstration: retrieve raw ingredients and source notes; students verify and calculate rather than submit an opaque AI result.
 
 ### Week 12: Nov 24 and Nov 26
 
-Statistical focus: Correlation, regression, Quiz 5, and Thanksgiving week.
+Statistical focus: Quiz 5 review, regression preview, and Thanksgiving week.
 
 Learning objectives:
 
-- Interpret correlation, slope, fitted values, and residuals in context.
-- Distinguish association, prediction, and causation.
-- Recognize outliers, leverage, and extrapolation risks.
-- Use regression as a tool for careful claims, not automatic explanation.
+- Consolidate one-sample population-mean inference before Quiz 5.
+- Identify a basic regression question and distinguish association, prediction, and causation.
+- Recognize that fuller regression interpretation follows after Thanksgiving.
 
 Flipped activity:
 
 - Due Monday, Nov 23.
-- Read OpenIntro Chapter 8 sections on line fitting, residuals, and correlation.
-- Watch the introductory regression video.
-- Interpret slope, direction, strength, prediction error, and one limitation of a regression or prediction claim.
+- Complete a short Quiz 5 review of one-sample mean confidence intervals, tests, method choice, and limitations.
+- Preview OpenIntro Chapter 8's introduction to correlation and regression; no detailed regression calculation is expected yet.
 
 Tuesday:
 
-- Brief introduction to slope interpretation and association versus causation.
+- Address final questions about one-sample mean inference and method choice.
+- Briefly introduce slope interpretation and association versus causation as a bridge to Week 13.
 - Quiz 5 during the final 15 minutes of class.
 
 Thursday:
@@ -740,14 +733,15 @@ Thursday:
 
 Project arc activities:
 
-- Complete Mini-project 4: comparison, association, or regression claim.
+- Revise and submit the merged Mini-project 3 by Tuesday, November 24.
 - Optional final report/reflection planning check-in before Thanksgiving.
-- Use prediction examples to distinguish prediction from explanation and decision-making.
+- Use one prediction example to distinguish prediction from explanation and decision-making; full regression work follows in Week 13.
 - VDS connection: prediction/inference as one stage in a larger project.
 
 Suggested contents:
 
-- [OpenIntro video 8.1: Ideas of fitting a line](https://www.openintro.org/go/?id=video_stat_ideas_of_fitting_a_line&referrer=/book/os/index.php): use directly.
+- Week 11 one-sample-mean review guide: use directly for Quiz 5 preparation.
+- [OpenIntro video 8.1: Ideas of fitting a line](https://www.openintro.org/go/?id=video_stat_ideas_of_fitting_a_line&referrer=/book/os/index.php): make optional; use it as a preview, not as Quiz 5 material.
 - [OpenIntro video 8.2: Fitting a least squares regression line](https://www.openintro.org/go/?id=video_stat_fitting_least_squares_line&referrer=/book/os/index.php): modify or make optional; useful but can become procedural.
 - [OpenIntro video 8.3: Types of outliers in regression](https://www.openintro.org/go/?id=video_stat_types_of_outliers_in_regression&referrer=/book/os/index.php): use directly if paired with a simple visual prompt.
 - [OpenIntro Lab: Linear regression](https://www.openintro.org/book/statlabs/?statlab=linear_regression): modify; use a shortened version for project support.
@@ -756,7 +750,7 @@ Suggested contents:
 
 ### Week 13: Dec 1 and Dec 3
 
-Statistical focus: Regression, responsible communication, review, and Quiz 6.
+Statistical focus: Regression, responsible communication, review, and final-report workshop.
 
 Learning objectives:
 
@@ -780,12 +774,11 @@ Tuesday:
 
 Thursday:
 
-- Final report/reflection submission, course synthesis, and trustworthy conclusions.
-- Quiz 6 during the final 15 minutes of class.
+- Final report/reflection workshop, course synthesis, and trustworthy conclusions.
 
 Project arc activities:
 
-- Final report and reflection due Thursday, Dec 3.
+- Final report and reflection due Monday, Dec 14 at 11:59 p.m.
 - Students submit final claims, limitations, AI-use acknowledgment, reflection, and project abstract.
 - VDS connection: communication of results and updating domain knowledge.
 
@@ -806,7 +799,7 @@ Learning objectives:
 - Integrate design, description, probability, inference, regression, and responsible communication across the course.
 - Practice final-exam-style reasoning with clear setup, interpretation, and limitations.
 - Diagnose which concept or denominator a problem is asking for before calculating.
-- Prepare for cumulative final exam review and practice; the final report/reflection was due Thursday, Dec 3.
+- Prepare for cumulative final exam review and practice; the final report/reflection is due Monday, Dec 14 at 11:59 p.m.
 
 Flipped activity:
 
@@ -825,10 +818,11 @@ Thursday:
 - Final exam review and practice set 2.
 - Emphasis: inference logic, confidence intervals, hypothesis tests, regression/prediction, uncertainty, and responsible conclusions.
 - Final exam review and synthesis practice.
+- Quiz 6 during the final 15 minutes of class.
 
 Project arc activities:
 
-- Final review week only; no project submission is due this week.
+- Final review week; students may use the week to complete and submit the final report/reflection by Monday, Dec 14.
 - Use project examples only as review contexts when helpful.
 
 Suggested contents:
@@ -978,23 +972,20 @@ Open decision:
 2. Mini-project 1, weeks 3-4: Data biography and retrieval audit
    - Students verify provenance, variable definitions, units, geographic and temporal coverage, missingness, representation, and the claims the data can or cannot support.
 
-3. Mini-project 2, weeks 6-7: Exploratory data story
+3. Mini-project 2, weeks 6-8: Exploratory data story (due October 29)
    - Students use visualizations and numerical summaries to describe patterns without overclaiming causality, then evaluate formative feedback from the Project Feedback Assistant.
 
-4. Mini-project 3, weeks 8-10: Chance, variability, and uncertainty
-   - Students use simulation, repeated-sampling logic, or interval reasoning to investigate how results might vary and whether an observed result is surprising.
+4. Mini-project 3, workshop November 17-19 and due November 24: Drawing inference from retrieved data
+   - This merges the former Mini-projects 3 and 4. Students use Gemini Notebook for raw ingredients, then perform a course-scope confidence-interval, comparison, or sampling-variability calculation and interpret it cautiously.
 
-5. Mini-project 4, weeks 11-12: Comparison, association, or regression claim
-   - Students compare groups, places, variables, or time periods using retrieved data; make a careful statistical claim; and test its fragility under reasonable alternative choices.
-
-Across all five tasks:
+Across all project tasks:
 
 - The Data Search and Retrieval Assistant supports data access; the Project Feedback Assistant supports revision.
 - Assistant use is ungraded. Signed-in use is confidential and saves progress; public-link use is anonymous but may lose progress. Conversation histories are never submitted.
 - Students may send anonymous, ungraded improvement feedback about the assistants.
 - Grading concerns the statistical artifact the student intentionally submits.
 
-6. Final report and reflection, due Thursday, Dec 3: Student-owned data investigation
+5. Final report and reflection, due Monday, Dec 14: Student-owned data investigation
    - Students choose a question, analyze data, communicate findings, and include a limitations, transparency, and trustworthiness section.
 
 ## Optional AI-Aware Activity Seeds
